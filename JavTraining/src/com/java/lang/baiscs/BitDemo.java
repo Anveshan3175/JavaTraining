@@ -6,8 +6,12 @@ public class BitDemo {
         int bitmask = 0x000F;
         int val = 0x2222;
         // prints "2"
+        System.out.println("bitmask in Binary form : "+Integer.toBinaryString(bitmask));
+        System.out.println("val in Binary form : "+Integer.toBinaryString(val));
         System.out.println(val & bitmask);
-         
+        System.out.println("val in Binary form : "+Integer.toBinaryString(val & bitmask));
+        System.out.println();
+        System.out.println();
         /*byte simpleA = 77;
         byte iverseA =(byte) (~ simpleA);
         System.out.println("simpleA : "+simpleA +" iverseA : "+iverseA);
