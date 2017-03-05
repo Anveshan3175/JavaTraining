@@ -8,7 +8,7 @@ public class BitDemo {
         // prints "2"
         System.out.println(val & bitmask);
          
-       /* byte simpleA = 77;
+        /*byte simpleA = 77;
         byte iverseA =(byte) (~ simpleA);
         System.out.println("simpleA : "+simpleA +" iverseA : "+iverseA);
         System.out.println("simpleA in Binary form : "+Integer.toBinaryString(simpleA));
@@ -37,9 +37,12 @@ public class BitDemo {
         int simpleIntA = 77;
         System.out.println("simpleIntA in Binary form : "+Integer.toBinaryString(simpleIntA << 4));*/
         
+        /* For arithmetic left shift, since filling the right-most vacant bits with 0s will not affect the sign of the number, the vacant bits will always be filled with 0s, 
+         * and the sign bit is not considered. Thus, it behaves in a way identical to the logical (unsigned) left shift.
+         */
         
         
-        int simpleA = 77;
+        int simpleA = 79;
         int iverseA = (~ simpleA);
         System.out.println("simpleA : "+simpleA +" iverseA : "+iverseA);
         System.out.println();
@@ -54,6 +57,17 @@ public class BitDemo {
         
         int unSignedRightShiftA = (simpleA >>> 4);
         System.out.println("unSignedRightShiftA in Binary form : "+Integer.toBinaryString(unSignedRightShiftA));
+        System.out.println();
+        System.out.println("------------------Testing Negative Numbers-------------------------");
+        int negativeA = -77;
+        
+        System.out.println("negativeA in Binary form : "+Integer.toBinaryString(negativeA));
+        
+        int signRightShiftNegativeA = (negativeA >> 4);
+        System.out.println("signRightShiftNegativeA in Binary form : "+Integer.toBinaryString(signRightShiftNegativeA));
+        
+        int unSignedRightShiftNegativeA = (negativeA >>> 4);
+        System.out.println("unSignedRightShiftNegativeA in Binary form : "+Integer.toBinaryString(unSignedRightShiftNegativeA));
         
     }
 }
