@@ -5,6 +5,7 @@ class Bicycle {
     int cadence = 0;
     int speed = 0;
     int gear = 1;
+    
 
     void changeCadence(int newValue) {
          cadence = newValue;
@@ -27,15 +28,19 @@ class Bicycle {
              cadence + " speed:" + 
              speed + " gear:" + gear);
     }
+    
 }
 
 public class BicycleDemo {
+	
+	
     public static void main(String[] args) {
 
         // Create two different 
         // Bicycle objects
         Bicycle bike1 = new Bicycle();
         Bicycle bike2 = new Bicycle();
+      /*  int gearNumber = 7;*/
 
         // Invoke methods on 
         // those objects
@@ -46,11 +51,12 @@ public class BicycleDemo {
 
         bike2.changeCadence(50);
         bike2.speedUp(10);
-        bike2.changeGear(2);
+        bike2.changeGear(4);
         bike2.changeCadence(40);
         bike2.speedUp(10);
         bike2.changeGear(3);
         bike2.printStates();
+        
     }
 }
 
