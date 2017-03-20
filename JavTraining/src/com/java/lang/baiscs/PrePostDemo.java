@@ -16,5 +16,16 @@ public class PrePostDemo {
 	        System.out.println(i++);
 	        // prints 7
 	        System.out.println(i);
+	        
+	        int j = 30;
+	        
+	        if((i > j) ){
+	        	System.out.println("i > j");
+	        }
+	        else {
+	        	System.out.println("i < j");
+	        }
+	        
+	         System.out.println((i > j) ? "i > j" : "i > j");
 	    }
 }
