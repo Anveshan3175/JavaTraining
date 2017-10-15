@@ -46,5 +46,13 @@ class ContinueWithLabelDemo {
                 break test;
         }
         System.out.println(foundIt ? "Found the sub string" : "Didn't find it");
+        System.out.println(sayHello());
+    }
+    
+    public static  int sayHello(){
+    	
+    	System.out.println();
+    	return 5;
+	 	
     }
 }

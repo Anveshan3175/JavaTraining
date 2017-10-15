@@ -65,6 +65,6 @@ class LabelTest {
         label1: System.out.println("");
         label2: {LabelTest t = new LabelTest();}  
     //label cannot be applied to variable declarations : http://stackoverflow.com/questions/5057931/using-labels-in-java-without-loops/19799375#19799375
-    //LabelTest1 t1 = new LabelTest();
+     LabelTest t1 = new LabelTest();
     }                                               
 }
