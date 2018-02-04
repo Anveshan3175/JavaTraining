@@ -21,7 +21,7 @@ public interface IDemo {
 		System.out.println("This is printPrivateDemo ");
 	}
 	
-	
+	// private method to shield functionality
 	private static String getStaticStringFromDemo() {
 		return ONE;
 	}
