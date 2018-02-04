@@ -1,0 +1,173 @@
+Questions
+
+1.Real-world objects contain ___ and ___.
+2.A software object's state is stored in ___.
+3.A software object's behavior is exposed through ___.
+4.Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data ___.
+5.A blueprint for a software object is called a ___.
+6.Common behavior can be defined in a ___ and inherited into a ___ using the ___ keyword.
+7.A collection of methods with no implementation is called an ___.
+8.A namespace that organizes classes and interfaces by functionality is called a ___.
+9.The term API stands for ___?
+
+Exercises
+1.Create new classes for each real-world object that you observed at the beginning of this trail. Refer to the Bicycle class if you forget the required syntax.
+2.For each new class that you've created above, create an interface that defines its behavior, then require your class to implement it. Omit one or two methods and try compiling. What does the error look like?
+######################################################################################
+Questions and Exercises: Variables
+
+1.The term "instance variable" is another name for ___.
+2.The term "class variable" is another name for ___.
+3.A local variable stores temporary state; it is declared inside a ___.
+4.A variable declared within the opening and closing parenthesis of a method signature is called a ____.
+5.What are the eight primitive data types supported by the Java programming language?
+6.Character strings are represented by the class ___.
+7.An ___ is a container object that holds a fixed number of values of a single type
+
+Exercises
+1.Create a small program that defines some fields. Try creating some illegal field names and see what kind of error the compiler produces. Use the naming rules and conventions as a guide.
+2.In the program you created in Exercise 1, try leaving the fields uninitialized and print out their values. Try the same with a local variable and see what kind of compiler errors you can produce. Becoming familiar with common compiler errors will make it easier to recognize bugs in your code.
+
+######################################################################################
+Questions and Exercises: Operators
+
+1.Consider the following code snippet. 
+arrayOfInts[j] > arrayOfInts[j+1]
+
+Which operators does the code contain?
+2.Consider the following code snippet. 
+int i = 10;
+int n = i++%5;
+
+a.What are the values of i and n after the code is executed?
+b.What are the final values of i and n if instead of using the postfix increment operator (i++), you use the prefix version (++i))?
+
+3.To invert the value of a boolean, which operator would you use?
+4.Which operator is used to compare two values, = or == ?
+5.Explain the following code sample: result = someCondition ? value1 : value2;
+
+Exercises
+
+1.Change the following program to use compound assignments: 
+class ArithmeticDemo {
+
+     public static void main (String[] args){
+          
+          int result = 1 + 2; // result is now 3
+          System.out.println(result);
+
+          result = result - 1; // result is now 2
+          System.out.println(result);
+
+          result = result * 2; // result is now 4
+          System.out.println(result);
+
+          result = result / 2; // result is now 2
+          System.out.println(result);
+
+          result = result + 8; // result is now 10
+          result = result % 7; // result is now 3
+          System.out.println(result);
+     }
+}
+
+
+
+2.In the following program, explain why the value "6" is printed twice in a row: 
+class PrePostDemo {
+    public static void main(String[] args){
+        int i = 3;
+        i++;
+        System.out.println(i);    // "4"
+        ++i;                     
+        System.out.println(i);    // "5"
+        System.out.println(++i);  // "6"
+        System.out.println(i++);  // "6"
+        System.out.println(i);    // "7"
+    }
+}
+
+######################################################################################
+Questions and Exercises: Expressions, Statements, and Blocks
+
+Questions
+1.Operators may be used in building ___, which compute values.
+2.Expressions are the core components of ___.
+3.Statements may be grouped into ___.
+4.The following code snippet is an example of a ___ expression. 
+ 1 * 2 * 3
+
+5.Statements are roughly equivalent to sentences in natural languages, but instead of ending with a period, a statement ends with a ___.
+6.A block is a group of zero or more statements between balanced ___ and can be used anywhere a single statement is allowed.
+
+Identify the following kinds of expression statements:
+	• aValue = 8933.234;
+	• aValue++;
+	• System.out.println("Hello World!");
+	• Bicycle myBike = new Bicycle();
+
+######################################################################################
+Programs
+
+simple 
+1. find the maximum of the array values
+2. compute the average of the array values
+3. copy to another array
+4. reverse the elements within an array
+5. Verify a number is Even/Odd
+6. Swapping Numbers without using 3rd variable
+7. Factorial of a number
+8. How to get the prime numbers between a given range.
+9. Check if a number is Armstrong or not.(A number is armstrong if the sum of the cubes of digit of number is equal to the number)
+407 = 4*4*4 + 0*0*0 + 7*7*7
+10. Floyd Triangle
+1
+2 3
+4 5 6
+7 8 9 10
+
+simple answers
+1.
+double max = a[0];
+for (int i = 1; i < a.length; i++)
+   if (a[i] > max) max = a[i]; 
+   
+ 2. 
+ int N = a.length;
+double sum = 0.0;
+for (int i = 0; i < N; i++)
+   sum += a[i];  
+double average = sum / N; 
+
+3.
+int N = a.length;
+double[] b = new double[N];
+for (int i = 0; i < N; i++)
+   b[i] = a[i]; 
+ 
+4.
+int N = a.length;
+for (int i = 0; i < N/2; i++)
+{
+   double temp = a[i];
+   a[i] = a[N-1-i];
+   a[N-i-1] = temp;
+}
+
+6.
+x = x+y;
+y = x-y;
+x = x-y;
+
+8.
+for(int p=p1; p&lt;=p2; p++){
+i=2;
+for(; i&lt;10; i++){
+if(p%i==0 &amp;&amp; p!=i){
+break;
+}
+}
+if(i==10){
+prime.add(p);
+}
+}

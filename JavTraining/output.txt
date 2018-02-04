@@ -1,0 +1,24 @@
+The following code snippet shows how to use the newBufferedReader method to read from a file. The file is encoded in "US-ASCII."
+
+Charset charset = Charset.forName("US-ASCII");
+try (BufferedReader reader = Files.newBufferedReader(file, charset)) {
+    String line = null;
+    while ((line = reader.readLine()) != null) {
+        System.out.println(line);
+    }
+} catch (IOException x) {
+    System.err.format("IOException: %s%n", x);
+}
+Writing a File by Using Buffered Stream I/O
+
+You can use the newBufferedWriter(Path, Charset, OpenOption...) method to write to a file using a BufferedWriter.
+
+The following code snippet shows how to create a file encoded in "US-ASCII" using this method:
+
+Charset charset = Charset.forName("US-ASCII");
+String s = ...;
+try (BufferedWriter writer = Files.newBufferedWriter(file, charset)) {
+    writer.write(s, 0, s.length());
+} catch (IOException x) {
+    System.err.format("IOException: %s%n", x);
+}

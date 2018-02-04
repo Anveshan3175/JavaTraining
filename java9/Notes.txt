@@ -1,0 +1,27 @@
+Java Platform Module System
+ -> New kind of Java programing component
+ -> self-describing collection of code and data
+ -> Introduces a new optional phase, link time, which is in-between compile time and run time, during which a set of modules can be assembled and optimized into a custom runtime image;
+   -> It is done using jlink
+   -> Jlink is Java’s new command line tool through which we can create our own customized JRE
+   -> Usually, we run our program using the default JRE, but in case if you want to create your own JRE, then you can go with the jlink concept. https://dzone.com/articles/jlink-in-java-9
+   -> default JRE's size then you will find that it is 203 MB. To execute 1KB
+ -> javac, jlink, and java has now additional option to specify module path
+ -> Introduces the modular JAR file, which is a JAR file with a module-info.class file in its root directory
+ -> Introduces the JMOD format, which is a packaging format similar to JAR except it can include native code and configuration files
+ -> The JDK itself has been divided into a set of modules
+ 
+==========
+ New Version-String Scheme
+ -> Provides a simplified version-string format that helps to clearly distinguish major, minor, security, and patch update releases
+ -> $MAJOR.$MINOR.$SECURITY.$PATCH
+   -> $MAJOR is the version number that is incremented for a major release, for example JDK 9, which contains significant new features as specified by the Java SE platform specification. A major release contains new features and changes to existing features, which are planned and notified well in advance.
+   -> $MINOR is the version number that is incremented for each minor update, such as bug fixes, revisions to standard APIs, or implementation of features outside the scope of the relevant platform specifications. These specifications might be new JDK-specific APIs, additional service providers, new garbage collectors, and ports to new hardware architectures. For example, if an update is released for JDK 9, then the version-string (containing major and minor release numbers) is 9.1.
+   -> $SECURITY is the version number that is incremented for a security-update release, which contains critical fixes, including those necessary to improve security. For example, for a JDK 9 security-update release, the version format can be 9.1.2, where 2 is the value of security update.
+   -> $PATCH is the version number that is incremented for a release containing security and high-priority customer fixes, which have been tested together. For example, if JDK 9 has Minor version 1, Security release 1, and Patch update 1, then the version-string format will be 9.1.1.1.
+   -> The $PATCH version number is reset to zero when $SECURITY, $MINOR, or $MAJOR version numbers are incremented.
+   -> When the $MAJOR version number is incremented, the subsequent version numbers of $MINOR and $SECURITY elements are set to zero
+   -> However, when the $MINOR version number is incremented, the subsequent $SECURITY version number need not be set to zero. Regardless of the $MINOR version number, the higher security release value indicates a more secure release.
+   
+   
+   
