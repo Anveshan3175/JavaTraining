@@ -1,0 +1,180 @@
+http://www.webupd8.org/2015/02/install-oracle-java-9-in-ubuntu-linux.html
+
+export PS1='\u:\w\$ '
+
+sudo apt-get remove oracle-java9-installer
+
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
+
+
+
+------ Remove existing java installation ------
+sudo apt-get purge openjdk*
+
+sudo update-alternatives --remove-all java
+sudo update-alternatives --remove-all javac
+sudo update-alternatives --remove-all javaws
+
+------ Add Repository and Update ------
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo apt-get update
+
+------ Install and check version ------
+sudo apt-get install oracle-java9-installer
+
+[Switching Oracle JAVA 9]
+$ sudo update-java-alternatives -s java-9-oracle
+
+[Switching Oracle JAVA 8]
+$ sudo update-java-alternatives -s java-8-oracle
+
+java -version
+
+------ Set Environment Variable ------
+sudo apt-get install oracle-java9-set-default
+
+install java 9 
+--export PS1='\u:\w\$ '
+1.http://jdk.java.net/9/
+2.download 64 bit jdk
+3.create /opt/jdk
+4.move the downloaded tar in to /opt/jdk/
+5.unzip it :
+  tar zxvf <download> tar -zxvf jdk-9+178_linux-x64_bin.tar.gz
+  it will be /opt/jdk/java-9
+6.sudo gedit /etc/profile
+
+JAVA_HOME=/opt/jdk/jdk-9
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export path
+
+7.sudo update-alternatives --install "/usr/bin/java" "java" "/opt/jdk/jdk-9/bin/java" 1
+8.sudo update-alternatives --install "/usr/bin/javac" "javac" "/opt/jdk/jdk-9/bin/javac" 1
+9.sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/opt/jdk/jdk-9/bin/javaws" 1
+10.sudo update-alternatives --set java /opt/jdk/jdk-9/bin/java
+11.sudo update-alternatives --set javac /opt/jdk/jdk-9/bin/javac
+12.sudo update-alternatives --set javaws /opt/jdk/jdk-9/bin/javaws
+------------------------------------------------------
+
+Run a sample program :
+1) Create a "test" folder
+2) Write sample HelloWorld.java with main method
+3) then open terminal and navigate to the "test" folder
+4) javac HelloWorld.java
+5) There should be class file
+6) Run the java program : java HelloWorld
+------------------------------------------------------
+Create “HelloWorld” Module name folder: com.hello
+-> mkdir com.hello
+Create “HelloWorld” Module package name folder: com\hello
+-> mkdir com.hello\com\hello
+Develop “HelloWorld.java” component under package name “com.hello\com\hello”.
+
+HelloWorld.java
+
+package com.hello;
+
+public class HelloWorld {
+
+  public String sayHelloWorld() {
+
+      return "Hello World!";
+  }
+
+}
+
+Develop Module Descriptor at Module root folder “com.hello”.
+module-info.java
+
+module com.hello {
+
+  exports com.hello;
+ 
+}
+
+Develop “HelloWorldClient” Module
+
+Create “HelloWorldClient” Module name folder: com.hello.client
+->mkdir com.hello.client
+Create “HelloWorldClient” Module package name folder: com\hello\client
+->mkdir com.hello\com\hello\client
+
+Develop “HelloWorldClient.java” component under package name “com.hello\com\hello\client”.
+HelloWorldClient.java
+
+package com.hello.client;
+
+import com.hello.HelloWorld;
+
+public class HelloWorldClient {
+
+  public static void main (String arg[]) {
+
+    HelloWorld hello = new HelloWorld();
+    System.out.println(hello.sayHelloWorld());
+	
+  }
+
+}
+
+Develop Module Descriptor at Module root folder “com.hello.client”.
+module-info.java
+module com.hello.client {
+
+  requires com.hello;
+  
+}
+
+Compile “HelloWorld” Module
+
+-> javac -d output com.hello\com\hello\HelloWorld.java
+-> javac -d output com.hello\module-info.java
+
+Create com.hello Module Jar file
+
+-> jar -c -f mlib\com.hello.jar -C output .
+
+-> rmdir /s output
+-> mkdir output
+
+
+Compile “HelloWorldClient” Module
+
+-> javac --module-path mlib -d output com.hello.client\module-info.java
+-> javac --module-path mlib -d output com.hello.client\com\hello\client\HelloWorldClient.java
+
+module-path -> Path where module jars are stored
+
+-> jar -c -f mlib\com.hello.client.jar -C output .
+
+run the program
+-> java --module-path mlib -m com.hello.client/com.hello.client.HelloWorldClient
+
+-m : shorthand for module name
+------------------------------------------------------
+JSHELL (available in jdk bin)
+jshell -v
+jshell> 3 + 3
+jshell> IntConsumer intCon = (a) -> {System.out.println(a * 10);}
+jshell> intCon.accept(10)
+100
+jshell> int fact(int num){
+   ...> if(num == 1) return 1;
+   ...> else
+   ...> return (num * fact(num -1));}
+jshell> fact(10)
+$10 ==> 3628800
+jshell> void calculatePercentage(Function<Integer,Integer> f,Integer marks){
+   ...> System.out.println("Percent of marks :"+f.apply(marks));
+   ...> }
+|  created method calculatePercentage(Function<Integer,Integer>,Integer)
+
+jshell> calculatePercentage((a) -> (a/6),450)
+Percent of marks :75
+
+/home/anveshan/idea-IC-172.3317.76/bin/idea.sh
+------------------------------------------------------
+
+------------------------------------------------------
