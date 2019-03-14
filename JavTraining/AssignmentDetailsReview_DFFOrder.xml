@@ -1,0 +1,781 @@
+<COMPAREDATA>
+	<CompareVO>
+		<AssignmentMDVORow key="100000012603330"
+			operationType="compare" voType="DE">
+			<DataSecurityObject>
+				<DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+				<ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+				<PK1>100000012603330</PK1>
+				<PK2>2018-03-08</PK2>
+				<PK3>4712-12-31</PK3>
+				<PK4>Y</PK4>
+				<PK5>1</PK5>
+			</DataSecurityObject>
+			<DataSecurityObject>
+				<DataPrivilege>PER_PROMOTE_WORKER_DATA</DataPrivilege>
+				<ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+				<PK1>100000012603330</PK1>
+				<PK2>2018-03-08</PK2>
+				<PK3>4712-12-31</PK3>
+				<PK4>Y</PK4>
+				<PK5>1</PK5>
+			</DataSecurityObject>
+			<Compare>
+				<AttributeName>ActionCode</AttributeName>
+				<Label>Action Code</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.ActionCode.PERALLASSIGNMENTSM.ACTIONCODE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue>HIRE</OldValue>
+				<NewValue>PROMOTION</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>ActionOccurrenceId</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue>100000012603325</OldValue>
+				<NewValue>300100116380263</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformation1</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Y</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformation2</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Y</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformation3</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2F</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformation6</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>ORA_HRX_US_ALWAYS</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate1</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate2</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate3</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate4</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate5</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AsgInformationDate6</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute11</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tr</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute12</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>re</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute2</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tr</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute4</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>JBP</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute5</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>GG</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute6</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>V6</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute8</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>44</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttribute9</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tt</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber1</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>22</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber10</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>852</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber2</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>55</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber4</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>12</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber6</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>12</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>AssAttributeNumber9</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>9</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>FullPartTime</AttributeName>
+				<Label>Full Time or Part Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.FullTimeorPartTime.oracleappshcmemploymentbaseuiM.FullPartTime
+				</ResourceKey>
+				<OldId />
+				<NewId>FULL_TIME</NewId>
+				<OldValue>null</OldValue>
+				<NewValue>Full time</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>GradeId</AttributeName>
+				<Label>Grade</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Grade.oracleappshcmemploymentbaseuiM.GradeId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>100000011983035</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>JobId</AttributeName>
+				<Label>Job</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Job.oracleappshcmemploymentbaseuiM.JobId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>100000012297009</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>OrganizationId</AttributeName>
+				<Label>Department</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Department.oracleappshcmemploymentbaseuiM.OrganizationId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>100000011850055</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>PermanentTemporaryFlag</AttributeName>
+				<Label>Regular or Temporary</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.RegularorTemporary.oracleappshcmemploymentbaseuiM.PermanentTemporaryFlag
+				</ResourceKey>
+				<OldId />
+				<NewId>R</NewId>
+				<OldValue>null</OldValue>
+				<NewValue>Regular</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>PositionId</AttributeName>
+				<Label>Position</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Position.oracleappshcmemploymentbaseuiM.PositionId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>100000012297040</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalFinish</AttributeName>
+				<Label>End Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.NormalEndTime.PERALLASSIGNMENTSM.TIMENORMALFINISH
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>18:00</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalStart</AttributeName>
+				<Label>Start Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.NormalStartTime.PERALLASSIGNMENTSM.TIMENORMALSTART
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>08:00</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalStart12HR</AttributeName>
+				<Label>Start Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.StartTime.AssignmentWorkingHoursStartTim.BaseWorkerAssignmentVO.TimeNormalStart12HR
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>08:00</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalFinish12HR</AttributeName>
+				<Label>End Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.EndTime.AssignmentWorkingHoursEndTime1.BaseWorkerAssignmentVO.TimeNormalFinish12HR
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>06:00</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalStartMeridiem</AttributeName>
+				<Label>Start Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.StartTime.AssignmentWorkingHoursStartTim.BaseWorkerAssignmentVO.StartTimeWithMeridiem
+				</ResourceKey>
+				<OldId />
+				<NewId>AM</NewId>
+				<OldValue>null</OldValue>
+				<NewValue>AM</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>TimeNormalFinishMeridiem</AttributeName>
+				<Label>End Time</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.EndTime.AssignmentWorkingHoursEndTimew.BaseWorkerAssignmentVO.EndTimeWithMeridiem
+				</ResourceKey>
+				<OldId />
+				<NewId>PM</NewId>
+				<OldValue>null</OldValue>
+				<NewValue>PM</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>Position</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Astrophysicist II</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>Department</AttributeName>
+				<Label>Department</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Department.oracleappshcmemploymentbaseuiM.Department
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>HCM-HCDept007-Clinical Research</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>Grade</AttributeName>
+				<Label>Grade</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Grade.oracleappshcmemploymentbaseuiM.GradeId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>IC3-Individual Contributor Pay Grade 03</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>Job</AttributeName>
+				<Label>Job</Label>
+				<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle
+				</ResourceBundle>
+				<ResourceKey>ColAttr.Job.oracleappshcmemploymentbaseuiM.JobId
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Astrophysicist II</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>IsAssignmentModified</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Y</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>IsPositionModified</AttributeName>
+				<Label />
+				<ResourceBundle />
+				<ResourceKey />
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>false</NewValue>
+			</Compare>
+		</AssignmentMDVORow>
+		<BaseWorkerAsgDFFVORow key="100000012603330"
+			operationType="compare" voType="DFF">
+			<Compare>
+				<AttributeName>_asg_global</AttributeName>
+				<Label>asg_global</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.asg_global</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>12</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>FBLAG</AttributeName>
+				<Label>FBLAG</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.FBLAG</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tt</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>hdlG</AttributeName>
+				<Label>hdlG</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.hdlG</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tr</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>fblg1</AttributeName>
+				<Label>fblg1</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.fblg1</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>JBP</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>fblg2</AttributeName>
+				<Label>fblg2</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.fblg2</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>GG</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>fblg3</AttributeName>
+				<Label>fblg3</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.fblg3</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>V6</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>fblg4</AttributeName>
+				<Label>fblg4</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.fblg4</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>9</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>fblg5</AttributeName>
+				<Label>fblg5</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.fblg5</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>852</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>osgVnu70Asggsegment1</AttributeName>
+				<Label>OSG_VNU70_AsgGSegment1</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.OSG_VNU70_AsgGSegment1
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>tr</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>osgVnu70Asggsegment2</AttributeName>
+				<Label>OSG_VNU70_AsgGSegment2</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.OSG_VNU70_AsgGSegment2
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>22</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>osgVnu70Asggsegment3</AttributeName>
+				<Label>OSG_VNU70_AsgGSegment3</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.OSG_VNU70_AsgGSegment3
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>44</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>osgVnu70Asggsegment4</AttributeName>
+				<Label>OSG_VNU70_AsgGSegment4</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.OSG_VNU70_AsgGSegment4
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>55</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>asgChar</AttributeName>
+				<Label>ASG_CHAR</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.ASG_CHAR</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>re</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>asgNum</AttributeName>
+				<Label>ASG_NUM</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_DF..d6p.ASG_NUM</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>12</NewValue>
+			</Compare>
+		</BaseWorkerAsgDFFVORow>
+		<BaseWorkerAsgLegDDFUSVORow key="100000012603330"
+			operationType="compare" contextCode="US" voType="DFF">
+			<Compare>
+				<AttributeName>acaEligibility</AttributeName>
+				<Label>ACA Eligibility</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.elig_outcome
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>ORA_HRX_US_ALWAYS</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>ACAFullTime</AttributeName>
+				<Label>ACA Full Time</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.ACA_FULL_TIME
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Y</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>limitedNonassessmentPeriod</AttributeName>
+				<Label>Limited Non-Assessment Period</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.LIMITED_NONASSESMENT_PERIOD
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>Y</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>measurementPeriodBeginDate</AttributeName>
+				<Label>Measurement Period Start Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.MEASUREMENT_PERIOD_START_DATE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>measurementPeriodEndDate</AttributeName>
+				<Label>Measurement Period End Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.MEASUREMENT_PERIOD_END_DATE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>administrationPeriodBeginDate</AttributeName>
+				<Label>Administration Period Start Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.ADMIN_PERIOD_BEGIN_DATE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>administrationPeriodEndDate</AttributeName>
+				<Label>Administration Period End Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.ADMIN_PERIOD_END_DATE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>stabilityPeriodBeginDate</AttributeName>
+				<Label>Stability Period Start Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.STABILITY_PERIOD_BEGIN_DATE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-08</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>stabilityPeriodEndDate</AttributeName>
+				<Label>Stability Period End Date</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.Stabilityx20Periodx20Endx20Date
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2018-03-15</NewValue>
+			</Compare>
+			<Compare>
+				<AttributeName>safeHarborOverride</AttributeName>
+				<Label>Safe Harbor Override</Label>
+				<ResourceBundle>oracle.apps.fnd.applcore.flex.runtime.FlexfieldResourceBundle
+				</ResourceBundle>
+				<ResourceKey>rev.a800.dPER_ASG_LEG_DDF..d4p.US.SAFE_HARBOR_OVERRIDE
+				</ResourceKey>
+				<OldId />
+				<NewId />
+				<OldValue />
+				<NewValue>2F</NewValue>
+			</Compare>
+		</BaseWorkerAsgLegDDFUSVORow>
+	</CompareVO>
+</COMPAREDATA>

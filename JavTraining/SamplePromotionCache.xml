@@ -1,0 +1,4857 @@
+<TRANSACTION>
+	<TransCtx>
+		<USER_SESSION_LANG classType="s">en</USER_SESSION_LANG>
+		<KFF_ParentVOs classType="s">Assignment;</KFF_ParentVOs>
+		<hcmActionOccurrenceId classType="l">300100125259930</hcmActionOccurrenceId>
+		<DE_ParentType classType="s">DE;</DE_ParentType>
+		<SalaryRateEntityFlow classType="s">Y</SalaryRateEntityFlow>
+		<UserRoleAutoProvisionPersonIds classType="Hm">
+			<PersonId100010034148145 classType="s">Y</PersonId100010034148145>
+		</UserRoleAutoProvisionPersonIds>
+		<PER_ENFORCE_VALID_GRADES classType="b">false</PER_ENFORCE_VALID_GRADES>
+		<EMP_InitialActionId classType="l">100010026278813</EMP_InitialActionId>
+		<DataTypeSystemNotation classType="s">java.lang.Long:12|java.sql.Date:130|java.util.Date:74|java.lang.Integer:12|java.lang.String:0</DataTypeSystemNotation>
+		<KFF_ProductAMs classType="s">EmploymentBaseAM;</KFF_ProductAMs>
+		<POC_ProfileOptionMap classType="Hm">
+			<PER_LOV_SEARCH_COLLECTIVEAGREEMENTS_STARTSWITH classType="b">false</PER_LOV_SEARCH_COLLECTIVEAGREEMENTS_STARTSWITH>
+			<PER_EMP_CORRECT_PARENT_ENABLED_UX classType="b">false</PER_EMP_CORRECT_PARENT_ENABLED_UX>
+			<PER_LOV_SEARCH_LOCATIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_LOCATIONS_STARTSWITH>
+			<PER_LOV_SEARCH_BUSINESSUNITS_STARTSWITH classType="b">false</PER_LOV_SEARCH_BUSINESSUNITS_STARTSWITH>
+			<PER_DEFAULT_GRADE_FROM_JOB_POSITION classType="b">false</PER_DEFAULT_GRADE_FROM_JOB_POSITION>
+			<PER_LOV_SEARCH_UNIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_UNIONS_STARTSWITH>
+			<PER_ENFORCE_VALID_GRADES classType="b">false</PER_ENFORCE_VALID_GRADES>
+			<PER_LOV_SEARCH_DEPARTMENTS_STARTSWITH classType="b">false</PER_LOV_SEARCH_DEPARTMENTS_STARTSWITH>
+			<PER_LOV_SEARCH_JOBS_STARTSWITH classType="b">false</PER_LOV_SEARCH_JOBS_STARTSWITH>
+			<PER_LOV_SEARCH_BARGAININGUNITS_STARTSWITH classType="b">false</PER_LOV_SEARCH_BARGAININGUNITS_STARTSWITH>
+			<PER_LOV_SEARCH_GRADES_STARTSWITH classType="b">false</PER_LOV_SEARCH_GRADES_STARTSWITH>
+			<PER_LOV_SEARCH_GRADELADDERS_STARTSWITH classType="b">false</PER_LOV_SEARCH_GRADELADDERS_STARTSWITH>
+			<HCM_TASK_CONFIGURATOR_RESPONSIVE_ENABLED classType="b">true</HCM_TASK_CONFIGURATOR_RESPONSIVE_ENABLED>
+			<PER_LOV_SEARCH_WORKERS_STARTSWITH classType="b">false</PER_LOV_SEARCH_WORKERS_STARTSWITH>
+			<PER_LOV_SEARCH_POSITIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_POSITIONS_STARTSWITH>
+		</POC_ProfileOptionMap>
+		<hcmEffectiveDate classType="sd">2018-04-25</hcmEffectiveDate>
+		<EMP_BusinessGroupId classType="l">100010025071996</EMP_BusinessGroupId>
+		<NewDateFrom classType="sd">2018-04-25</NewDateFrom>
+		<hcmPerActionId classType="l">100010026278813</hcmPerActionId>
+		<DFF_ParentVOs classType="s">Assignment;</DFF_ParentVOs>
+		<DE_ParentVOs classType="s">Assignment;</DE_ParentVOs>
+		<EMP_PositionOverrideFlag classType="b">false</EMP_PositionOverrideFlag>
+		<KFF_ParentAM classType="s">EmploymentRootAM;</KFF_ParentAM>
+		<isContextSet classType="b">true</isContextSet>
+		<PSynchCalcDate classType="sd">2018-04-25</PSynchCalcDate>
+		<DFF_ParentType classType="s">DFF;</DFF_ParentType>
+		<GRD_singleValidGrade_PS classType="b">false</GRD_singleValidGrade_PS>
+		<SalaryFlow classType="s">PromotionCreate</SalaryFlow>
+		<EMP_UX classType="s">Y</EMP_UX>
+		<EMP_LogicalAsgStartDate classType="sd">2000-01-01</EMP_LogicalAsgStartDate>
+		<POSTCOMMITAPPROVALENABLED classType="s">true</POSTCOMMITAPPROVALENABLED>
+		<IN_AD_visible classType="s">Y</IN_AD_visible>
+		<EMP_AssignmentId classType="l">300100017774572</EMP_AssignmentId>
+		<EMP_FutureDatedValidationFlag classType="s">ORA_NONE</EMP_FutureDatedValidationFlag>
+		<ASU100469 classType="b">true</ASU100469>
+		<CoreHrFlow classType="s">Y</CoreHrFlow>
+		<IN_RD_visible classType="s">N</IN_RD_visible>
+		<EMP_UxMap classType="Hm">
+			<POC_ProfileOptionMap classType="Hm">
+				<PER_LOV_SEARCH_COLLECTIVEAGREEMENTS_STARTSWITH classType="b">false</PER_LOV_SEARCH_COLLECTIVEAGREEMENTS_STARTSWITH>
+				<PER_EMP_CORRECT_PARENT_ENABLED_UX classType="b">false</PER_EMP_CORRECT_PARENT_ENABLED_UX>
+				<PER_LOV_SEARCH_LOCATIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_LOCATIONS_STARTSWITH>
+				<PER_LOV_SEARCH_BUSINESSUNITS_STARTSWITH classType="b">false</PER_LOV_SEARCH_BUSINESSUNITS_STARTSWITH>
+				<PER_DEFAULT_GRADE_FROM_JOB_POSITION classType="b">false</PER_DEFAULT_GRADE_FROM_JOB_POSITION>
+				<PER_LOV_SEARCH_UNIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_UNIONS_STARTSWITH>
+				<PER_ENFORCE_VALID_GRADES classType="b">false</PER_ENFORCE_VALID_GRADES>
+				<PER_LOV_SEARCH_DEPARTMENTS_STARTSWITH classType="b">false</PER_LOV_SEARCH_DEPARTMENTS_STARTSWITH>
+				<PER_LOV_SEARCH_JOBS_STARTSWITH classType="b">false</PER_LOV_SEARCH_JOBS_STARTSWITH>
+				<PER_LOV_SEARCH_BARGAININGUNITS_STARTSWITH classType="b">false</PER_LOV_SEARCH_BARGAININGUNITS_STARTSWITH>
+				<PER_LOV_SEARCH_GRADES_STARTSWITH classType="b">false</PER_LOV_SEARCH_GRADES_STARTSWITH>
+				<PER_LOV_SEARCH_GRADELADDERS_STARTSWITH classType="b">false</PER_LOV_SEARCH_GRADELADDERS_STARTSWITH>
+				<HCM_TASK_CONFIGURATOR_RESPONSIVE_ENABLED classType="b">true</HCM_TASK_CONFIGURATOR_RESPONSIVE_ENABLED>
+				<PER_LOV_SEARCH_WORKERS_STARTSWITH classType="b">false</PER_LOV_SEARCH_WORKERS_STARTSWITH>
+				<PER_LOV_SEARCH_POSITIONS_STARTSWITH classType="b">false</PER_LOV_SEARCH_POSITIONS_STARTSWITH>
+			</POC_ProfileOptionMap>
+		</EMP_UxMap>
+		<AssignmentId classType="l">300100017774572</AssignmentId>
+		<MD_ReportsPresent classType="b">true</MD_ReportsPresent>
+		<CMP_SalaryTxnPending classType="s">N</CMP_SalaryTxnPending>
+		<POSSYNC_ConfigurationMap classType="Hm">
+			<DefaultPositionSyncConfigMap classType="Hm">
+				<isManagerSyncEnabled classType="b">false</isManagerSyncEnabled>
+				<isRegularOrTemporaryEnabled classType="b">false</isRegularOrTemporaryEnabled>
+				<isAssignmentCategoryEnabled classType="b">false</isAssignmentCategoryEnabled>
+				<isUnionBargainingColAgreementEnabled classType="b">false</isUnionBargainingColAgreementEnabled>
+				<isGradeEnabled classType="b">false</isGradeEnabled>
+				<isProbationPeriodEnabled classType="b">false</isProbationPeriodEnabled>
+				<isLocationEnabled classType="b">false</isLocationEnabled>
+				<isStartEndTimeEnabled classType="b">false</isStartEndTimeEnabled>
+				<isManagerHierarchySyncEnabled classType="b">false</isManagerHierarchySyncEnabled>
+				<isJobEnabled classType="b">false</isJobEnabled>
+				<isFullTimeorPartTimeEnabled classType="b">false</isFullTimeorPartTimeEnabled>
+				<isAllowOverrideAtAsgEnabled classType="b">false</isAllowOverrideAtAsgEnabled>
+				<isFteWorkingHoursEnabled classType="b">false</isFteWorkingHoursEnabled>
+				<isGradeLadderEnabled classType="b">false</isGradeLadderEnabled>
+				<isDepartmentEnabled classType="b">false</isDepartmentEnabled>
+				<isFlexfieldsEnabled classType="b">false</isFlexfieldsEnabled>
+			</DefaultPositionSyncConfigMap>
+		</POSSYNC_ConfigurationMap>
+		<EMP_PersonId classType="l">300100017774467</EMP_PersonId>
+		<IN_ACA_visible classType="s">Y</IN_ACA_visible>
+		<WT300100017774567 classType="b">false</WT300100017774567>
+		<DE_ProductAMs classType="s">EmploymentBaseAM;</DE_ProductAMs>
+		<CHM_IsManagerDetailsModified classType="s">Y</CHM_IsManagerDetailsModified>
+		<GRD_oldGradeIsValid classType="b">false</GRD_oldGradeIsValid>
+		<IN_CS_visible classType="s">Y</IN_CS_visible>
+		<MandatoryParamsString classType="s">AssignmentId=300100017774572</MandatoryParamsString>
+		<KFF_VOInstancesLists classType="s">AssignmentMDVOToPeopleGroupKFFVO;</KFF_VOInstancesLists>
+		<isConflictDetectionSkiped classType="b">false</isConflictDetectionSkiped>
+		<EMP_TransactionDateLabel classType="s">When does the promotion start?</EMP_TransactionDateLabel>
+		<EMP_ActionLabel classType="s">Promotion Action</EMP_ActionLabel>
+		<TierTypeLE100000011593321 classType="s">3</TierTypeLE100000011593321>
+		<incumbentValidFlag classType="b">false</incumbentValidFlag>
+		<ReentryFunction classType="s">/WEB-INF/oracle/apps/hcm/employment/promotions/ui/flow/PromotionMATF.xml#PromotionMATF?FuseWelcome?ORA_HCM_UI!@AJ#$null?AssignmentId=300100017774572</ReentryFunction>
+		<IN_ED_visible classType="s">Y</IN_ED_visible>
+		<EMP_LegalEntityId classType="l">100000011593321</EMP_LegalEntityId>
+		<HrcTxnCallbacks classType="Hm">
+			<SubmitPreLaunch1 classType="s">N_oracle.apps.hcm.employment.base.uiModel.callback.CallBackOnSubmitPreLaunchApproval</SubmitPreLaunch1>
+			<SubmitPreLaunchIndex classType="s">1_2</SubmitPreLaunchIndex>
+			<CancelIndex classType="s">1</CancelIndex>
+			<SubmitPreLaunch2 classType="s">N_oracle.apps.hcm.compensation.salary.core.protectedUiModel.salaryRates.common.PromotionSalaryOnSubmit</SubmitPreLaunch2>
+			<CallBackOnApprovedPreCommitIndex classType="s">1</CallBackOnApprovedPreCommitIndex>
+			<Cancel1 classType="s">N_oracle.apps.hcm.compensation.salary.core.protectedUiModel.salaryRates.common.PromotionOnCancel</Cancel1>
+			<Submit1 classType="s">N_oracle.apps.hcm.employment.base.uiModel.callback.CallBackOnSubmit</Submit1>
+			<CallBackOnApprovedPreCommit1 classType="s">N_oracle.apps.hcm.employment.base.uiModel.callback.CallBackOnApprovedPreCommit</CallBackOnApprovedPreCommit1>
+			<SubmitIndex classType="s">1</SubmitIndex>
+		</HrcTxnCallbacks>
+		<DFF_ProductAMs classType="s">EmploymentBaseAM;</DFF_ProductAMs>
+		<UseRates classType="s">Y</UseRates>
+		<DFF_VOInstancesLists classType="s">AssignmentMDVOToBaseWorkerAsgDFF,AssignmentMDVOToBaseWorkerAsgLegDDFVO;</DFF_VOInstancesLists>
+		<IN_VCOMP_visible classType="s">Y</IN_VCOMP_visible>
+		<DE_VOInstancesLists classType="s">Assignment,AssignmentSupervisor,AssignmentWorkMeasureVO;</DE_VOInstancesLists>
+		<hcmPerActionTypeCode classType="s">EMPL_PROMOTION</hcmPerActionTypeCode>
+		<EMP_PeriodOfServiceId classType="l">300100017774566</EMP_PeriodOfServiceId>
+		<IN_MD_visible classType="s">Y</IN_MD_visible>
+		<employmentConfig100000011593321 classType="s">3MTMA</employmentConfig100000011593321>
+		<EMP_ActionReasonLabel classType="s">Why are you promoting Alok Shay GBI 3T?</EMP_ActionReasonLabel>
+		<DFF_ParentAM classType="s">EmploymentRootAM;</DFF_ParentAM>
+		<EMP_DEString classType="s">WorkTerms,Assignment</EMP_DEString>
+		<REL_SaveForLater classType="b">true</REL_SaveForLater>
+		<ManageWR_PeriodOfServiceId classType="l">300100017774566</ManageWR_PeriodOfServiceId>
+		<EMP_ProcessName classType="s">Promotions</EMP_ProcessName>
+		<PER_DEFAULT_GRADE_FROM_JOB_POSITION classType="b">false</PER_DEFAULT_GRADE_FROM_JOB_POSITION>
+		<HrcTxnValues classType="Hm">
+			<Subject classType="s">PER_ALL_PEOPLE_F</Subject>
+			<LoadUpTransaction classType="s">oracle.apps.hcm.common.transaction.model.util.instructions.LoadUpTransaction</LoadUpTransaction>
+			<SectionDisplayName classType="s">Promotion for Alok Shay GBI 3T, 955169008166607 (2018-04-25): Process Was Saved</SectionDisplayName>
+			<ProcessOwner classType="s">Line manager</ProcessOwner>
+			<sensorDataReferenceCode classType="s">HCM-ADM Job 410-Business Project Supervisor</sensorDataReferenceCode>
+			<ApplicationId classType="l">800</ApplicationId>
+			<ModuleIdentifier classType="s">Promotions</ModuleIdentifier>
+			<TransactionId classType="l">300100125259933</TransactionId>
+			<SubjectId classType="l">300100017774467</SubjectId>
+			<ReentryFunction classType="s">/WEB-INF/oracle/apps/hcm/employment/promotions/ui/flow/PromotionMATF.xml#PromotionMATF</ReentryFunction>
+			<ModuleGroup classType="s">PER</ModuleGroup>
+			<HrcTxnDataCallBackClassName classType="s">oracle.apps.hcm.employment.base.uiModel.callback.CallBackAddHeader</HrcTxnDataCallBackClassName>
+			<sensorNameFromData classType="s">Alok Shay GBI 3T</sensorNameFromData>
+			<InitiatorUserId classType="l">100010034148145</InitiatorUserId>
+			<ObjectId classType="l">300100017774572</ObjectId>
+			<Object classType="s">PER_ALL_ASSIGNMENTS_M</Object>
+		</HrcTxnValues>
+		<EMP_OtbiReportValues classType="Hm">
+			<EMP_AssignmentId classType="l">300100017774572</EMP_AssignmentId>
+			<EMP_AssignmentNumber classType="s">E955169008166607</EMP_AssignmentNumber>
+			<EMP_PersonId classType="l">300100017774467</EMP_PersonId>
+			<EMP_PersonNumber classType="s">955169008166607</EMP_PersonNumber>
+		</EMP_OtbiReportValues>
+		<shellType classType="s">simple</shellType>
+		<GENERATECOMPAREDATAWHILETXNSUBMIT classType="s">true</GENERATECOMPAREDATAWHILETXNSUBMIT>
+		<oldAsgName classType="s">HCM-ADM Job 410-Business Project Supervisor</oldAsgName>
+		<PeriodOfServiceId classType="l">300100017774566</PeriodOfServiceId>
+		<EMP_SplitOccured classType="s">Y</EMP_SplitOccured>
+		<IN_WW_visible classType="s">Y</IN_WW_visible>
+		<POSSYNC_IsLEPosSyncEnabled classType="b">false</POSSYNC_IsLEPosSyncEnabled>
+		<SalarySaved classType="s">Y</SalarySaved>
+		<EMP_IsChangeManagerSectionVisited classType="b">true</EMP_IsChangeManagerSectionVisited>
+		<EMP_AssignmentName classType="s">HCM-ADM Job 410-Business Project Supervisor</EMP_AssignmentName>
+		<NewSalaryId classType="l">300100125259936</NewSalaryId>
+		<hcmBusinessGroupId classType="l">100010025071996</hcmBusinessGroupId>
+		<EMP_ModuleIdentifier classType="s">Promotions</EMP_ModuleIdentifier>
+		<HCM_CANCELHIRE_SALARY classType="s">A</HCM_CANCELHIRE_SALARY>
+		<EMP_DisplayName classType="s">Alok Shay GBI 3T</EMP_DisplayName>
+		<CompLegCode classType="s">US</CompLegCode>
+		<ValidateSalaryEntry classType="s">Y</ValidateSalaryEntry>
+		<KFF_ParentType classType="s">KFF;</KFF_ParentType>
+		<CSA_MobileFlow classType="s">Y</CSA_MobileFlow>
+		<posAttributesMap classType="Hm"/>
+		<EMP_IsResponsive classType="b">true</EMP_IsResponsive>
+		<DE_ParentAM classType="s">EmploymentRootAM;</DE_ParentAM>
+		<ASG300100017774572 classType="b">true</ASG300100017774572>
+		<PER_EMP_MANAGER_NAME_LOV classType="s">Y</PER_EMP_MANAGER_NAME_LOV>
+		<EMP_WorkTermsAssignmentId classType="l">300100017774567</EMP_WorkTermsAssignmentId>
+		<FND_ENTERPRISE_ID classType="s">100010025071996</FND_ENTERPRISE_ID>
+	</TransCtx>
+
+	<BUSINESSDATA>
+		<AM MomVer="0" ver="10">
+			<cd/>
+			<TXN Def="1" New="0" Lok="2" tsi="9" pcid="2049">
+				<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.WhenAndWhyTEO">
+					<![CDATA[00010000000EACED000577080000000000000064]]>
+					<WhenAndWhyTEORow PS="0" Hdl="3" PK="Y" AV="">
+						<Id>
+							<DATA>100</DATA>
+						</Id>
+						<ActionCode>
+							<DATA>PROMOTION</DATA>
+						</ActionCode>
+						<ActionReasonCode>
+							<DATA>GHR PROMOTE</DATA>
+						</ActionReasonCode>
+						<ActionReasonId>
+							<DATA>300100069570891</DATA>
+						</ActionReasonId>
+						<ActionId>
+							<DATA>100010026278813</DATA>
+						</ActionId>
+						<TransactionDate>
+							<DATA>2018-04-25</DATA>
+						</TransactionDate>
+						<BusinessGroupId>
+							<DATA>100010025071996</DATA>
+						</BusinessGroupId>
+						<ActionReasonModule>
+							<DATA>EMPL_PROMOTION</DATA>
+						</ActionReasonModule>
+						<ManageDirectsActionCode>
+							<DATA>MANAGER_CHANGE</DATA>
+						</ManageDirectsActionCode>
+						<ManageDirectsReasonCode>
+							<DATA>GHR WORKER UPDATE</DATA>
+						</ManageDirectsReasonCode>
+						<ManageDirectsActionId>
+							<DATA>100010026278826</DATA>
+						</ManageDirectsActionId>
+						<ManageDirectsReasonId>
+							<DATA>300100069570940</DATA>
+						</ManageDirectsReasonId>
+						<PermanentOrTemprorary>
+							<DATA>GT</DATA>
+						</PermanentOrTemprorary>
+						<IsPrimary>
+							<DATA>N</DATA>
+						</IsPrimary>
+						<ActionTypeCode>
+							<DATA>EMPL_PROMOTION</DATA>
+						</ActionTypeCode>
+						<LatestDESplitStartDate>
+							<DATA null="true"/>
+						</LatestDESplitStartDate>
+						<FutureDatedValidationFlag>
+							<DATA>ORA_NONE</DATA>
+						</FutureDatedValidationFlag>
+						<GTorGTA>
+							<DATA>ORA_PER_PERMANENT_TRNSFR</DATA>
+						</GTorGTA>
+					</WhenAndWhyTEORow>
+				</EO>
+				<EO Name="oracle.apps.hcm.actions.core.publicModel.entity.ActionOccurrencesEO">
+					<![CDATA[00010000000EACED00057708000110F0815CF89A]]>
+					<ActionOccurrencesEORow PS="0" Hdl="4" PK="Y" CI="Y" AV="">
+						<ActionOccurrenceId>
+							<DATA>300100125259930</DATA>
+						</ActionOccurrenceId>
+						<ActionId>
+							<DATA>100010026278813</DATA>
+						</ActionId>
+						<ActionName>
+							<DATA>Promotion</DATA>
+						</ActionName>
+						<ActionReasonId>
+							<DATA null="true"/>
+						</ActionReasonId>
+						<ActionDate>
+							<DATA>2018-04-25</DATA>
+						</ActionDate>
+						<SubmittedBy>
+							<DATA>0</DATA>
+						</SubmittedBy>
+						<ObjectVersionNumber>
+							<DATA>1</DATA>
+						</ObjectVersionNumber>
+						<CreatedBy>
+							<DATA>VMOSS</DATA>
+						</CreatedBy>
+						<CreationDate>
+							<DATA>2018-04-25 06:15:01.0</DATA>
+						</CreationDate>
+						<LastUpdateDate>
+							<DATA>2018-04-25 06:15:01.001</DATA>
+						</LastUpdateDate>
+						<LastUpdateLogin>
+							<DATA>6AA17B0729127DE7E0539D95F50AC70A</DATA>
+						</LastUpdateLogin>
+						<LastUpdatedBy>
+							<DATA>VMOSS</DATA>
+						</LastUpdatedBy>
+						<FreezeStartDate>
+							<DATA>4712-12-31</DATA>
+						</FreezeStartDate>
+						<FreezeUntilDate>
+							<DATA>0001-01-01</DATA>
+						</FreezeUntilDate>
+						<ParentEntityType>
+							<DATA>PERSON</DATA>
+						</ParentEntityType>
+						<ParentEntityName>
+							<DATA>Alok Shay GBI 3T</DATA>
+						</ParentEntityName>
+						<ParentEntityKeyId>
+							<DATA>300100017774467</DATA>
+						</ParentEntityKeyId>
+						<EntityId>
+							<DATA null="true"/>
+						</EntityId>
+						<EntityType>
+							<DATA null="true"/>
+						</EntityType>
+					</ActionOccurrencesEORow>
+				</EO>
+				<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.PeriodOfServiceEO">
+					<![CDATA[00010000000EACED00057708000110F07AF4DFE6]]>
+					<PeriodOfServiceEORow PS="1" Hdl="23" AV="">
+						<ObjectVersionNumber>
+							<DATA>1</DATA>
+						</ObjectVersionNumber>
+						<CEO>
+							<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeTermsDEO">
+								<![CDATA[00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162FA198800780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159]]>
+								<EmployeeTermsDEORow PS="0" Hdl="24" PK="Y" CI="Y" EFFDT="2018-04-25" AV="">
+									<AssignmentId>
+										<DATA>300100017774567</DATA>
+									</AssignmentId>
+									<EffectiveStartDate>
+										<DATA>2018-04-25</DATA>
+									</EffectiveStartDate>
+									<EffectiveEndDate>
+										<DATA>4712-12-31</DATA>
+									</EffectiveEndDate>
+									<EffectiveSequence>
+										<DATA>1</DATA>
+									</EffectiveSequence>
+									<EffectiveLatestChange>
+										<DATA>Y</DATA>
+									</EffectiveLatestChange>
+									<PersonId>
+										<DATA>300100017774467</DATA>
+									</PersonId>
+									<BusinessGroupId>
+										<DATA>100010025071996</DATA>
+									</BusinessGroupId>
+									<PrimaryAssignmentFlag>
+										<DATA>N</DATA>
+									</PrimaryAssignmentFlag>
+									<BusinessUnitId>
+										<DATA>100010025072009</DATA>
+									</BusinessUnitId>
+									<PrimaryWorkTermsFlag>
+										<DATA>N</DATA>
+									</PrimaryWorkTermsFlag>
+									<PrimaryWorkRelationFlag>
+										<DATA>Y</DATA>
+									</PrimaryWorkRelationFlag>
+									<PrimaryFlag>
+										<DATA>N</DATA>
+									</PrimaryFlag>
+									<ManagerFlag>
+										<DATA null="true"/>
+									</ManagerFlag>
+									<AssignmentType>
+										<DATA>ET</DATA>
+									</AssignmentType>
+									<PeriodOfServiceId>
+										<DATA>300100017774566</DATA>
+									</PeriodOfServiceId>
+									<OrganizationId>
+										<DATA>100000011850021</DATA>
+									</OrganizationId>
+									<AssignmentStatusType>
+										<DATA>ACTIVE</DATA>
+									</AssignmentStatusType>
+									<AssignmentStatusTypeId>
+										<DATA>100010026278977</DATA>
+									</AssignmentStatusTypeId>
+									<AssignmentNumber>
+										<DATA>ET955169008166607</DATA>
+									</AssignmentNumber>
+									<AssignmentName>
+										<DATA>HCM-ADM Job 410-Business Project Supervisor</DATA>
+									</AssignmentName>
+									<WorkAtHome>
+										<DATA null="true"/>
+									</WorkAtHome>
+									<AssignmentSequence>
+										<DATA>1</DATA>
+									</AssignmentSequence>
+									<ReasonCode>
+										<DATA null="true"/>
+									</ReasonCode>
+									<ActionCode>
+										<DATA>PROMOTION</DATA>
+									</ActionCode>
+									<LegalEntityId>
+										<DATA>100000011593321</DATA>
+									</LegalEntityId>
+									<LocationId>
+										<DATA null="true"/>
+									</LocationId>
+									<LegislationCode>
+										<DATA>US</DATA>
+									</LegislationCode>
+									<PositionId>
+										<DATA>100000012001575</DATA>
+									</PositionId>
+									<JobId>
+										<DATA>100000012001529</DATA>
+									</JobId>
+									<PeopleGroupId>
+										<DATA null="true"/>
+									</PeopleGroupId>
+									<GradeId>
+										<DATA null="true"/>
+									</GradeId>
+									<EmploymentCategory>
+										<DATA null="true"/>
+									</EmploymentCategory>
+									<EmployeeCategory>
+										<DATA null="true"/>
+									</EmployeeCategory>
+									<Frequency>
+										<DATA>W</DATA>
+									</Frequency>
+									<NormalHours>
+										<DATA>40</DATA>
+									</NormalHours>
+									<TimeNormalStart>
+										<DATA>08:00</DATA>
+									</TimeNormalStart>
+									<TimeNormalFinish>
+										<DATA>17:00</DATA>
+									</TimeNormalFinish>
+									<SpecialCeilingStepId>
+										<DATA null="true"/>
+									</SpecialCeilingStepId>
+									<GradeLadderPgmId>
+										<DATA null="true"/>
+									</GradeLadderPgmId>
+									<NoticePeriod>
+										<DATA null="true"/>
+									</NoticePeriod>
+									<HourlySalariedCode>
+										<DATA null="true"/>
+									</HourlySalariedCode>
+									<DateProbationEnd>
+										<DATA>2000-12-31</DATA>
+									</DateProbationEnd>
+									<NoticePeriodUom>
+										<DATA null="true"/>
+									</NoticePeriodUom>
+									<ProbationUnit>
+										<DATA>Y</DATA>
+									</ProbationUnit>
+									<ProbationPeriod>
+										<DATA>1</DATA>
+									</ProbationPeriod>
+									<SalReviewPeriodFrequency>
+										<DATA null="true"/>
+									</SalReviewPeriodFrequency>
+									<SalReviewPeriod>
+										<DATA null="true"/>
+									</SalReviewPeriod>
+									<InternalBuilding>
+										<DATA null="true"/>
+									</InternalBuilding>
+									<ExpenseCheckSendToAddress>
+										<DATA null="true"/>
+									</ExpenseCheckSendToAddress>
+									<InternalLocation>
+										<DATA null="true"/>
+									</InternalLocation>
+									<InternalFloor>
+										<DATA null="true"/>
+									</InternalFloor>
+									<InternalOfficeNumber>
+										<DATA null="true"/>
+									</InternalOfficeNumber>
+									<InternalMailstop>
+										<DATA null="true"/>
+									</InternalMailstop>
+									<SystemPersonType>
+										<DATA>EMP</DATA>
+									</SystemPersonType>
+									<PersonTypeId>
+										<DATA>100010025072012</DATA>
+									</PersonTypeId>
+									<CollectiveAgreementId>
+										<DATA null="true"/>
+									</CollectiveAgreementId>
+									<ContractId>
+										<DATA>300100017774577</DATA>
+									</ContractId>
+									<LabourUnionMemberFlag>
+										<DATA>N</DATA>
+									</LabourUnionMemberFlag>
+									<BargainingUnitCode>
+										<DATA null="true"/>
+									</BargainingUnitCode>
+									<CagrIdFlexNum>
+										<DATA null="true"/>
+									</CagrIdFlexNum>
+									<CagrGradeDefId>
+										<DATA null="true"/>
+									</CagrGradeDefId>
+									<SetOfBooksId>
+										<DATA null="true"/>
+									</SetOfBooksId>
+									<DefaultCodeCombId>
+										<DATA null="true"/>
+									</DefaultCodeCombId>
+									<EstablishmentId>
+										<DATA null="true"/>
+									</EstablishmentId>
+									<JobPostSourceName>
+										<DATA null="true"/>
+									</JobPostSourceName>
+									<ProjectTitle>
+										<DATA null="true"/>
+									</ProjectTitle>
+									<VendorEmployeeNumber>
+										<DATA null="true"/>
+									</VendorEmployeeNumber>
+									<VendorAssignmentNumber>
+										<DATA null="true"/>
+									</VendorAssignmentNumber>
+									<VendorSiteId>
+										<DATA null="true"/>
+									</VendorSiteId>
+									<ProjectedAssignmentEnd>
+										<DATA null="true"/>
+									</ProjectedAssignmentEnd>
+									<BillingTitle>
+										<DATA null="true"/>
+									</BillingTitle>
+									<PostingContentId>
+										<DATA null="true"/>
+									</PostingContentId>
+									<VacancyId>
+										<DATA null="true"/>
+									</VacancyId>
+									<SourceType>
+										<DATA null="true"/>
+									</SourceType>
+									<DutiesType>
+										<DATA null="true"/>
+									</DutiesType>
+									<AutoEndFlag>
+										<DATA>N</DATA>
+									</AutoEndFlag>
+									<ParentAssignmentId>
+										<DATA null="true"/>
+									</ParentAssignmentId>
+									<LinkageType>
+										<DATA null="true"/>
+									</LinkageType>
+									<StepEntryDate>
+										<DATA null="true"/>
+									</StepEntryDate>
+									<ProjectedStartDate>
+										<DATA null="true"/>
+									</ProjectedStartDate>
+									<AssAttributeCategory>
+										<DATA null="true"/>
+									</AssAttributeCategory>
+									<TaxAddressId>
+										<DATA null="true"/>
+									</TaxAddressId>
+									<AssAttribute2>
+										<DATA null="true"/>
+									</AssAttribute2>
+									<AssAttribute1>
+										<DATA null="true"/>
+									</AssAttribute1>
+									<AssAttribute4>
+										<DATA null="true"/>
+									</AssAttribute4>
+									<AssAttribute3>
+										<DATA null="true"/>
+									</AssAttribute3>
+									<AssAttribute6>
+										<DATA null="true"/>
+									</AssAttribute6>
+									<AssAttribute5>
+										<DATA null="true"/>
+									</AssAttribute5>
+									<AssAttribute8>
+										<DATA null="true"/>
+									</AssAttribute8>
+									<AssAttribute7>
+										<DATA null="true"/>
+									</AssAttribute7>
+									<AssAttribute10>
+										<DATA null="true"/>
+									</AssAttribute10>
+									<AssAttribute9>
+										<DATA null="true"/>
+									</AssAttribute9>
+									<AssAttribute12>
+										<DATA null="true"/>
+									</AssAttribute12>
+									<AssAttribute11>
+										<DATA null="true"/>
+									</AssAttribute11>
+									<AssAttribute14>
+										<DATA null="true"/>
+									</AssAttribute14>
+									<AssAttribute13>
+										<DATA null="true"/>
+									</AssAttribute13>
+									<AssAttribute16>
+										<DATA null="true"/>
+									</AssAttribute16>
+									<AssAttribute15>
+										<DATA null="true"/>
+									</AssAttribute15>
+									<AssAttribute18>
+										<DATA null="true"/>
+									</AssAttribute18>
+									<AssAttribute17>
+										<DATA null="true"/>
+									</AssAttribute17>
+									<AssAttribute20>
+										<DATA null="true"/>
+									</AssAttribute20>
+									<AssAttribute19>
+										<DATA null="true"/>
+									</AssAttribute19>
+									<AssAttribute22>
+										<DATA null="true"/>
+									</AssAttribute22>
+									<AssAttribute21>
+										<DATA null="true"/>
+									</AssAttribute21>
+									<AssAttribute24>
+										<DATA null="true"/>
+									</AssAttribute24>
+									<AssAttribute23>
+										<DATA null="true"/>
+									</AssAttribute23>
+									<AssAttribute26>
+										<DATA null="true"/>
+									</AssAttribute26>
+									<AssAttribute25>
+										<DATA null="true"/>
+									</AssAttribute25>
+									<AssAttribute28>
+										<DATA null="true"/>
+									</AssAttribute28>
+									<AssAttribute27>
+										<DATA null="true"/>
+									</AssAttribute27>
+									<AssAttribute30>
+										<DATA null="true"/>
+									</AssAttribute30>
+									<AssAttribute29>
+										<DATA null="true"/>
+									</AssAttribute29>
+									<AssAttribute32>
+										<DATA null="true"/>
+									</AssAttribute32>
+									<AssAttribute31>
+										<DATA null="true"/>
+									</AssAttribute31>
+									<AssAttribute34>
+										<DATA null="true"/>
+									</AssAttribute34>
+									<AssAttribute33>
+										<DATA null="true"/>
+									</AssAttribute33>
+									<AssAttribute36>
+										<DATA null="true"/>
+									</AssAttribute36>
+									<AssAttribute35>
+										<DATA null="true"/>
+									</AssAttribute35>
+									<AssAttribute38>
+										<DATA null="true"/>
+									</AssAttribute38>
+									<AssAttribute37>
+										<DATA null="true"/>
+									</AssAttribute37>
+									<AssAttribute40>
+										<DATA null="true"/>
+									</AssAttribute40>
+									<AssAttribute39>
+										<DATA null="true"/>
+									</AssAttribute39>
+									<AssAttribute42>
+										<DATA null="true"/>
+									</AssAttribute42>
+									<AssAttribute41>
+										<DATA null="true"/>
+									</AssAttribute41>
+									<AssAttribute44>
+										<DATA null="true"/>
+									</AssAttribute44>
+									<AssAttribute43>
+										<DATA null="true"/>
+									</AssAttribute43>
+									<AssAttribute46>
+										<DATA null="true"/>
+									</AssAttribute46>
+									<AssAttribute45>
+										<DATA null="true"/>
+									</AssAttribute45>
+									<AssAttribute48>
+										<DATA null="true"/>
+									</AssAttribute48>
+									<AssAttribute47>
+										<DATA null="true"/>
+									</AssAttribute47>
+									<AssAttribute50>
+										<DATA null="true"/>
+									</AssAttribute50>
+									<AssAttribute49>
+										<DATA null="true"/>
+									</AssAttribute49>
+									<CreatedBy>
+										<DATA>ZPER-ORG_HRS01</DATA>
+									</CreatedBy>
+									<ObjectVersionNumber>
+										<DATA>9</DATA>
+									</ObjectVersionNumber>
+									<LastUpdateDate>
+										<DATA>2018-03-09 12:02:00.558</DATA>
+									</LastUpdateDate>
+									<CreationDate>
+										<DATA>2013-01-04 02:37:28.391</DATA>
+									</CreationDate>
+									<LastUpdatedBy>
+										<DATA>VMOSS</DATA>
+									</LastUpdatedBy>
+									<LastUpdateLogin>
+										<DATA>66F923FD712E0FB3E0539D95F50A046C</DATA>
+									</LastUpdateLogin>
+									<RecordCreator>
+										<DATA>Promotions</DATA>
+									</RecordCreator>
+									<ProposedWorkerType>
+										<DATA null="true"/>
+									</ProposedWorkerType>
+									<RetirementAge>
+										<DATA null="true"/>
+									</RetirementAge>
+									<RetirementDate>
+										<DATA null="true"/>
+									</RetirementDate>
+									<PositionOverrideFlag>
+										<DATA>N</DATA>
+									</PositionOverrideFlag>
+									<ActionOccurrenceId>
+										<DATA>300100125259930</DATA>
+									</ActionOccurrenceId>
+									<SoftCodingKeyflexId>
+										<DATA null="true"/>
+									</SoftCodingKeyflexId>
+									<AllowAsgOverrideFlag>
+										<DATA>Y</DATA>
+									</AllowAsgOverrideFlag>
+									<AssAttributeNumber1>
+										<DATA null="true"/>
+									</AssAttributeNumber1>
+									<AssAttributeNumber2>
+										<DATA null="true"/>
+									</AssAttributeNumber2>
+									<AssAttributeNumber3>
+										<DATA null="true"/>
+									</AssAttributeNumber3>
+									<AssAttributeNumber4>
+										<DATA null="true"/>
+									</AssAttributeNumber4>
+									<AssAttributeNumber5>
+										<DATA null="true"/>
+									</AssAttributeNumber5>
+									<AssAttributeNumber6>
+										<DATA null="true"/>
+									</AssAttributeNumber6>
+									<AssAttributeNumber7>
+										<DATA null="true"/>
+									</AssAttributeNumber7>
+									<AssAttributeNumber8>
+										<DATA null="true"/>
+									</AssAttributeNumber8>
+									<AssAttributeNumber9>
+										<DATA null="true"/>
+									</AssAttributeNumber9>
+									<AssAttributeNumber10>
+										<DATA null="true"/>
+									</AssAttributeNumber10>
+									<AssAttributeNumber11>
+										<DATA null="true"/>
+									</AssAttributeNumber11>
+									<AssAttributeNumber12>
+										<DATA null="true"/>
+									</AssAttributeNumber12>
+									<AssAttributeNumber13>
+										<DATA null="true"/>
+									</AssAttributeNumber13>
+									<AssAttributeNumber14>
+										<DATA null="true"/>
+									</AssAttributeNumber14>
+									<AssAttributeNumber15>
+										<DATA null="true"/>
+									</AssAttributeNumber15>
+									<AssAttributeNumber16>
+										<DATA null="true"/>
+									</AssAttributeNumber16>
+									<AssAttributeNumber17>
+										<DATA null="true"/>
+									</AssAttributeNumber17>
+									<AssAttributeNumber18>
+										<DATA null="true"/>
+									</AssAttributeNumber18>
+									<AssAttributeNumber19>
+										<DATA null="true"/>
+									</AssAttributeNumber19>
+									<AssAttributeNumber20>
+										<DATA null="true"/>
+									</AssAttributeNumber20>
+									<AssAttributeDate1>
+										<DATA null="true"/>
+									</AssAttributeDate1>
+									<AssAttributeDate2>
+										<DATA null="true"/>
+									</AssAttributeDate2>
+									<AssAttributeDate3>
+										<DATA null="true"/>
+									</AssAttributeDate3>
+									<AssAttributeDate4>
+										<DATA null="true"/>
+									</AssAttributeDate4>
+									<AssAttributeDate5>
+										<DATA null="true"/>
+									</AssAttributeDate5>
+									<AssAttributeDate6>
+										<DATA null="true"/>
+									</AssAttributeDate6>
+									<AssAttributeDate7>
+										<DATA null="true"/>
+									</AssAttributeDate7>
+									<AssAttributeDate8>
+										<DATA null="true"/>
+									</AssAttributeDate8>
+									<AssAttributeDate9>
+										<DATA null="true"/>
+									</AssAttributeDate9>
+									<AssAttributeDate10>
+										<DATA null="true"/>
+									</AssAttributeDate10>
+									<AssAttributeDate11>
+										<DATA null="true"/>
+									</AssAttributeDate11>
+									<AssAttributeDate12>
+										<DATA null="true"/>
+									</AssAttributeDate12>
+									<AssAttributeDate13>
+										<DATA null="true"/>
+									</AssAttributeDate13>
+									<AssAttributeDate14>
+										<DATA null="true"/>
+									</AssAttributeDate14>
+									<AssAttributeDate15>
+										<DATA null="true"/>
+									</AssAttributeDate15>
+									<AsgInformationCategory>
+										<DATA>US</DATA>
+									</AsgInformationCategory>
+									<AsgInformation1>
+										<DATA null="true"/>
+									</AsgInformation1>
+									<AsgInformation2>
+										<DATA null="true"/>
+									</AsgInformation2>
+									<AsgInformation3>
+										<DATA null="true"/>
+									</AsgInformation3>
+									<AsgInformation4>
+										<DATA null="true"/>
+									</AsgInformation4>
+									<AsgInformation5>
+										<DATA null="true"/>
+									</AsgInformation5>
+									<AsgInformation6>
+										<DATA null="true"/>
+									</AsgInformation6>
+									<AsgInformation7>
+										<DATA null="true"/>
+									</AsgInformation7>
+									<AsgInformation8>
+										<DATA null="true"/>
+									</AsgInformation8>
+									<AsgInformation9>
+										<DATA null="true"/>
+									</AsgInformation9>
+									<AsgInformation10>
+										<DATA null="true"/>
+									</AsgInformation10>
+									<AsgInformation11>
+										<DATA null="true"/>
+									</AsgInformation11>
+									<AsgInformation12>
+										<DATA null="true"/>
+									</AsgInformation12>
+									<AsgInformation13>
+										<DATA null="true"/>
+									</AsgInformation13>
+									<AsgInformation14>
+										<DATA null="true"/>
+									</AsgInformation14>
+									<AsgInformation15>
+										<DATA null="true"/>
+									</AsgInformation15>
+									<AsgInformation16>
+										<DATA null="true"/>
+									</AsgInformation16>
+									<AsgInformation17>
+										<DATA null="true"/>
+									</AsgInformation17>
+									<AsgInformation18>
+										<DATA null="true"/>
+									</AsgInformation18>
+									<AsgInformation19>
+										<DATA null="true"/>
+									</AsgInformation19>
+									<AsgInformation20>
+										<DATA null="true"/>
+									</AsgInformation20>
+									<AsgInformation21>
+										<DATA null="true"/>
+									</AsgInformation21>
+									<AsgInformation22>
+										<DATA null="true"/>
+									</AsgInformation22>
+									<AsgInformation23>
+										<DATA null="true"/>
+									</AsgInformation23>
+									<AsgInformation24>
+										<DATA null="true"/>
+									</AsgInformation24>
+									<AsgInformation25>
+										<DATA null="true"/>
+									</AsgInformation25>
+									<AsgInformation26>
+										<DATA null="true"/>
+									</AsgInformation26>
+									<AsgInformation27>
+										<DATA null="true"/>
+									</AsgInformation27>
+									<AsgInformation28>
+										<DATA null="true"/>
+									</AsgInformation28>
+									<AsgInformation29>
+										<DATA null="true"/>
+									</AsgInformation29>
+									<AsgInformation30>
+										<DATA null="true"/>
+									</AsgInformation30>
+									<AsgInformation31>
+										<DATA null="true"/>
+									</AsgInformation31>
+									<AsgInformation32>
+										<DATA null="true"/>
+									</AsgInformation32>
+									<AsgInformation33>
+										<DATA null="true"/>
+									</AsgInformation33>
+									<AsgInformation34>
+										<DATA null="true"/>
+									</AsgInformation34>
+									<AsgInformation35>
+										<DATA null="true"/>
+									</AsgInformation35>
+									<AsgInformation36>
+										<DATA null="true"/>
+									</AsgInformation36>
+									<AsgInformation37>
+										<DATA null="true"/>
+									</AsgInformation37>
+									<AsgInformation38>
+										<DATA null="true"/>
+									</AsgInformation38>
+									<AsgInformation39>
+										<DATA null="true"/>
+									</AsgInformation39>
+									<AsgInformation40>
+										<DATA null="true"/>
+									</AsgInformation40>
+									<AsgInformation41>
+										<DATA null="true"/>
+									</AsgInformation41>
+									<AsgInformation42>
+										<DATA null="true"/>
+									</AsgInformation42>
+									<AsgInformation43>
+										<DATA null="true"/>
+									</AsgInformation43>
+									<AsgInformation44>
+										<DATA null="true"/>
+									</AsgInformation44>
+									<AsgInformation45>
+										<DATA null="true"/>
+									</AsgInformation45>
+									<AsgInformation46>
+										<DATA null="true"/>
+									</AsgInformation46>
+									<AsgInformation47>
+										<DATA null="true"/>
+									</AsgInformation47>
+									<AsgInformation48>
+										<DATA null="true"/>
+									</AsgInformation48>
+									<AsgInformation49>
+										<DATA null="true"/>
+									</AsgInformation49>
+									<AsgInformation50>
+										<DATA null="true"/>
+									</AsgInformation50>
+									<AsgInformationNumber1>
+										<DATA null="true"/>
+									</AsgInformationNumber1>
+									<AsgInformationNumber2>
+										<DATA null="true"/>
+									</AsgInformationNumber2>
+									<AsgInformationNumber3>
+										<DATA null="true"/>
+									</AsgInformationNumber3>
+									<AsgInformationNumber4>
+										<DATA null="true"/>
+									</AsgInformationNumber4>
+									<AsgInformationNumber5>
+										<DATA null="true"/>
+									</AsgInformationNumber5>
+									<AsgInformationNumber6>
+										<DATA null="true"/>
+									</AsgInformationNumber6>
+									<AsgInformationNumber7>
+										<DATA null="true"/>
+									</AsgInformationNumber7>
+									<AsgInformationNumber8>
+										<DATA null="true"/>
+									</AsgInformationNumber8>
+									<AsgInformationNumber9>
+										<DATA null="true"/>
+									</AsgInformationNumber9>
+									<AsgInformationNumber10>
+										<DATA null="true"/>
+									</AsgInformationNumber10>
+									<AsgInformationNumber11>
+										<DATA null="true"/>
+									</AsgInformationNumber11>
+									<AsgInformationNumber12>
+										<DATA null="true"/>
+									</AsgInformationNumber12>
+									<AsgInformationNumber13>
+										<DATA null="true"/>
+									</AsgInformationNumber13>
+									<AsgInformationNumber14>
+										<DATA null="true"/>
+									</AsgInformationNumber14>
+									<AsgInformationNumber15>
+										<DATA null="true"/>
+									</AsgInformationNumber15>
+									<AsgInformationNumber16>
+										<DATA null="true"/>
+									</AsgInformationNumber16>
+									<AsgInformationNumber17>
+										<DATA null="true"/>
+									</AsgInformationNumber17>
+									<AsgInformationNumber18>
+										<DATA null="true"/>
+									</AsgInformationNumber18>
+									<AsgInformationNumber19>
+										<DATA null="true"/>
+									</AsgInformationNumber19>
+									<AsgInformationNumber20>
+										<DATA null="true"/>
+									</AsgInformationNumber20>
+									<AsgInformationDate1>
+										<DATA null="true"/>
+									</AsgInformationDate1>
+									<AsgInformationDate2>
+										<DATA null="true"/>
+									</AsgInformationDate2>
+									<AsgInformationDate3>
+										<DATA null="true"/>
+									</AsgInformationDate3>
+									<AsgInformationDate4>
+										<DATA null="true"/>
+									</AsgInformationDate4>
+									<AsgInformationDate5>
+										<DATA null="true"/>
+									</AsgInformationDate5>
+									<AsgInformationDate6>
+										<DATA null="true"/>
+									</AsgInformationDate6>
+									<AsgInformationDate7>
+										<DATA null="true"/>
+									</AsgInformationDate7>
+									<AsgInformationDate8>
+										<DATA null="true"/>
+									</AsgInformationDate8>
+									<AsgInformationDate9>
+										<DATA null="true"/>
+									</AsgInformationDate9>
+									<AsgInformationDate10>
+										<DATA null="true"/>
+									</AsgInformationDate10>
+									<AsgInformationDate11>
+										<DATA null="true"/>
+									</AsgInformationDate11>
+									<AsgInformationDate12>
+										<DATA null="true"/>
+									</AsgInformationDate12>
+									<AsgInformationDate13>
+										<DATA null="true"/>
+									</AsgInformationDate13>
+									<AsgInformationDate14>
+										<DATA null="true"/>
+									</AsgInformationDate14>
+									<AsgInformationDate15>
+										<DATA null="true"/>
+									</AsgInformationDate15>
+									<FreezeStartDate>
+										<DATA>4712-12-31</DATA>
+									</FreezeStartDate>
+									<FreezeUntilDate>
+										<DATA>0001-01-01</DATA>
+									</FreezeUntilDate>
+									<IdFlexNum>
+										<DATA>63</DATA>
+									</IdFlexNum>
+									<SkipDefaultingFlag>
+										<DATA>false</DATA>
+									</SkipDefaultingFlag>
+									<CategoryCode>
+										<DATA>PER_ASG_EIT</DATA>
+									</CategoryCode>
+									<FullPartTime>
+										<DATA null="true"/>
+									</FullPartTime>
+									<PermanentTemporaryFlag>
+										<DATA null="true"/>
+									</PermanentTemporaryFlag>
+									<GspEligibilityFlag>
+										<DATA>Y</DATA>
+									</GspEligibilityFlag>
+									<UnionId>
+										<DATA null="true"/>
+									</UnionId>
+									<SeniorityBasis>
+										<DATA null="true"/>
+									</SeniorityBasis>
+									<OvertimePeriod>
+										<DATA null="true"/>
+									</OvertimePeriod>
+									<ProjectedEndDatePopulated>
+										<DATA>No</DATA>
+									</ProjectedEndDatePopulated>
+									<CEO>
+										<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeAssignmentDEO">
+											<![CDATA[00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162FA198800780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159]]>
+											<EmployeeAssignmentDEORow PS="0" Hdl="25" PK="Y" CI="Y" EFFDT="2018-04-25" AV="">
+												<AssignmentId>
+													<DATA>300100017774572</DATA>
+												</AssignmentId>
+												<EffectiveStartDate>
+													<DATA>2018-04-25</DATA>
+												</EffectiveStartDate>
+												<EffectiveEndDate>
+													<DATA>4712-12-31</DATA>
+												</EffectiveEndDate>
+												<EffectiveSequence>
+													<DATA>1</DATA>
+												</EffectiveSequence>
+												<EffectiveLatestChange>
+													<DATA>Y</DATA>
+												</EffectiveLatestChange>
+												<PersonId>
+													<DATA>300100017774467</DATA>
+												</PersonId>
+												<BusinessGroupId>
+													<DATA>100010025071996</DATA>
+												</BusinessGroupId>
+												<PrimaryAssignmentFlag>
+													<DATA>Y</DATA>
+												</PrimaryAssignmentFlag>
+												<BusinessUnitId>
+													<DATA>100010025072009</DATA>
+												</BusinessUnitId>
+												<PrimaryWorkTermsFlag>
+													<DATA>N</DATA>
+												</PrimaryWorkTermsFlag>
+												<PrimaryWorkRelationFlag>
+													<DATA>Y</DATA>
+												</PrimaryWorkRelationFlag>
+												<PrimaryFlag>
+													<DATA>Y</DATA>
+												</PrimaryFlag>
+												<ManagerFlag>
+													<DATA>N</DATA>
+												</ManagerFlag>
+												<AssignmentType>
+													<DATA>E</DATA>
+												</AssignmentType>
+												<PeriodOfServiceId>
+													<DATA>300100017774566</DATA>
+												</PeriodOfServiceId>
+												<OrganizationId>
+													<DATA>100000011850021</DATA>
+												</OrganizationId>
+												<AssignmentStatusType>
+													<DATA>ACTIVE</DATA>
+												</AssignmentStatusType>
+												<AssignmentStatusTypeId>
+													<DATA>100010026278977</DATA>
+												</AssignmentStatusTypeId>
+												<AssignmentNumber>
+													<DATA>E955169008166607</DATA>
+												</AssignmentNumber>
+												<AssignmentName>
+													<DATA>HCM-ADM Job 410-Business Project Supervisor test</DATA>
+												</AssignmentName>
+												<WorkAtHome>
+													<DATA>N</DATA>
+												</WorkAtHome>
+												<AssignmentSequence>
+													<DATA>1</DATA>
+												</AssignmentSequence>
+												<ReasonCode>
+													<DATA null="true"/>
+												</ReasonCode>
+												<ActionCode>
+													<DATA>PROMOTION</DATA>
+												</ActionCode>
+												<LegalEntityId>
+													<DATA>100000011593321</DATA>
+												</LegalEntityId>
+												<WorkTermsAssignmentId>
+													<DATA>300100017774567</DATA>
+												</WorkTermsAssignmentId>
+												<LocationId>
+													<DATA null="true"/>
+												</LocationId>
+												<LegislationCode>
+													<DATA>US</DATA>
+												</LegislationCode>
+												<PositionId>
+													<DATA>100000012001575</DATA>
+												</PositionId>
+												<JobId>
+													<DATA>100000012001529</DATA>
+												</JobId>
+												<PeopleGroupId>
+													<DATA null="true"/>
+												</PeopleGroupId>
+												<GradeId>
+													<DATA>100000011983046</DATA>
+												</GradeId>
+												<EmploymentCategory>
+													<DATA null="true"/>
+												</EmploymentCategory>
+												<EmployeeCategory>
+													<DATA null="true"/>
+												</EmployeeCategory>
+												<Frequency>
+													<DATA>W</DATA>
+												</Frequency>
+												<NormalHours>
+													<DATA>40</DATA>
+												</NormalHours>
+												<TimeNormalStart>
+													<DATA>08:00</DATA>
+												</TimeNormalStart>
+												<TimeNormalFinish>
+													<DATA>17:00</DATA>
+												</TimeNormalFinish>
+												<SpecialCeilingStepId>
+													<DATA null="true"/>
+												</SpecialCeilingStepId>
+												<GradeLadderPgmId>
+													<DATA null="true"/>
+												</GradeLadderPgmId>
+												<NoticePeriod>
+													<DATA null="true"/>
+												</NoticePeriod>
+												<HourlySalariedCode>
+													<DATA null="true"/>
+												</HourlySalariedCode>
+												<DateProbationEnd>
+													<DATA>2000-12-31</DATA>
+												</DateProbationEnd>
+												<NoticePeriodUom>
+													<DATA null="true"/>
+												</NoticePeriodUom>
+												<ProbationUnit>
+													<DATA>Y</DATA>
+												</ProbationUnit>
+												<ProbationPeriod>
+													<DATA>1</DATA>
+												</ProbationPeriod>
+												<SalReviewPeriodFrequency>
+													<DATA null="true"/>
+												</SalReviewPeriodFrequency>
+												<SalReviewPeriod>
+													<DATA null="true"/>
+												</SalReviewPeriod>
+												<InternalBuilding>
+													<DATA null="true"/>
+												</InternalBuilding>
+												<ExpenseCheckSendToAddress>
+													<DATA null="true"/>
+												</ExpenseCheckSendToAddress>
+												<InternalLocation>
+													<DATA null="true"/>
+												</InternalLocation>
+												<InternalFloor>
+													<DATA null="true"/>
+												</InternalFloor>
+												<InternalOfficeNumber>
+													<DATA null="true"/>
+												</InternalOfficeNumber>
+												<InternalMailstop>
+													<DATA null="true"/>
+												</InternalMailstop>
+												<SystemPersonType>
+													<DATA>EMP</DATA>
+												</SystemPersonType>
+												<PersonTypeId>
+													<DATA>100010025072012</DATA>
+												</PersonTypeId>
+												<CollectiveAgreementId>
+													<DATA null="true"/>
+												</CollectiveAgreementId>
+												<ContractId>
+													<DATA>300100017774577</DATA>
+												</ContractId>
+												<LabourUnionMemberFlag>
+													<DATA>N</DATA>
+												</LabourUnionMemberFlag>
+												<BargainingUnitCode>
+													<DATA null="true"/>
+												</BargainingUnitCode>
+												<CagrIdFlexNum>
+													<DATA null="true"/>
+												</CagrIdFlexNum>
+												<CagrGradeDefId>
+													<DATA null="true"/>
+												</CagrGradeDefId>
+												<SetOfBooksId>
+													<DATA null="true"/>
+												</SetOfBooksId>
+												<DefaultCodeCombId>
+													<DATA null="true"/>
+												</DefaultCodeCombId>
+												<EstablishmentId>
+													<DATA null="true"/>
+												</EstablishmentId>
+												<JobPostSourceName>
+													<DATA null="true"/>
+												</JobPostSourceName>
+												<ProjectTitle>
+													<DATA null="true"/>
+												</ProjectTitle>
+												<VendorEmployeeNumber>
+													<DATA null="true"/>
+												</VendorEmployeeNumber>
+												<VendorAssignmentNumber>
+													<DATA null="true"/>
+												</VendorAssignmentNumber>
+												<VendorSiteId>
+													<DATA null="true"/>
+												</VendorSiteId>
+												<VendorId>
+													<DATA null="true"/>
+												</VendorId>
+												<ProjectedAssignmentEnd>
+													<DATA null="true"/>
+												</ProjectedAssignmentEnd>
+												<BillingTitle>
+													<DATA null="true"/>
+												</BillingTitle>
+												<PostingContentId>
+													<DATA null="true"/>
+												</PostingContentId>
+												<VacancyId>
+													<DATA null="true"/>
+												</VacancyId>
+												<SourceType>
+													<DATA null="true"/>
+												</SourceType>
+												<DutiesType>
+													<DATA null="true"/>
+												</DutiesType>
+												<AutoEndFlag>
+													<DATA>N</DATA>
+												</AutoEndFlag>
+												<ParentAssignmentId>
+													<DATA null="true"/>
+												</ParentAssignmentId>
+												<LinkageType>
+													<DATA null="true"/>
+												</LinkageType>
+												<StepEntryDate>
+													<DATA null="true"/>
+												</StepEntryDate>
+												<ProjectedStartDate>
+													<DATA null="true"/>
+												</ProjectedStartDate>
+												<AssAttributeCategory>
+													<DATA null="true"/>
+												</AssAttributeCategory>
+												<TaxAddressId>
+													<DATA null="true"/>
+												</TaxAddressId>
+												<AssAttribute2>
+													<DATA null="true"/>
+												</AssAttribute2>
+												<AssAttribute1>
+													<DATA null="true"/>
+												</AssAttribute1>
+												<AssAttribute4>
+													<DATA null="true"/>
+												</AssAttribute4>
+												<AssAttribute3>
+													<DATA null="true"/>
+												</AssAttribute3>
+												<AssAttribute6>
+													<DATA null="true"/>
+												</AssAttribute6>
+												<AssAttribute5>
+													<DATA null="true"/>
+												</AssAttribute5>
+												<AssAttribute8>
+													<DATA null="true"/>
+												</AssAttribute8>
+												<AssAttribute7>
+													<DATA null="true"/>
+												</AssAttribute7>
+												<AssAttribute10>
+													<DATA null="true"/>
+												</AssAttribute10>
+												<AssAttribute9>
+													<DATA null="true"/>
+												</AssAttribute9>
+												<AssAttribute12>
+													<DATA null="true"/>
+												</AssAttribute12>
+												<AssAttribute11>
+													<DATA null="true"/>
+												</AssAttribute11>
+												<AssAttribute14>
+													<DATA null="true"/>
+												</AssAttribute14>
+												<AssAttribute13>
+													<DATA null="true"/>
+												</AssAttribute13>
+												<AssAttribute16>
+													<DATA null="true"/>
+												</AssAttribute16>
+												<AssAttribute15>
+													<DATA null="true"/>
+												</AssAttribute15>
+												<AssAttribute18>
+													<DATA null="true"/>
+												</AssAttribute18>
+												<AssAttribute17>
+													<DATA null="true"/>
+												</AssAttribute17>
+												<AssAttribute20>
+													<DATA null="true"/>
+												</AssAttribute20>
+												<AssAttribute19>
+													<DATA null="true"/>
+												</AssAttribute19>
+												<AssAttribute22>
+													<DATA null="true"/>
+												</AssAttribute22>
+												<AssAttribute21>
+													<DATA null="true"/>
+												</AssAttribute21>
+												<AssAttribute24>
+													<DATA null="true"/>
+												</AssAttribute24>
+												<AssAttribute23>
+													<DATA null="true"/>
+												</AssAttribute23>
+												<AssAttribute26>
+													<DATA null="true"/>
+												</AssAttribute26>
+												<AssAttribute25>
+													<DATA null="true"/>
+												</AssAttribute25>
+												<AssAttribute28>
+													<DATA null="true"/>
+												</AssAttribute28>
+												<AssAttribute27>
+													<DATA null="true"/>
+												</AssAttribute27>
+												<AssAttribute30>
+													<DATA null="true"/>
+												</AssAttribute30>
+												<AssAttribute29>
+													<DATA null="true"/>
+												</AssAttribute29>
+												<AssAttribute32>
+													<DATA null="true"/>
+												</AssAttribute32>
+												<AssAttribute31>
+													<DATA null="true"/>
+												</AssAttribute31>
+												<AssAttribute34>
+													<DATA null="true"/>
+												</AssAttribute34>
+												<AssAttribute33>
+													<DATA null="true"/>
+												</AssAttribute33>
+												<AssAttribute36>
+													<DATA null="true"/>
+												</AssAttribute36>
+												<AssAttribute35>
+													<DATA null="true"/>
+												</AssAttribute35>
+												<AssAttribute38>
+													<DATA null="true"/>
+												</AssAttribute38>
+												<AssAttribute37>
+													<DATA null="true"/>
+												</AssAttribute37>
+												<AssAttribute40>
+													<DATA null="true"/>
+												</AssAttribute40>
+												<AssAttribute39>
+													<DATA null="true"/>
+												</AssAttribute39>
+												<AssAttribute42>
+													<DATA null="true"/>
+												</AssAttribute42>
+												<AssAttribute41>
+													<DATA null="true"/>
+												</AssAttribute41>
+												<AssAttribute44>
+													<DATA null="true"/>
+												</AssAttribute44>
+												<AssAttribute43>
+													<DATA null="true"/>
+												</AssAttribute43>
+												<AssAttribute46>
+													<DATA null="true"/>
+												</AssAttribute46>
+												<AssAttribute45>
+													<DATA null="true"/>
+												</AssAttribute45>
+												<AssAttribute48>
+													<DATA null="true"/>
+												</AssAttribute48>
+												<AssAttribute47>
+													<DATA null="true"/>
+												</AssAttribute47>
+												<AssAttribute50>
+													<DATA null="true"/>
+												</AssAttribute50>
+												<AssAttribute49>
+													<DATA null="true"/>
+												</AssAttribute49>
+												<CreatedBy>
+													<DATA>ZPER-ORG_HRS01</DATA>
+												</CreatedBy>
+												<ObjectVersionNumber>
+													<DATA>9</DATA>
+												</ObjectVersionNumber>
+												<LastUpdateDate>
+													<DATA>2018-03-09 12:02:01.268</DATA>
+												</LastUpdateDate>
+												<CreationDate>
+													<DATA>2013-01-04 02:37:28.671</DATA>
+												</CreationDate>
+												<LastUpdatedBy>
+													<DATA>VMOSS</DATA>
+												</LastUpdatedBy>
+												<LastUpdateLogin>
+													<DATA>66F923FD712E0FB3E0539D95F50A046C</DATA>
+												</LastUpdateLogin>
+												<RecordCreator>
+													<DATA>Promotions</DATA>
+												</RecordCreator>
+												<ProposedWorkerType>
+													<DATA null="true"/>
+												</ProposedWorkerType>
+												<RetirementAge>
+													<DATA null="true"/>
+												</RetirementAge>
+												<RetirementDate>
+													<DATA null="true"/>
+												</RetirementDate>
+												<PositionOverrideFlag>
+													<DATA>N</DATA>
+												</PositionOverrideFlag>
+												<ActionOccurrenceId>
+													<DATA>300100125259930</DATA>
+												</ActionOccurrenceId>
+												<SoftCodingKeyflexId>
+													<DATA null="true"/>
+												</SoftCodingKeyflexId>
+												<AllowAsgOverrideFlag>
+													<DATA>N</DATA>
+												</AllowAsgOverrideFlag>
+												<AssAttributeNumber1>
+													<DATA null="true"/>
+												</AssAttributeNumber1>
+												<AssAttributeNumber2>
+													<DATA null="true"/>
+												</AssAttributeNumber2>
+												<AssAttributeNumber3>
+													<DATA null="true"/>
+												</AssAttributeNumber3>
+												<AssAttributeNumber4>
+													<DATA null="true"/>
+												</AssAttributeNumber4>
+												<AssAttributeNumber5>
+													<DATA null="true"/>
+												</AssAttributeNumber5>
+												<AssAttributeNumber6>
+													<DATA null="true"/>
+												</AssAttributeNumber6>
+												<AssAttributeNumber7>
+													<DATA null="true"/>
+												</AssAttributeNumber7>
+												<AssAttributeNumber8>
+													<DATA null="true"/>
+												</AssAttributeNumber8>
+												<AssAttributeNumber9>
+													<DATA null="true"/>
+												</AssAttributeNumber9>
+												<AssAttributeNumber10>
+													<DATA null="true"/>
+												</AssAttributeNumber10>
+												<AssAttributeNumber11>
+													<DATA null="true"/>
+												</AssAttributeNumber11>
+												<AssAttributeNumber12>
+													<DATA null="true"/>
+												</AssAttributeNumber12>
+												<AssAttributeNumber13>
+													<DATA null="true"/>
+												</AssAttributeNumber13>
+												<AssAttributeNumber14>
+													<DATA null="true"/>
+												</AssAttributeNumber14>
+												<AssAttributeNumber15>
+													<DATA null="true"/>
+												</AssAttributeNumber15>
+												<AssAttributeNumber16>
+													<DATA null="true"/>
+												</AssAttributeNumber16>
+												<AssAttributeNumber17>
+													<DATA null="true"/>
+												</AssAttributeNumber17>
+												<AssAttributeNumber18>
+													<DATA null="true"/>
+												</AssAttributeNumber18>
+												<AssAttributeNumber19>
+													<DATA null="true"/>
+												</AssAttributeNumber19>
+												<AssAttributeNumber20>
+													<DATA null="true"/>
+												</AssAttributeNumber20>
+												<AssAttributeDate1>
+													<DATA null="true"/>
+												</AssAttributeDate1>
+												<AssAttributeDate2>
+													<DATA null="true"/>
+												</AssAttributeDate2>
+												<AssAttributeDate3>
+													<DATA null="true"/>
+												</AssAttributeDate3>
+												<AssAttributeDate4>
+													<DATA null="true"/>
+												</AssAttributeDate4>
+												<AssAttributeDate5>
+													<DATA null="true"/>
+												</AssAttributeDate5>
+												<AssAttributeDate6>
+													<DATA null="true"/>
+												</AssAttributeDate6>
+												<AssAttributeDate7>
+													<DATA null="true"/>
+												</AssAttributeDate7>
+												<AssAttributeDate8>
+													<DATA null="true"/>
+												</AssAttributeDate8>
+												<AssAttributeDate9>
+													<DATA null="true"/>
+												</AssAttributeDate9>
+												<AssAttributeDate10>
+													<DATA null="true"/>
+												</AssAttributeDate10>
+												<AssAttributeDate11>
+													<DATA null="true"/>
+												</AssAttributeDate11>
+												<AssAttributeDate12>
+													<DATA null="true"/>
+												</AssAttributeDate12>
+												<AssAttributeDate13>
+													<DATA null="true"/>
+												</AssAttributeDate13>
+												<AssAttributeDate14>
+													<DATA null="true"/>
+												</AssAttributeDate14>
+												<AssAttributeDate15>
+													<DATA null="true"/>
+												</AssAttributeDate15>
+												<AsgInformationCategory>
+													<DATA>US</DATA>
+												</AsgInformationCategory>
+												<AsgInformation1>
+													<DATA null="true"/>
+												</AsgInformation1>
+												<AsgInformation2>
+													<DATA null="true"/>
+												</AsgInformation2>
+												<AsgInformation3>
+													<DATA null="true"/>
+												</AsgInformation3>
+												<AsgInformation4>
+													<DATA null="true"/>
+												</AsgInformation4>
+												<AsgInformation5>
+													<DATA null="true"/>
+												</AsgInformation5>
+												<AsgInformation6>
+													<DATA null="true"/>
+												</AsgInformation6>
+												<AsgInformation7>
+													<DATA null="true"/>
+												</AsgInformation7>
+												<AsgInformation8>
+													<DATA null="true"/>
+												</AsgInformation8>
+												<AsgInformation9>
+													<DATA null="true"/>
+												</AsgInformation9>
+												<AsgInformation10>
+													<DATA null="true"/>
+												</AsgInformation10>
+												<AsgInformation11>
+													<DATA null="true"/>
+												</AsgInformation11>
+												<AsgInformation12>
+													<DATA null="true"/>
+												</AsgInformation12>
+												<AsgInformation13>
+													<DATA null="true"/>
+												</AsgInformation13>
+												<AsgInformation14>
+													<DATA null="true"/>
+												</AsgInformation14>
+												<AsgInformation15>
+													<DATA null="true"/>
+												</AsgInformation15>
+												<AsgInformation16>
+													<DATA null="true"/>
+												</AsgInformation16>
+												<AsgInformation17>
+													<DATA null="true"/>
+												</AsgInformation17>
+												<AsgInformation18>
+													<DATA null="true"/>
+												</AsgInformation18>
+												<AsgInformation19>
+													<DATA null="true"/>
+												</AsgInformation19>
+												<AsgInformation20>
+													<DATA null="true"/>
+												</AsgInformation20>
+												<AsgInformation21>
+													<DATA null="true"/>
+												</AsgInformation21>
+												<AsgInformation22>
+													<DATA null="true"/>
+												</AsgInformation22>
+												<AsgInformation23>
+													<DATA null="true"/>
+												</AsgInformation23>
+												<AsgInformation24>
+													<DATA null="true"/>
+												</AsgInformation24>
+												<AsgInformation25>
+													<DATA null="true"/>
+												</AsgInformation25>
+												<AsgInformation26>
+													<DATA null="true"/>
+												</AsgInformation26>
+												<AsgInformation27>
+													<DATA null="true"/>
+												</AsgInformation27>
+												<AsgInformation28>
+													<DATA null="true"/>
+												</AsgInformation28>
+												<AsgInformation29>
+													<DATA null="true"/>
+												</AsgInformation29>
+												<AsgInformation30>
+													<DATA null="true"/>
+												</AsgInformation30>
+												<AsgInformation31>
+													<DATA null="true"/>
+												</AsgInformation31>
+												<AsgInformation32>
+													<DATA null="true"/>
+												</AsgInformation32>
+												<AsgInformation33>
+													<DATA null="true"/>
+												</AsgInformation33>
+												<AsgInformation34>
+													<DATA null="true"/>
+												</AsgInformation34>
+												<AsgInformation35>
+													<DATA null="true"/>
+												</AsgInformation35>
+												<AsgInformation36>
+													<DATA null="true"/>
+												</AsgInformation36>
+												<AsgInformation37>
+													<DATA null="true"/>
+												</AsgInformation37>
+												<AsgInformation38>
+													<DATA null="true"/>
+												</AsgInformation38>
+												<AsgInformation39>
+													<DATA null="true"/>
+												</AsgInformation39>
+												<AsgInformation40>
+													<DATA null="true"/>
+												</AsgInformation40>
+												<AsgInformation41>
+													<DATA null="true"/>
+												</AsgInformation41>
+												<AsgInformation42>
+													<DATA null="true"/>
+												</AsgInformation42>
+												<AsgInformation43>
+													<DATA null="true"/>
+												</AsgInformation43>
+												<AsgInformation44>
+													<DATA null="true"/>
+												</AsgInformation44>
+												<AsgInformation45>
+													<DATA null="true"/>
+												</AsgInformation45>
+												<AsgInformation46>
+													<DATA null="true"/>
+												</AsgInformation46>
+												<AsgInformation47>
+													<DATA null="true"/>
+												</AsgInformation47>
+												<AsgInformation48>
+													<DATA null="true"/>
+												</AsgInformation48>
+												<AsgInformation49>
+													<DATA null="true"/>
+												</AsgInformation49>
+												<AsgInformation50>
+													<DATA null="true"/>
+												</AsgInformation50>
+												<AsgInformationNumber1>
+													<DATA null="true"/>
+												</AsgInformationNumber1>
+												<AsgInformationNumber2>
+													<DATA null="true"/>
+												</AsgInformationNumber2>
+												<AsgInformationNumber3>
+													<DATA null="true"/>
+												</AsgInformationNumber3>
+												<AsgInformationNumber4>
+													<DATA null="true"/>
+												</AsgInformationNumber4>
+												<AsgInformationNumber5>
+													<DATA null="true"/>
+												</AsgInformationNumber5>
+												<AsgInformationNumber6>
+													<DATA null="true"/>
+												</AsgInformationNumber6>
+												<AsgInformationNumber7>
+													<DATA null="true"/>
+												</AsgInformationNumber7>
+												<AsgInformationNumber8>
+													<DATA null="true"/>
+												</AsgInformationNumber8>
+												<AsgInformationNumber9>
+													<DATA null="true"/>
+												</AsgInformationNumber9>
+												<AsgInformationNumber10>
+													<DATA null="true"/>
+												</AsgInformationNumber10>
+												<AsgInformationNumber11>
+													<DATA null="true"/>
+												</AsgInformationNumber11>
+												<AsgInformationNumber12>
+													<DATA null="true"/>
+												</AsgInformationNumber12>
+												<AsgInformationNumber13>
+													<DATA null="true"/>
+												</AsgInformationNumber13>
+												<AsgInformationNumber14>
+													<DATA null="true"/>
+												</AsgInformationNumber14>
+												<AsgInformationNumber15>
+													<DATA null="true"/>
+												</AsgInformationNumber15>
+												<AsgInformationNumber16>
+													<DATA null="true"/>
+												</AsgInformationNumber16>
+												<AsgInformationNumber17>
+													<DATA null="true"/>
+												</AsgInformationNumber17>
+												<AsgInformationNumber18>
+													<DATA null="true"/>
+												</AsgInformationNumber18>
+												<AsgInformationNumber19>
+													<DATA null="true"/>
+												</AsgInformationNumber19>
+												<AsgInformationNumber20>
+													<DATA null="true"/>
+												</AsgInformationNumber20>
+												<AsgInformationDate1>
+													<DATA null="true"/>
+												</AsgInformationDate1>
+												<AsgInformationDate2>
+													<DATA null="true"/>
+												</AsgInformationDate2>
+												<AsgInformationDate3>
+													<DATA null="true"/>
+												</AsgInformationDate3>
+												<AsgInformationDate4>
+													<DATA null="true"/>
+												</AsgInformationDate4>
+												<AsgInformationDate5>
+													<DATA null="true"/>
+												</AsgInformationDate5>
+												<AsgInformationDate6>
+													<DATA null="true"/>
+												</AsgInformationDate6>
+												<AsgInformationDate7>
+													<DATA null="true"/>
+												</AsgInformationDate7>
+												<AsgInformationDate8>
+													<DATA null="true"/>
+												</AsgInformationDate8>
+												<AsgInformationDate9>
+													<DATA null="true"/>
+												</AsgInformationDate9>
+												<AsgInformationDate10>
+													<DATA null="true"/>
+												</AsgInformationDate10>
+												<AsgInformationDate11>
+													<DATA null="true"/>
+												</AsgInformationDate11>
+												<AsgInformationDate12>
+													<DATA null="true"/>
+												</AsgInformationDate12>
+												<AsgInformationDate13>
+													<DATA null="true"/>
+												</AsgInformationDate13>
+												<AsgInformationDate14>
+													<DATA null="true"/>
+												</AsgInformationDate14>
+												<AsgInformationDate15>
+													<DATA null="true"/>
+												</AsgInformationDate15>
+												<FreezeStartDate>
+													<DATA>4712-12-31</DATA>
+												</FreezeStartDate>
+												<FreezeUntilDate>
+													<DATA>0001-01-01</DATA>
+												</FreezeUntilDate>
+												<IdFlexNum>
+													<DATA>63</DATA>
+												</IdFlexNum>
+												<SkipDefaultingFlag>
+													<DATA>false</DATA>
+												</SkipDefaultingFlag>
+												<CategoryCode>
+													<DATA>PER_ASG_EIT</DATA>
+												</CategoryCode>
+												<FullPartTime>
+													<DATA null="true"/>
+												</FullPartTime>
+												<PermanentTemporaryFlag>
+													<DATA null="true"/>
+												</PermanentTemporaryFlag>
+												<GspEligibilityFlag>
+													<DATA>Y</DATA>
+												</GspEligibilityFlag>
+												<UnionId>
+													<DATA null="true"/>
+												</UnionId>
+												<SeniorityBasis>
+													<DATA null="true"/>
+												</SeniorityBasis>
+												<OvertimePeriod>
+													<DATA null="true"/>
+												</OvertimePeriod>
+												<ProjectedEndDatePopulated>
+													<DATA>No</DATA>
+												</ProjectedEndDatePopulated>
+												<JobLov>
+													<DATA>HCM-ADM Job 410-Business Project Supervisor</DATA>
+												</JobLov>
+												<GradeLov>
+													<DATA>IC4-Individual Contributor Pay Grade 04</DATA>
+												</GradeLov>
+												<HeadValue>
+													<DATA>1</DATA>
+												</HeadValue>
+												<IsHeadModified>
+													<DATA null="true"/>
+												</IsHeadModified>
+												<GradeStep>
+													<DATA null="true"/>
+												</GradeStep>
+												<GradeStepId>
+													<DATA null="true"/>
+												</GradeStepId>
+												<OldGradeId>
+													<DATA null="true"/>
+												</OldGradeId>
+												<JobSetId>
+													<DATA>100000011627180</DATA>
+												</JobSetId>
+												<LocationSetId>
+													<DATA>100000011593147</DATA>
+												</LocationSetId>
+												<GradeSetId>
+													<DATA>0</DATA>
+												</GradeSetId>
+												<DepartmentSetId>
+													<DATA>100000011627178</DATA>
+												</DepartmentSetId>
+												<DfltCcidFlexNum>
+													<DATA null="true"/>
+												</DfltCcidFlexNum>
+												<DEEOData>
+													<EffCopiedRow>true</EffCopiedRow>
+													<RemoveCalledFlag>false</RemoveCalledFlag>
+													<SettersDirted>true</SettersDirted>
+													<InImmediateMode>true</InImmediateMode>
+													<LastAppliedDEMode>-1</LastAppliedDEMode>
+													<DeLockMode>0</DeLockMode>
+													<NotifyToDeEvents>true</NotifyToDeEvents>
+													<VSD>2018-04-25</VSD>
+													<VED>4712-12-31</VED>
+													<VARefreshSet>{300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 444, 445, 446, 447, 448, 449, 459, 460, 461, 462, 463, 464}</VARefreshSet>
+												</DEEOData>
+												<PER_EMCOR_ASSIGNMENTDEOData>
+													<tierType>3</tierType>
+												</PER_EMCOR_ASSIGNMENTDEOData>
+											</EmployeeAssignmentDEORow>
+										</EO>
+									</CEO>
+									<DEEOData>
+										<EffCopiedRow>true</EffCopiedRow>
+										<RemoveCalledFlag>false</RemoveCalledFlag>
+										<SettersDirted>false</SettersDirted>
+										<InImmediateMode>true</InImmediateMode>
+										<LastAppliedDEMode>-1</LastAppliedDEMode>
+										<DeLockMode>0</DeLockMode>
+										<NotifyToDeEvents>true</NotifyToDeEvents>
+										<VSD>2018-04-25</VSD>
+										<VED>4712-12-31</VED>
+										<VARefreshSet>{340}</VARefreshSet>
+									</DEEOData>
+									<PER_EMCOR_TermsDEEOData>
+										<tierType>3</tierType>
+										<assignmentOverrideFlag>Y</assignmentOverrideFlag>
+										<deCopyrowIsHappening>false</deCopyrowIsHappening>
+										<setOnTermsFlag>false</setOnTermsFlag>
+									</PER_EMCOR_TermsDEEOData>
+								</EmployeeTermsDEORow>
+							</EO>
+							<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeTermsDEO">
+								<![CDATA[00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162080EA400780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159]]>
+								<EmployeeTermsDEORow PS="2" Hdl="26" PK="Y" EFFDT="2018-04-24" AV="">
+									<EffectiveEndDate>
+										<DATA>2018-04-24</DATA>
+									</EffectiveEndDate>
+									<ObjectVersionNumber>
+										<DATA>6</DATA>
+									</ObjectVersionNumber>
+									<LastUpdateDate>
+										<DATA>2018-03-09 12:02:00.558</DATA>
+									</LastUpdateDate>
+									<LastUpdatedBy>
+										<DATA>VMOSS</DATA>
+									</LastUpdatedBy>
+									<LastUpdateLogin>
+										<DATA>66F923FD712E0FB3E0539D95F50A046C</DATA>
+									</LastUpdateLogin>
+									<CEO>
+										<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeAssignmentDEO">
+											<![CDATA[00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162080EA400780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159]]>
+											<EmployeeAssignmentDEORow PS="2" Hdl="27" PK="Y" EFFDT="2018-04-24" AV="">
+												<EffectiveEndDate>
+													<DATA>2018-04-24</DATA>
+												</EffectiveEndDate>
+												<ObjectVersionNumber>
+													<DATA>7</DATA>
+												</ObjectVersionNumber>
+												<LastUpdateDate>
+													<DATA>2018-03-09 12:02:01.268</DATA>
+												</LastUpdateDate>
+												<LastUpdatedBy>
+													<DATA>VMOSS</DATA>
+												</LastUpdatedBy>
+												<LastUpdateLogin>
+													<DATA>66F923FD712E0FB3E0539D95F50A046C</DATA>
+												</LastUpdateLogin>
+												<DEEOData>
+													<EffCopiedRow>false</EffCopiedRow>
+													<RemoveCalledFlag>false</RemoveCalledFlag>
+													<SettersDirted>false</SettersDirted>
+													<InImmediateMode>true</InImmediateMode>
+													<LastAppliedDEMode>2</LastAppliedDEMode>
+													<DeLockMode>0</DeLockMode>
+													<NotifyToDeEvents>true</NotifyToDeEvents>
+													<VSD>2018-03-09</VSD>
+													<VED>2018-04-24</VED>
+													<VARefreshSet>{340, 447}</VARefreshSet>
+												</DEEOData>
+												<DEEventData>
+													<EventDEOData RowKey="00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162080EA400780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162F4F32C00780000000AACED00057704000000010000000159" DMLType="UPDATE">
+														<EODefName>oracle.apps.hcm.employment.core.publicModel.entity.EmployeeAssignmentDEO</EODefName>
+														<LogicalChange>false</LogicalChange>
+														<PhysicalChange>true</PhysicalChange>
+														<Sealed>true</Sealed>
+														<EventEOAttrData>
+															<AssAttributeNumber3/>
+															<AssAttributeNumber2/>
+															<NormalHours>
+																<oldValue>40</oldValue>
+																<newValue>40</newValue>
+															</NormalHours>
+															<AssAttributeNumber1/>
+															<AssignmentId>
+																<oldValue>300100017774572</oldValue>
+																<newValue>300100017774572</newValue>
+															</AssignmentId>
+															<HourlySalariedCode/>
+															<AssAttribute36/>
+															<AssAttribute37/>
+															<AssAttribute34/>
+															<AssAttribute35/>
+															<AssAttribute32/>
+															<AssAttribute33/>
+															<AssAttribute30/>
+															<AssAttribute31/>
+															<AsgInformation12/>
+															<AsgInformation13/>
+															<AsgInformation14/>
+															<AsgInformation15/>
+															<AsgInformation16/>
+															<LocationName/>
+															<AssAttribute29/>
+															<AsgInformation17/>
+															<AssAttribute28/>
+															<AsgInformation18/>
+															<AsgInformation19/>
+															<AssAttribute27/>
+															<PositionId>
+																<oldValue>100000012001575</oldValue>
+																<newValue>100000012001575</newValue>
+															</PositionId>
+															<AssAttributeNumber8/>
+															<PoLineId/>
+															<Frequency>
+																<oldValue>W</oldValue>
+																<newValue>W</newValue>
+															</Frequency>
+															<AssAttributeNumber9/>
+															<UnionId/>
+															<AssAttributeNumber6/>
+															<AssAttributeNumber7/>
+															<AsgInformation10/>
+															<AssAttributeNumber4/>
+															<AsgInformation11/>
+															<AssAttributeNumber5/>
+															<AssAttributeDate14/>
+															<AssAttributeDate15/>
+															<AssAttribute40/>
+															<AssAttributeDate10/>
+															<AssAttributeDate11/>
+															<AssAttributeDate12/>
+															<AssAttributeDate13/>
+															<AssAttribute45/>
+															<RetirementAge/>
+															<AssAttribute46/>
+															<AssAttribute47/>
+															<BlankOutAttrs/>
+															<AssAttribute48/>
+															<AssAttribute41/>
+															<AssAttribute42/>
+															<AssAttribute43/>
+															<AssAttribute44/>
+															<AssAttribute39/>
+															<PersonId>
+																<oldValue>300100017774467</oldValue>
+																<newValue>300100017774467</newValue>
+															</PersonId>
+															<AssAttribute38/>
+															<ApplicantRank/>
+															<PersonTypeId>
+																<oldValue>100010025072012</oldValue>
+																<newValue>100010025072012</newValue>
+															</PersonTypeId>
+															<ProbationEndDateChanged/>
+															<AssignmentStatusType>
+																<oldValue>ACTIVE</oldValue>
+																<newValue>ACTIVE</newValue>
+															</AssignmentStatusType>
+															<SourceSystemOwner/>
+															<InternalOfficeNumber/>
+															<EffectiveStartDate>
+																<oldValue>2018-03-09</oldValue>
+																<newValue>2018-03-09</newValue>
+															</EffectiveStartDate>
+															<AsgInformationNumber19/>
+															<AssAttribute10/>
+															<PrimaryAssignmentFlag>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</PrimaryAssignmentFlag>
+															<AsgInformationNumber18/>
+															<AssAttribute11/>
+															<SpecialCeilingStepId/>
+															<AsgInformationNumber17/>
+															<AsgInformationNumber16/>
+															<ParentAssignmentId/>
+															<AsgInformationNumber15/>
+															<AssAttribute14/>
+															<AsgInformationNumber14/>
+															<AssAttribute15/>
+															<AsgInformationNumber13/>
+															<AssAttribute12/>
+															<AsgInformationNumber12/>
+															<AssAttribute13/>
+															<AsgInformationNumber11/>
+															<AsgInformation9/>
+															<AsgInformationNumber20/>
+															<SourceSystemId/>
+															<AsgInformation7/>
+															<PersonReferredById/>
+															<AsgInformation8/>
+															<VendorAssignmentNumber/>
+															<BillingTitle/>
+															<PeopleGroupId/>
+															<WorkTermsAssignmentId>
+																<oldValue>300100017774567</oldValue>
+																<newValue>300100017774567</newValue>
+															</WorkTermsAssignmentId>
+															<ProjectedAssignmentEnd/>
+															<RecruiterId/>
+															<GradeStep/>
+															<AssAttribute20/>
+															<AssAttribute21/>
+															<AssAttribute22/>
+															<AssAttribute23/>
+															<AssAttribute24/>
+															<AssAttribute25/>
+															<DepartmentSetId/>
+															<AssAttribute26/>
+															<CagrGradeDefId/>
+															<AssAttribute17/>
+															<AssAttribute16/>
+															<AssAttribute19/>
+															<AsgInformationNumber10/>
+															<AssAttribute18/>
+															<EffectiveEndDate>
+																<oldValue>4712-12-31</oldValue>
+																<newValue>2018-04-24</newValue>
+															</EffectiveEndDate>
+															<DateProbationEnd>
+																<oldValue>2000-12-31</oldValue>
+																<newValue>2000-12-31</newValue>
+															</DateProbationEnd>
+															<CollectiveAgreementId/>
+															<IsPositionModified/>
+															<IsFteModified/>
+															<CategoryCode>
+																<oldValue>PER_ASG_EIT</oldValue>
+																<newValue>PER_ASG_EIT</newValue>
+															</CategoryCode>
+															<SystemPersonType>
+																<oldValue>EMP</oldValue>
+																<newValue>EMP</newValue>
+															</SystemPersonType>
+															<ActionOccurrenceIdPopulatedFlag/>
+															<AsgInformationDate10/>
+															<AsgInformationDate11/>
+															<AsgInformationDate12/>
+															<AsgInformationDate13/>
+															<SoftCodingKeyflexId/>
+															<GradeId/>
+															<AsgInformation50/>
+															<AsgInformationDate14/>
+															<AsgInformationDate15/>
+															<AsgInformation3/>
+															<AsgInformation4/>
+															<AsgInformation5/>
+															<AsgInformation6/>
+															<AsgInformation1/>
+															<AsgInformation2/>
+															<AutoEndFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</AutoEndFlag>
+															<IdFlexNum>
+																<oldValue>63</oldValue>
+																<newValue>63</newValue>
+															</IdFlexNum>
+															<AsgInformation47/>
+															<AsgInformation48/>
+															<AsgInformation45/>
+															<AsgInformation46/>
+															<IsHeadModified/>
+															<VendorId/>
+															<AsgInformation49/>
+															<PeriodOfServiceId>
+																<oldValue>300100017774566</oldValue>
+																<newValue>300100017774566</newValue>
+															</PeriodOfServiceId>
+															<FreezeStartDate>
+																<oldValue>4712-12-31</oldValue>
+																<newValue>4712-12-31</newValue>
+															</FreezeStartDate>
+															<AsgInformation40/>
+															<AsgInformation43/>
+															<AsgInformation44/>
+															<AsgInformation41/>
+															<AsgInformation42/>
+															<TimeNormalFinish>
+																<oldValue>17:00</oldValue>
+																<newValue>17:00</newValue>
+															</TimeNormalFinish>
+															<LegalEntityId>
+																<oldValue>100000011593321</oldValue>
+																<newValue>100000011593321</newValue>
+															</LegalEntityId>
+															<PoHeaderId/>
+															<PositionOverrideFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</PositionOverrideFlag>
+															<ActionOccurrenceId>
+																<oldValue>300100124569007</oldValue>
+																<newValue>300100124569007</newValue>
+															</ActionOccurrenceId>
+															<JobLov/>
+															<AsgInformation38/>
+															<AsgInformation39/>
+															<ExpenseCheckSendToAddress/>
+															<AsgInformation34/>
+															<AsgInformation35/>
+															<AsgInformation36/>
+															<AsgInformation37/>
+															<RecordCreator>
+																<oldValue>Promotions</oldValue>
+																<newValue>Promotions</newValue>
+															</RecordCreator>
+															<AsgInformation30/>
+															<DfltCcidFlexNum/>
+															<AsgInformation31/>
+															<AsgInformation32/>
+															<AsgInformation33/>
+															<AssAttributeDate9/>
+															<InternalBuilding/>
+															<AsgInformationDate9/>
+															<AsgInformationDate7/>
+															<AsgInformationDate8/>
+															<AsgInformationDate5/>
+															<BusinessUnitId>
+																<oldValue>100010025072009</oldValue>
+																<newValue>100010025072009</newValue>
+															</BusinessUnitId>
+															<AsgInformationDate6/>
+															<AsgInformation29/>
+															<SkipDefaultingFlag/>
+															<AsgInformation27/>
+															<AsgInformation28/>
+															<AsgInformation25/>
+															<ProposedWorkerType/>
+															<AsgInformation26/>
+															<FreezeUntilDate>
+																<oldValue>0001-01-01</oldValue>
+																<newValue>0001-01-01</newValue>
+															</FreezeUntilDate>
+															<AsgInformation23/>
+															<AsgInformation24/>
+															<AsgInformationDate4/>
+															<AsgInformation21/>
+															<AssAttributeDate2/>
+															<AsgInformationDate3/>
+															<AsgInformation22/>
+															<AssAttributeDate1/>
+															<AssAttributeDate4/>
+															<AsgInformationDate2/>
+															<AssAttributeDate3/>
+															<AsgInformation20/>
+															<AsgInformationDate1/>
+															<AssAttributeDate6/>
+															<AssAttributeDate5/>
+															<AssAttributeDate8/>
+															<AssAttributeDate7/>
+															<JobPostSourceName/>
+															<ProjectedStartDate/>
+															<PrimaryFlag>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</PrimaryFlag>
+															<ActionCode>
+																<oldValue>PROMOTION</oldValue>
+																<newValue>PROMOTION</newValue>
+															</ActionCode>
+															<ProbationPeriod>
+																<oldValue>1</oldValue>
+																<newValue>1</newValue>
+															</ProbationPeriod>
+															<GradeLov/>
+															<EmployeeCategory/>
+															<IsLocationChange/>
+															<SeniorityBasis/>
+															<ProbationUnit>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</ProbationUnit>
+															<ProbationUnitChanged/>
+															<FullPartTime/>
+															<ContractId>
+																<oldValue>300100017774577</oldValue>
+																<newValue>300100017774577</newValue>
+															</ContractId>
+															<DefaultCodeCombId/>
+															<OrganizationName/>
+															<LocationId/>
+															<BargainingUnitCode/>
+															<VacancyId/>
+															<TimeNormalStart>
+																<oldValue>08:00</oldValue>
+																<newValue>08:00</newValue>
+															</TimeNormalStart>
+															<VendorSiteId/>
+															<GUID/>
+															<AsgInformationCategory>
+																<oldValue>US</oldValue>
+																<newValue>US</newValue>
+															</AsgInformationCategory>
+															<WorkAtHome>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</WorkAtHome>
+															<AssAttributeNumber20/>
+															<BusinessGroupId>
+																<oldValue>100010025071996</oldValue>
+																<newValue>100010025071996</newValue>
+															</BusinessGroupId>
+															<AsgInformationNumber8/>
+															<AsgInformationNumber9/>
+															<IsOrganizationChange/>
+															<AsgInformationNumber1/>
+															<AsgInformationNumber2/>
+															<IsJobChange/>
+															<AsgInformationNumber3/>
+															<AsgInformationNumber4/>
+															<AsgInformationNumber5/>
+															<AsgInformationNumber6/>
+															<GradeSetId/>
+															<NoticePeriod/>
+															<AsgInformationNumber7/>
+															<AssAttributeNumber19/>
+															<SalReviewPeriodFrequency/>
+															<RecruitmentActivityId/>
+															<AssAttributeNumber15/>
+															<AssAttributeNumber16/>
+															<EffectiveLatestChange>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</EffectiveLatestChange>
+															<AssAttributeNumber17/>
+															<AssAttributeNumber18/>
+															<InternalMailstop/>
+															<AssAttributeNumber11/>
+															<GradeStepId/>
+															<JobName/>
+															<AssAttributeNumber12/>
+															<AssAttributeNumber13/>
+															<AssAttributeNumber14/>
+															<SourceOrganizationId/>
+															<AssAttributeNumber10/>
+															<EmploymentCategory/>
+															<PrimaryWorkTermsFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</PrimaryWorkTermsFlag>
+															<RetirementDate/>
+															<AssAttribute9/>
+															<LabourUnionMemberFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</LabourUnionMemberFlag>
+															<AssAttribute7/>
+															<AssAttribute8/>
+															<AssAttribute5/>
+															<AssAttribute6/>
+															<AssAttribute3/>
+															<StepEntryDate/>
+															<AssAttribute4/>
+															<AssAttribute1/>
+															<IsPositionChange/>
+															<AssAttribute2/>
+															<EffectiveSequence>
+																<oldValue>1</oldValue>
+																<newValue>1</newValue>
+															</EffectiveSequence>
+															<EstablishmentId/>
+															<ReasonCode>
+																<oldValue>GHR PROMOTE</oldValue>
+																<newValue>GHR PROMOTE</newValue>
+															</ReasonCode>
+															<InternalFloor/>
+															<LinkageType/>
+															<OldGradeId/>
+															<AssignmentType>
+																<oldValue>E</oldValue>
+																<newValue>E</newValue>
+															</AssignmentType>
+															<JobId>
+																<oldValue>100000012001529</oldValue>
+																<newValue>100000012001529</newValue>
+															</JobId>
+															<PrimaryWorkRelationFlag>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</PrimaryWorkRelationFlag>
+															<ProbationPeriodChanged/>
+															<PositionName/>
+															<PermanentTemporaryFlag/>
+															<SalReviewPeriod/>
+															<OvertimePeriod/>
+															<ProjectedEndDatePopulated/>
+															<HeadValue/>
+															<NoticePeriodUom/>
+															<AssignmentName>
+																<oldValue>HCM-ADM Job 410-Business Project Supervisor</oldValue>
+																<newValue>HCM-ADM Job 410-Business Project Supervisor</newValue>
+															</AssignmentName>
+															<InternalLocation/>
+															<SetOfBooksId/>
+															<JobSetId/>
+															<LocationSetId/>
+															<DutiesType/>
+															<AssignmentStatusTypeId>
+																<oldValue>100010026278977</oldValue>
+																<newValue>100010026278977</newValue>
+															</AssignmentStatusTypeId>
+															<VendorEmployeeNumber/>
+															<GradeLadderPgmId/>
+															<GspEligibilityFlag>
+																<oldValue>Y</oldValue>
+																<newValue>Y</newValue>
+															</GspEligibilityFlag>
+															<AssAttribute49/>
+															<LegislationCode>
+																<oldValue>US</oldValue>
+																<newValue>US</newValue>
+															</LegislationCode>
+															<AllowAsgOverrideFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</AllowAsgOverrideFlag>
+															<TaxAddressId/>
+															<ManagerFlag>
+																<oldValue>N</oldValue>
+																<newValue>N</newValue>
+															</ManagerFlag>
+															<AssAttribute50/>
+															<AssignmentSequence>
+																<oldValue>1</oldValue>
+																<newValue>1</newValue>
+															</AssignmentSequence>
+															<ProjectTitle/>
+															<LocationLov/>
+															<SourceType/>
+															<AssignmentNumber>
+																<oldValue>E955169008166607</oldValue>
+																<newValue>E955169008166607</newValue>
+															</AssignmentNumber>
+															<Location/>
+															<OrganizationId>
+																<oldValue>100000011850021</oldValue>
+																<newValue>100000011850021</newValue>
+															</OrganizationId>
+															<PostingContentId/>
+															<AssAttributeCategory/>
+															<CagrIdFlexNum/>
+															<FteValue/>
+															<IsGradeStepModified/>
+														</EventEOAttrData>
+														<LogicalChanges LogicalRowKey="00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000000DC6ACFAC00780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161D9B56800780000000AACED00057704000000010000000159" LogicalStartRowUnModified="true" CopiedRowKey="00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162FA198800780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159" DMLType="UPDATE">
+															<LogicalChange>true</LogicalChange>
+															<PhysicalChange>false</PhysicalChange>
+															<EffectiveMode>2</EffectiveMode>
+															<EffectiveDate>2018-04-25</EffectiveDate>
+															<EventDEType>UPDATE</EventDEType>
+															<EventDEModeName>UPDATE</EventDEModeName>
+															<VSD>2018-04-25</VSD>
+															<VED>4712-12-31</VED>
+															<ExpertLChange>false</ExpertLChange>
+															<ESDChange>false</ESDChange>
+															<EEDChange>false</EEDChange>
+															<ImmediateMode>true</ImmediateMode>
+															<RChange>false</RChange>
+															<RDirection>-1</RDirection>
+															<HasFutureRows>true</HasFutureRows>
+															<IsFirstRow>false</IsFirstRow>
+															<IsLastRow>true</IsLastRow>
+															<EventEOAttrData>
+																<AssAttributeNumber3/>
+																<AssAttributeNumber2/>
+																<NormalHours>
+																	<oldValue>40</oldValue>
+																	<newValue>40</newValue>
+																</NormalHours>
+																<AssAttributeNumber1/>
+																<AssignmentId>
+																	<oldValue>300100017774572</oldValue>
+																	<newValue>300100017774572</newValue>
+																</AssignmentId>
+																<HourlySalariedCode/>
+																<AssAttribute36/>
+																<AssAttribute37/>
+																<AssAttribute34/>
+																<AssAttribute35/>
+																<AssAttribute32/>
+																<AssAttribute33/>
+																<AssAttribute30/>
+																<AssAttribute31/>
+																<AsgInformation12/>
+																<AsgInformation13/>
+																<AsgInformation14/>
+																<AsgInformation15/>
+																<AsgInformation16/>
+																<LocationName/>
+																<AssAttribute29/>
+																<AsgInformation17/>
+																<AssAttribute28/>
+																<AsgInformation18/>
+																<AsgInformation19/>
+																<AssAttribute27/>
+																<PositionId>
+																	<oldValue>100000012001575</oldValue>
+																	<newValue>100000012001575</newValue>
+																</PositionId>
+																<AssAttributeNumber8/>
+																<PoLineId/>
+																<Frequency>
+																	<oldValue>W</oldValue>
+																	<newValue>W</newValue>
+																</Frequency>
+																<AssAttributeNumber9/>
+																<UnionId/>
+																<StartEffectiveLatestChange>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</StartEffectiveLatestChange>
+																<AssAttributeNumber6/>
+																<AssAttributeNumber7/>
+																<AsgInformation10/>
+																<AssAttributeNumber4/>
+																<AsgInformation11/>
+																<AssAttributeNumber5/>
+																<AssAttributeDate14/>
+																<AssAttributeDate15/>
+																<AssAttribute40/>
+																<AssAttributeDate10/>
+																<AssAttributeDate11/>
+																<AssAttributeDate12/>
+																<AssAttributeDate13/>
+																<AssAttribute45/>
+																<RetirementAge/>
+																<AssAttribute46/>
+																<AssAttribute47/>
+																<BlankOutAttrs/>
+																<AssAttribute48/>
+																<AssAttribute41/>
+																<AssAttribute42/>
+																<AssAttribute43/>
+																<AssAttribute44/>
+																<AssAttribute39/>
+																<PersonId>
+																	<oldValue>300100017774467</oldValue>
+																	<newValue>300100017774467</newValue>
+																</PersonId>
+																<AssAttribute38/>
+																<ApplicantRank/>
+																<PersonTypeId>
+																	<oldValue>100010025072012</oldValue>
+																	<newValue>100010025072012</newValue>
+																</PersonTypeId>
+																<ProbationEndDateChanged/>
+																<AssignmentStatusType>
+																	<oldValue>ACTIVE</oldValue>
+																	<newValue>ACTIVE</newValue>
+																</AssignmentStatusType>
+																<SourceSystemOwner/>
+																<InternalOfficeNumber/>
+																<EffectiveStartDate>
+																	<oldValue>2000-01-01</oldValue>
+																	<newValue>2000-01-01</newValue>
+																</EffectiveStartDate>
+																<AsgInformationNumber19/>
+																<AssAttribute10/>
+																<PrimaryAssignmentFlag>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</PrimaryAssignmentFlag>
+																<AsgInformationNumber18/>
+																<AssAttribute11/>
+																<SpecialCeilingStepId/>
+																<AsgInformationNumber17/>
+																<AsgInformationNumber16/>
+																<ParentAssignmentId/>
+																<AsgInformationNumber15/>
+																<AssAttribute14/>
+																<AsgInformationNumber14/>
+																<AssAttribute15/>
+																<AsgInformationNumber13/>
+																<AssAttribute12/>
+																<AsgInformationNumber12/>
+																<AssAttribute13/>
+																<AsgInformationNumber11/>
+																<AsgInformation9/>
+																<AsgInformationNumber20/>
+																<SourceSystemId/>
+																<PersonReferredById/>
+																<AsgInformation7/>
+																<AsgInformation8/>
+																<VendorAssignmentNumber/>
+																<BillingTitle/>
+																<PeopleGroupId/>
+																<WorkTermsAssignmentId>
+																	<oldValue>300100017774567</oldValue>
+																	<newValue>300100017774567</newValue>
+																</WorkTermsAssignmentId>
+																<ProjectedAssignmentEnd/>
+																<GradeStep/>
+																<RecruiterId/>
+																<AssAttribute20/>
+																<AssAttribute21/>
+																<AssAttribute22/>
+																<AssAttribute23/>
+																<AssAttribute24/>
+																<AssAttribute25/>
+																<DepartmentSetId/>
+																<AssAttribute26/>
+																<CagrGradeDefId/>
+																<AssAttribute17/>
+																<AssAttribute16/>
+																<AssAttribute19/>
+																<AsgInformationNumber10/>
+																<AssAttribute18/>
+																<EffectiveEndDate>
+																	<oldValue>4712-12-31</oldValue>
+																	<newValue>4712-12-31</newValue>
+																</EffectiveEndDate>
+																<DateProbationEnd>
+																	<oldValue>2000-12-31</oldValue>
+																	<newValue>2000-12-31</newValue>
+																</DateProbationEnd>
+																<CollectiveAgreementId/>
+																<IsPositionModified/>
+																<IsFteModified/>
+																<CategoryCode>
+																	<oldValue>PER_ASG_EIT</oldValue>
+																	<newValue>PER_ASG_EIT</newValue>
+																</CategoryCode>
+																<SystemPersonType>
+																	<oldValue>EMP</oldValue>
+																	<newValue>EMP</newValue>
+																</SystemPersonType>
+																<ActionOccurrenceIdPopulatedFlag/>
+																<AsgInformationDate10/>
+																<AsgInformationDate11/>
+																<AsgInformationDate12/>
+																<AsgInformationDate13/>
+																<SoftCodingKeyflexId/>
+																<GradeId/>
+																<AsgInformation50/>
+																<AsgInformationDate14/>
+																<AsgInformationDate15/>
+																<AsgInformation3/>
+																<AsgInformation4/>
+																<AsgInformation5/>
+																<AsgInformation6/>
+																<AsgInformation1/>
+																<AsgInformation2/>
+																<AutoEndFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</AutoEndFlag>
+																<IdFlexNum>
+																	<oldValue>63</oldValue>
+																	<newValue>63</newValue>
+																</IdFlexNum>
+																<AsgInformation47/>
+																<AsgInformation48/>
+																<AsgInformation45/>
+																<AsgInformation46/>
+																<IsHeadModified/>
+																<VendorId/>
+																<AsgInformation49/>
+																<PeriodOfServiceId>
+																	<oldValue>300100017774566</oldValue>
+																	<newValue>300100017774566</newValue>
+																</PeriodOfServiceId>
+																<FreezeStartDate>
+																	<oldValue>4712-12-31</oldValue>
+																	<newValue>4712-12-31</newValue>
+																</FreezeStartDate>
+																<AsgInformation40/>
+																<AsgInformation43/>
+																<AsgInformation44/>
+																<AsgInformation41/>
+																<AsgInformation42/>
+																<TimeNormalFinish>
+																	<oldValue>17:00</oldValue>
+																	<newValue>17:00</newValue>
+																</TimeNormalFinish>
+																<LegalEntityId>
+																	<oldValue>100000011593321</oldValue>
+																	<newValue>100000011593321</newValue>
+																</LegalEntityId>
+																<PoHeaderId/>
+																<PositionOverrideFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</PositionOverrideFlag>
+																<ActionOccurrenceId>
+																	<oldValue>300100124569007</oldValue>
+																	<newValue>300100124569007</newValue>
+																</ActionOccurrenceId>
+																<JobLov/>
+																<AsgInformation38/>
+																<AsgInformation39/>
+																<ExpenseCheckSendToAddress/>
+																<AsgInformation34/>
+																<AsgInformation35/>
+																<AsgInformation36/>
+																<AsgInformation37/>
+																<RecordCreator>
+																	<oldValue>Promotions</oldValue>
+																	<newValue>Promotions</newValue>
+																</RecordCreator>
+																<AsgInformation30/>
+																<DfltCcidFlexNum/>
+																<AsgInformation31/>
+																<AsgInformation32/>
+																<AsgInformation33/>
+																<AssAttributeDate9/>
+																<InternalBuilding/>
+																<AsgInformationDate9/>
+																<AsgInformationDate7/>
+																<AsgInformationDate8/>
+																<AsgInformationDate5/>
+																<BusinessUnitId>
+																	<oldValue>100010025072009</oldValue>
+																	<newValue>100010025072009</newValue>
+																</BusinessUnitId>
+																<AsgInformationDate6/>
+																<AsgInformation29/>
+																<SkipDefaultingFlag/>
+																<AsgInformation27/>
+																<AsgInformation28/>
+																<AsgInformation25/>
+																<ProposedWorkerType/>
+																<AsgInformation26/>
+																<FreezeUntilDate>
+																	<oldValue>0001-01-01</oldValue>
+																	<newValue>0001-01-01</newValue>
+																</FreezeUntilDate>
+																<AsgInformation23/>
+																<AsgInformation24/>
+																<AsgInformationDate4/>
+																<AsgInformation21/>
+																<AssAttributeDate2/>
+																<AssAttributeDate1/>
+																<AsgInformationDate3/>
+																<AsgInformation22/>
+																<AssAttributeDate4/>
+																<AsgInformationDate2/>
+																<AssAttributeDate3/>
+																<AsgInformation20/>
+																<AsgInformationDate1/>
+																<AssAttributeDate6/>
+																<AssAttributeDate5/>
+																<AssAttributeDate8/>
+																<AssAttributeDate7/>
+																<JobPostSourceName/>
+																<ProjectedStartDate/>
+																<ActionCode>
+																	<oldValue>PROMOTION</oldValue>
+																	<newValue>PROMOTION</newValue>
+																</ActionCode>
+																<PrimaryFlag>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</PrimaryFlag>
+																<EndEffectiveLatestChange>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</EndEffectiveLatestChange>
+																<ProbationPeriod>
+																	<oldValue>1</oldValue>
+																	<newValue>1</newValue>
+																</ProbationPeriod>
+																<GradeLov/>
+																<EmployeeCategory/>
+																<IsLocationChange/>
+																<SeniorityBasis/>
+																<ProbationUnit>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</ProbationUnit>
+																<ProbationUnitChanged/>
+																<FullPartTime/>
+																<EndEffectiveSequence>
+																	<oldValue>1</oldValue>
+																	<newValue>1</newValue>
+																</EndEffectiveSequence>
+																<ContractId>
+																	<oldValue>300100017774577</oldValue>
+																	<newValue>300100017774577</newValue>
+																</ContractId>
+																<DefaultCodeCombId/>
+																<OrganizationName/>
+																<LocationId/>
+																<BargainingUnitCode/>
+																<VacancyId/>
+																<TimeNormalStart>
+																	<oldValue>08:00</oldValue>
+																	<newValue>08:00</newValue>
+																</TimeNormalStart>
+																<VendorSiteId/>
+																<GUID/>
+																<AsgInformationCategory>
+																	<oldValue>US</oldValue>
+																	<newValue>US</newValue>
+																</AsgInformationCategory>
+																<WorkAtHome>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</WorkAtHome>
+																<AssAttributeNumber20/>
+																<BusinessGroupId>
+																	<oldValue>100010025071996</oldValue>
+																	<newValue>100010025071996</newValue>
+																</BusinessGroupId>
+																<AsgInformationNumber8/>
+																<AsgInformationNumber9/>
+																<IsOrganizationChange/>
+																<AsgInformationNumber1/>
+																<AsgInformationNumber2/>
+																<IsJobChange/>
+																<AsgInformationNumber3/>
+																<AsgInformationNumber4/>
+																<AsgInformationNumber5/>
+																<AsgInformationNumber6/>
+																<GradeSetId/>
+																<NoticePeriod/>
+																<AsgInformationNumber7/>
+																<AssAttributeNumber19/>
+																<SalReviewPeriodFrequency/>
+																<RecruitmentActivityId/>
+																<AssAttributeNumber15/>
+																<AssAttributeNumber16/>
+																<AssAttributeNumber17/>
+																<AssAttributeNumber18/>
+																<InternalMailstop/>
+																<AssAttributeNumber11/>
+																<GradeStepId/>
+																<JobName/>
+																<AssAttributeNumber12/>
+																<AssAttributeNumber13/>
+																<AssAttributeNumber14/>
+																<SourceOrganizationId/>
+																<AssAttributeNumber10/>
+																<EmploymentCategory/>
+																<PrimaryWorkTermsFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</PrimaryWorkTermsFlag>
+																<RetirementDate/>
+																<AssAttribute9/>
+																<LabourUnionMemberFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</LabourUnionMemberFlag>
+																<AssAttribute7/>
+																<AssAttribute8/>
+																<AssAttribute5/>
+																<AssAttribute6/>
+																<AssAttribute3/>
+																<StepEntryDate/>
+																<AssAttribute4/>
+																<AssAttribute1/>
+																<IsPositionChange/>
+																<AssAttribute2/>
+																<EstablishmentId/>
+																<ReasonCode>
+																	<oldValue>GHR PROMOTE</oldValue>
+																	<newValue>GHR PROMOTE</newValue>
+																</ReasonCode>
+																<InternalFloor/>
+																<LinkageType/>
+																<OldGradeId/>
+																<AssignmentType>
+																	<oldValue>E</oldValue>
+																	<newValue>E</newValue>
+																</AssignmentType>
+																<StartEffectiveSequence>
+																	<oldValue>1</oldValue>
+																	<newValue>1</newValue>
+																</StartEffectiveSequence>
+																<JobId>
+																	<oldValue>100000012001529</oldValue>
+																	<newValue>100000012001529</newValue>
+																</JobId>
+																<PrimaryWorkRelationFlag>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</PrimaryWorkRelationFlag>
+																<ProbationPeriodChanged/>
+																<PositionName/>
+																<PermanentTemporaryFlag/>
+																<SalReviewPeriod/>
+																<OvertimePeriod/>
+																<ProjectedEndDatePopulated/>
+																<HeadValue/>
+																<NoticePeriodUom/>
+																<AssignmentName>
+																	<oldValue>HCM-ADM Job 410-Business Project Supervisor</oldValue>
+																	<newValue>HCM-ADM Job 410-Business Project Supervisor</newValue>
+																</AssignmentName>
+																<InternalLocation/>
+																<SetOfBooksId/>
+																<JobSetId/>
+																<LocationSetId/>
+																<DutiesType/>
+																<AssignmentStatusTypeId>
+																	<oldValue>100010026278977</oldValue>
+																	<newValue>100010026278977</newValue>
+																</AssignmentStatusTypeId>
+																<VendorEmployeeNumber/>
+																<GradeLadderPgmId/>
+																<GspEligibilityFlag>
+																	<oldValue>Y</oldValue>
+																	<newValue>Y</newValue>
+																</GspEligibilityFlag>
+																<AssAttribute49/>
+																<LegislationCode>
+																	<oldValue>US</oldValue>
+																	<newValue>US</newValue>
+																</LegislationCode>
+																<AllowAsgOverrideFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</AllowAsgOverrideFlag>
+																<TaxAddressId/>
+																<ManagerFlag>
+																	<oldValue>N</oldValue>
+																	<newValue>N</newValue>
+																</ManagerFlag>
+																<AssAttribute50/>
+																<AssignmentSequence>
+																	<oldValue>1</oldValue>
+																	<newValue>1</newValue>
+																</AssignmentSequence>
+																<ProjectTitle/>
+																<LocationLov/>
+																<SourceType/>
+																<AssignmentNumber>
+																	<oldValue>E955169008166607</oldValue>
+																	<newValue>E955169008166607</newValue>
+																</AssignmentNumber>
+																<Location/>
+																<OrganizationId>
+																	<oldValue>100000011850021</oldValue>
+																	<newValue>100000011850021</newValue>
+																</OrganizationId>
+																<PostingContentId/>
+																<AssAttributeCategory/>
+																<CagrIdFlexNum/>
+																<FteValue/>
+																<IsGradeStepModified/>
+															</EventEOAttrData>
+														</LogicalChanges>
+													</EventDEOData>
+												</DEEventData>
+												<PER_EMCOR_ASSIGNMENTDEOData>
+													<tierType/>
+												</PER_EMCOR_ASSIGNMENTDEOData>
+											</EmployeeAssignmentDEORow>
+										</EO>
+									</CEO>
+									<DEEOData>
+										<EffCopiedRow>false</EffCopiedRow>
+										<RemoveCalledFlag>false</RemoveCalledFlag>
+										<SettersDirted>false</SettersDirted>
+										<InImmediateMode>true</InImmediateMode>
+										<LastAppliedDEMode>2</LastAppliedDEMode>
+										<DeLockMode>0</DeLockMode>
+										<NotifyToDeEvents>true</NotifyToDeEvents>
+										<VSD>2018-03-09</VSD>
+										<VED>2018-04-24</VED>
+										<VARefreshSet>{331, 340, 447}</VARefreshSet>
+									</DEEOData>
+									<DEEventData>
+										<EventDEOData RowKey="00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162080EA400780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162F4F32C00780000000AACED00057704000000010000000159" DMLType="UPDATE">
+											<EODefName>oracle.apps.hcm.employment.core.publicModel.entity.EmployeeTermsDEO</EODefName>
+											<LogicalChange>false</LogicalChange>
+											<PhysicalChange>true</PhysicalChange>
+											<Sealed>true</Sealed>
+											<EventEOAttrData>
+												<AssAttributeNumber3/>
+												<AssAttributeNumber2/>
+												<NormalHours>
+													<oldValue>40</oldValue>
+													<newValue>40</newValue>
+												</NormalHours>
+												<AssAttributeNumber1/>
+												<AssignmentId>
+													<oldValue>300100017774567</oldValue>
+													<newValue>300100017774567</newValue>
+												</AssignmentId>
+												<HourlySalariedCode/>
+												<AssAttribute36/>
+												<AssAttribute37/>
+												<AssAttribute34/>
+												<AssAttribute35/>
+												<AssAttribute32/>
+												<AssAttribute33/>
+												<AssAttribute30/>
+												<AssAttribute31/>
+												<AsgInformation12/>
+												<AsgInformation13/>
+												<AsgInformation14/>
+												<AsgInformation15/>
+												<AsgInformation16/>
+												<AssAttribute29/>
+												<AsgInformation17/>
+												<AssAttribute28/>
+												<AsgInformation18/>
+												<AsgInformation19/>
+												<AssAttribute27/>
+												<PositionId>
+													<oldValue>100000012001575</oldValue>
+													<newValue>100000012001575</newValue>
+												</PositionId>
+												<AssAttributeNumber8/>
+												<PoLineId/>
+												<Frequency>
+													<oldValue>W</oldValue>
+													<newValue>W</newValue>
+												</Frequency>
+												<AssAttributeNumber9/>
+												<UnionId/>
+												<AssAttributeNumber6/>
+												<AssAttributeNumber7/>
+												<AsgInformation10/>
+												<AssAttributeNumber4/>
+												<AsgInformation11/>
+												<AssAttributeNumber5/>
+												<AssAttributeDate14/>
+												<AssAttributeDate15/>
+												<AssAttribute40/>
+												<AssAttributeDate10/>
+												<AssAttributeDate11/>
+												<AssAttributeDate12/>
+												<AssAttributeDate13/>
+												<AssAttribute45/>
+												<RetirementAge/>
+												<AssAttribute46/>
+												<AssAttribute47/>
+												<BlankOutAttrs/>
+												<AssAttribute48/>
+												<AssAttribute41/>
+												<AssAttribute42/>
+												<AssAttribute43/>
+												<AssAttribute44/>
+												<AssAttribute39/>
+												<PersonId>
+													<oldValue>300100017774467</oldValue>
+													<newValue>300100017774467</newValue>
+												</PersonId>
+												<AssAttribute38/>
+												<ApplicantRank/>
+												<PersonTypeId>
+													<oldValue>100010025072012</oldValue>
+													<newValue>100010025072012</newValue>
+												</PersonTypeId>
+												<ProbationEndDateChanged/>
+												<AssignmentStatusType>
+													<oldValue>ACTIVE</oldValue>
+													<newValue>ACTIVE</newValue>
+												</AssignmentStatusType>
+												<SourceSystemOwner/>
+												<InternalOfficeNumber/>
+												<EffectiveStartDate>
+													<oldValue>2018-03-09</oldValue>
+													<newValue>2018-03-09</newValue>
+												</EffectiveStartDate>
+												<AsgInformationNumber19/>
+												<AssAttribute10/>
+												<PrimaryAssignmentFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</PrimaryAssignmentFlag>
+												<AsgInformationNumber18/>
+												<AssAttribute11/>
+												<SpecialCeilingStepId/>
+												<AsgInformationNumber17/>
+												<AsgInformationNumber16/>
+												<ParentAssignmentId/>
+												<AsgInformationNumber15/>
+												<AssAttribute14/>
+												<AsgInformationNumber14/>
+												<AssAttribute15/>
+												<AsgInformationNumber13/>
+												<AssAttribute12/>
+												<AsgInformationNumber12/>
+												<AssAttribute13/>
+												<AsgInformationNumber11/>
+												<AsgInformation9/>
+												<AsgInformationNumber20/>
+												<SourceSystemId/>
+												<AsgInformation7/>
+												<PersonReferredById/>
+												<AsgInformation8/>
+												<VendorAssignmentNumber/>
+												<BillingTitle/>
+												<PeopleGroupId/>
+												<WorkTermsAssignmentId/>
+												<ProjectedAssignmentEnd/>
+												<RecruiterId/>
+												<GradeStep/>
+												<AssAttribute20/>
+												<AssAttribute21/>
+												<AssAttribute22/>
+												<AssAttribute23/>
+												<AssAttribute24/>
+												<AssAttribute25/>
+												<DepartmentSetId/>
+												<AssAttribute26/>
+												<CagrGradeDefId/>
+												<AssAttribute17/>
+												<AssAttribute16/>
+												<AssAttribute19/>
+												<AsgInformationNumber10/>
+												<AssAttribute18/>
+												<EffectiveEndDate>
+													<oldValue>4712-12-31</oldValue>
+													<newValue>2018-04-24</newValue>
+												</EffectiveEndDate>
+												<DateProbationEnd>
+													<oldValue>2000-12-31</oldValue>
+													<newValue>2000-12-31</newValue>
+												</DateProbationEnd>
+												<CollectiveAgreementId/>
+												<IsPositionModified/>
+												<IsFteModified/>
+												<CategoryCode>
+													<oldValue>PER_ASG_EIT</oldValue>
+													<newValue>PER_ASG_EIT</newValue>
+												</CategoryCode>
+												<SystemPersonType>
+													<oldValue>EMP</oldValue>
+													<newValue>EMP</newValue>
+												</SystemPersonType>
+												<ActionOccurrenceIdPopulatedFlag/>
+												<AsgInformationDate10/>
+												<AsgInformationDate11/>
+												<AsgInformationDate12/>
+												<AsgInformationDate13/>
+												<SoftCodingKeyflexId/>
+												<GradeId/>
+												<AsgInformation50/>
+												<AsgInformationDate14/>
+												<AsgInformationDate15/>
+												<AsgInformation3/>
+												<AsgInformation4/>
+												<AsgInformation5/>
+												<AsgInformation6/>
+												<AsgInformation1/>
+												<AsgInformation2/>
+												<AutoEndFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</AutoEndFlag>
+												<IdFlexNum>
+													<oldValue>63</oldValue>
+													<newValue>63</newValue>
+												</IdFlexNum>
+												<AsgInformation47/>
+												<AsgInformation48/>
+												<AsgInformation45/>
+												<AsgInformation46/>
+												<IsHeadModified/>
+												<VendorId/>
+												<AsgInformation49/>
+												<PeriodOfServiceId>
+													<oldValue>300100017774566</oldValue>
+													<newValue>300100017774566</newValue>
+												</PeriodOfServiceId>
+												<FreezeStartDate>
+													<oldValue>4712-12-31</oldValue>
+													<newValue>4712-12-31</newValue>
+												</FreezeStartDate>
+												<AsgInformation40/>
+												<AsgInformation43/>
+												<AsgInformation44/>
+												<AsgInformation41/>
+												<AsgInformation42/>
+												<TimeNormalFinish>
+													<oldValue>17:00</oldValue>
+													<newValue>17:00</newValue>
+												</TimeNormalFinish>
+												<LegalEntityId>
+													<oldValue>100000011593321</oldValue>
+													<newValue>100000011593321</newValue>
+												</LegalEntityId>
+												<PoHeaderId/>
+												<PositionOverrideFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</PositionOverrideFlag>
+												<ActionOccurrenceId>
+													<oldValue>300100124569007</oldValue>
+													<newValue>300100124569007</newValue>
+												</ActionOccurrenceId>
+												<JobLov/>
+												<AsgInformation38/>
+												<AsgInformation39/>
+												<ExpenseCheckSendToAddress/>
+												<AsgInformation34/>
+												<AsgInformation35/>
+												<AsgInformation36/>
+												<AsgInformation37/>
+												<RecordCreator>
+													<oldValue>Promotions</oldValue>
+													<newValue>Promotions</newValue>
+												</RecordCreator>
+												<AsgInformation30/>
+												<DfltCcidFlexNum/>
+												<AsgInformation31/>
+												<AsgInformation32/>
+												<AsgInformation33/>
+												<AssAttributeDate9/>
+												<InternalBuilding/>
+												<AsgInformationDate9/>
+												<AsgInformationDate7/>
+												<AsgInformationDate8/>
+												<AsgInformationDate5/>
+												<BusinessUnitId>
+													<oldValue>100010025072009</oldValue>
+													<newValue>100010025072009</newValue>
+												</BusinessUnitId>
+												<AsgInformationDate6/>
+												<AsgInformation29/>
+												<SkipDefaultingFlag/>
+												<AsgInformation27/>
+												<AsgInformation28/>
+												<AsgInformation25/>
+												<ProposedWorkerType/>
+												<AsgInformation26/>
+												<FreezeUntilDate>
+													<oldValue>0001-01-01</oldValue>
+													<newValue>0001-01-01</newValue>
+												</FreezeUntilDate>
+												<AsgInformation23/>
+												<AsgInformation24/>
+												<AsgInformationDate4/>
+												<AsgInformation21/>
+												<AssAttributeDate2/>
+												<AsgInformationDate3/>
+												<AsgInformation22/>
+												<AssAttributeDate1/>
+												<AssAttributeDate4/>
+												<AsgInformationDate2/>
+												<AssAttributeDate3/>
+												<AsgInformation20/>
+												<AsgInformationDate1/>
+												<AssAttributeDate6/>
+												<AssAttributeDate5/>
+												<AssAttributeDate8/>
+												<AssAttributeDate7/>
+												<JobPostSourceName/>
+												<ProjectedStartDate/>
+												<PrimaryFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</PrimaryFlag>
+												<ActionCode>
+													<oldValue>PROMOTION</oldValue>
+													<newValue>PROMOTION</newValue>
+												</ActionCode>
+												<ProbationPeriod>
+													<oldValue>1</oldValue>
+													<newValue>1</newValue>
+												</ProbationPeriod>
+												<GradeLov/>
+												<EmployeeCategory/>
+												<SeniorityBasis/>
+												<ProbationUnit>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</ProbationUnit>
+												<ProbationUnitChanged/>
+												<FullPartTime/>
+												<ContractId>
+													<oldValue>300100017774577</oldValue>
+													<newValue>300100017774577</newValue>
+												</ContractId>
+												<DefaultCodeCombId/>
+												<LocationId/>
+												<BargainingUnitCode/>
+												<VacancyId/>
+												<TimeNormalStart>
+													<oldValue>08:00</oldValue>
+													<newValue>08:00</newValue>
+												</TimeNormalStart>
+												<VendorSiteId/>
+												<GUID/>
+												<AsgInformationCategory>
+													<oldValue>US</oldValue>
+													<newValue>US</newValue>
+												</AsgInformationCategory>
+												<WorkAtHome/>
+												<AssAttributeNumber20/>
+												<BusinessGroupId>
+													<oldValue>100010025071996</oldValue>
+													<newValue>100010025071996</newValue>
+												</BusinessGroupId>
+												<AsgInformationNumber8/>
+												<AsgInformationNumber9/>
+												<AsgInformationNumber1/>
+												<AsgInformationNumber2/>
+												<AsgInformationNumber3/>
+												<AsgInformationNumber4/>
+												<AsgInformationNumber5/>
+												<AsgInformationNumber6/>
+												<GradeSetId/>
+												<NoticePeriod/>
+												<AsgInformationNumber7/>
+												<AssAttributeNumber19/>
+												<SalReviewPeriodFrequency/>
+												<RecruitmentActivityId/>
+												<AssAttributeNumber15/>
+												<AssAttributeNumber16/>
+												<EffectiveLatestChange>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</EffectiveLatestChange>
+												<AssAttributeNumber17/>
+												<AssAttributeNumber18/>
+												<InternalMailstop/>
+												<AssAttributeNumber11/>
+												<GradeStepId/>
+												<AssAttributeNumber12/>
+												<AssAttributeNumber13/>
+												<AssAttributeNumber14/>
+												<SourceOrganizationId/>
+												<AssAttributeNumber10/>
+												<EmploymentCategory/>
+												<PrimaryWorkTermsFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</PrimaryWorkTermsFlag>
+												<RetirementDate/>
+												<AssAttribute9/>
+												<LabourUnionMemberFlag>
+													<oldValue>N</oldValue>
+													<newValue>N</newValue>
+												</LabourUnionMemberFlag>
+												<AssAttribute7/>
+												<AssAttribute8/>
+												<AssAttribute5/>
+												<AssAttribute6/>
+												<AssAttribute3/>
+												<StepEntryDate/>
+												<AssAttribute4/>
+												<AssAttribute1/>
+												<AssAttribute2/>
+												<EffectiveSequence>
+													<oldValue>1</oldValue>
+													<newValue>1</newValue>
+												</EffectiveSequence>
+												<EstablishmentId/>
+												<ReasonCode>
+													<oldValue>GHR PROMOTE</oldValue>
+													<newValue>GHR PROMOTE</newValue>
+												</ReasonCode>
+												<InternalFloor/>
+												<LinkageType/>
+												<OldGradeId/>
+												<AssignmentType>
+													<oldValue>ET</oldValue>
+													<newValue>ET</newValue>
+												</AssignmentType>
+												<JobId>
+													<oldValue>100000012001529</oldValue>
+													<newValue>100000012001529</newValue>
+												</JobId>
+												<PrimaryWorkRelationFlag>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</PrimaryWorkRelationFlag>
+												<ProbationPeriodChanged/>
+												<PermanentTemporaryFlag/>
+												<SalReviewPeriod/>
+												<OvertimePeriod/>
+												<ProjectedEndDatePopulated/>
+												<HeadValue/>
+												<NoticePeriodUom/>
+												<AssignmentName>
+													<oldValue>HCM-ADM Job 410-Business Project Supervisor</oldValue>
+													<newValue>HCM-ADM Job 410-Business Project Supervisor</newValue>
+												</AssignmentName>
+												<InternalLocation/>
+												<SetOfBooksId/>
+												<JobSetId/>
+												<LocationSetId/>
+												<DutiesType/>
+												<AssignmentStatusTypeId>
+													<oldValue>100010026278977</oldValue>
+													<newValue>100010026278977</newValue>
+												</AssignmentStatusTypeId>
+												<VendorEmployeeNumber/>
+												<GradeLadderPgmId/>
+												<GspEligibilityFlag>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</GspEligibilityFlag>
+												<AssAttribute49/>
+												<LegislationCode>
+													<oldValue>US</oldValue>
+													<newValue>US</newValue>
+												</LegislationCode>
+												<AllowAsgOverrideFlag>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</AllowAsgOverrideFlag>
+												<TaxAddressId/>
+												<ManagerFlag/>
+												<AssAttribute50/>
+												<AssignmentSequence>
+													<oldValue>1</oldValue>
+													<newValue>1</newValue>
+												</AssignmentSequence>
+												<ProjectTitle/>
+												<LocationLov/>
+												<SourceType/>
+												<AssignmentNumber>
+													<oldValue>ET955169008166607</oldValue>
+													<newValue>ET955169008166607</newValue>
+												</AssignmentNumber>
+												<Location/>
+												<OrganizationId>
+													<oldValue>100000011850021</oldValue>
+													<newValue>100000011850021</newValue>
+												</OrganizationId>
+												<PostingContentId/>
+												<AssAttributeCategory/>
+												<CagrIdFlexNum/>
+												<FteValue/>
+												<IsGradeStepModified/>
+											</EventEOAttrData>
+											<LogicalChanges LogicalRowKey="00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000000DC6ACFAC00780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161D9B56800780000000AACED00057704000000010000000159" LogicalStartRowUnModified="true" CopiedRowKey="00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000162FA198800780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD1400780000000AACED00057704000000010000000159" DMLType="UPDATE">
+												<LogicalChange>true</LogicalChange>
+												<PhysicalChange>false</PhysicalChange>
+												<EffectiveMode>2</EffectiveMode>
+												<EffectiveDate>2018-04-25</EffectiveDate>
+												<EventDEType>UPDATE</EventDEType>
+												<EventDEModeName>UPDATE</EventDEModeName>
+												<VSD>2018-04-25</VSD>
+												<VED>4712-12-31</VED>
+												<ExpertLChange>false</ExpertLChange>
+												<ESDChange>false</ESDChange>
+												<EEDChange>false</EEDChange>
+												<ImmediateMode>true</ImmediateMode>
+												<RChange>false</RChange>
+												<RDirection>-1</RDirection>
+												<HasFutureRows>true</HasFutureRows>
+												<IsFirstRow>false</IsFirstRow>
+												<IsLastRow>true</IsLastRow>
+												<EventEOAttrData>
+													<AssAttributeNumber3/>
+													<AssAttributeNumber2/>
+													<NormalHours>
+														<oldValue>40</oldValue>
+														<newValue>40</newValue>
+													</NormalHours>
+													<AssAttributeNumber1/>
+													<AssignmentId>
+														<oldValue>300100017774567</oldValue>
+														<newValue>300100017774567</newValue>
+													</AssignmentId>
+													<HourlySalariedCode/>
+													<AssAttribute36/>
+													<AssAttribute37/>
+													<AssAttribute34/>
+													<AssAttribute35/>
+													<AssAttribute32/>
+													<AssAttribute33/>
+													<AssAttribute30/>
+													<AssAttribute31/>
+													<AsgInformation12/>
+													<AsgInformation13/>
+													<AsgInformation14/>
+													<AsgInformation15/>
+													<AsgInformation16/>
+													<AssAttribute29/>
+													<AsgInformation17/>
+													<AssAttribute28/>
+													<AsgInformation18/>
+													<AsgInformation19/>
+													<AssAttribute27/>
+													<PositionId>
+														<oldValue>100000012001575</oldValue>
+														<newValue>100000012001575</newValue>
+													</PositionId>
+													<AssAttributeNumber8/>
+													<PoLineId/>
+													<Frequency>
+														<oldValue>W</oldValue>
+														<newValue>W</newValue>
+													</Frequency>
+													<AssAttributeNumber9/>
+													<UnionId/>
+													<StartEffectiveLatestChange>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</StartEffectiveLatestChange>
+													<AssAttributeNumber6/>
+													<AssAttributeNumber7/>
+													<AsgInformation10/>
+													<AssAttributeNumber4/>
+													<AsgInformation11/>
+													<AssAttributeNumber5/>
+													<AssAttributeDate14/>
+													<AssAttributeDate15/>
+													<AssAttribute40/>
+													<AssAttributeDate10/>
+													<AssAttributeDate11/>
+													<AssAttributeDate12/>
+													<AssAttributeDate13/>
+													<AssAttribute45/>
+													<RetirementAge/>
+													<AssAttribute46/>
+													<AssAttribute47/>
+													<BlankOutAttrs/>
+													<AssAttribute48/>
+													<AssAttribute41/>
+													<AssAttribute42/>
+													<AssAttribute43/>
+													<AssAttribute44/>
+													<AssAttribute39/>
+													<PersonId>
+														<oldValue>300100017774467</oldValue>
+														<newValue>300100017774467</newValue>
+													</PersonId>
+													<AssAttribute38/>
+													<ApplicantRank/>
+													<PersonTypeId>
+														<oldValue>100010025072012</oldValue>
+														<newValue>100010025072012</newValue>
+													</PersonTypeId>
+													<ProbationEndDateChanged/>
+													<AssignmentStatusType>
+														<oldValue>ACTIVE</oldValue>
+														<newValue>ACTIVE</newValue>
+													</AssignmentStatusType>
+													<SourceSystemOwner/>
+													<InternalOfficeNumber/>
+													<EffectiveStartDate>
+														<oldValue>2000-01-01</oldValue>
+														<newValue>2000-01-01</newValue>
+													</EffectiveStartDate>
+													<AsgInformationNumber19/>
+													<AssAttribute10/>
+													<PrimaryAssignmentFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</PrimaryAssignmentFlag>
+													<AsgInformationNumber18/>
+													<AssAttribute11/>
+													<SpecialCeilingStepId/>
+													<AsgInformationNumber17/>
+													<AsgInformationNumber16/>
+													<ParentAssignmentId/>
+													<AsgInformationNumber15/>
+													<AssAttribute14/>
+													<AsgInformationNumber14/>
+													<AssAttribute15/>
+													<AsgInformationNumber13/>
+													<AssAttribute12/>
+													<AsgInformationNumber12/>
+													<AssAttribute13/>
+													<AsgInformationNumber11/>
+													<AsgInformation9/>
+													<AsgInformationNumber20/>
+													<SourceSystemId/>
+													<PersonReferredById/>
+													<AsgInformation7/>
+													<AsgInformation8/>
+													<VendorAssignmentNumber/>
+													<BillingTitle/>
+													<PeopleGroupId/>
+													<WorkTermsAssignmentId/>
+													<ProjectedAssignmentEnd/>
+													<RecruiterId/>
+													<GradeStep/>
+													<AssAttribute20/>
+													<AssAttribute21/>
+													<AssAttribute22/>
+													<AssAttribute23/>
+													<AssAttribute24/>
+													<AssAttribute25/>
+													<DepartmentSetId/>
+													<AssAttribute26/>
+													<CagrGradeDefId/>
+													<AssAttribute17/>
+													<AssAttribute16/>
+													<AssAttribute19/>
+													<AsgInformationNumber10/>
+													<AssAttribute18/>
+													<EffectiveEndDate>
+														<oldValue>4712-12-31</oldValue>
+														<newValue>4712-12-31</newValue>
+													</EffectiveEndDate>
+													<DateProbationEnd>
+														<oldValue>2000-12-31</oldValue>
+														<newValue>2000-12-31</newValue>
+													</DateProbationEnd>
+													<CollectiveAgreementId/>
+													<IsPositionModified/>
+													<IsFteModified/>
+													<CategoryCode>
+														<oldValue>PER_ASG_EIT</oldValue>
+														<newValue>PER_ASG_EIT</newValue>
+													</CategoryCode>
+													<SystemPersonType>
+														<oldValue>EMP</oldValue>
+														<newValue>EMP</newValue>
+													</SystemPersonType>
+													<ActionOccurrenceIdPopulatedFlag/>
+													<AsgInformationDate10/>
+													<AsgInformationDate11/>
+													<AsgInformationDate12/>
+													<AsgInformationDate13/>
+													<SoftCodingKeyflexId/>
+													<GradeId/>
+													<AsgInformation50/>
+													<AsgInformationDate14/>
+													<AsgInformationDate15/>
+													<AsgInformation3/>
+													<AsgInformation4/>
+													<AsgInformation5/>
+													<AsgInformation6/>
+													<AsgInformation1/>
+													<AsgInformation2/>
+													<AutoEndFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</AutoEndFlag>
+													<IdFlexNum>
+														<oldValue>63</oldValue>
+														<newValue>63</newValue>
+													</IdFlexNum>
+													<AsgInformation47/>
+													<AsgInformation48/>
+													<AsgInformation45/>
+													<AsgInformation46/>
+													<IsHeadModified/>
+													<VendorId/>
+													<AsgInformation49/>
+													<PeriodOfServiceId>
+														<oldValue>300100017774566</oldValue>
+														<newValue>300100017774566</newValue>
+													</PeriodOfServiceId>
+													<FreezeStartDate>
+														<oldValue>4712-12-31</oldValue>
+														<newValue>4712-12-31</newValue>
+													</FreezeStartDate>
+													<AsgInformation40/>
+													<AsgInformation43/>
+													<AsgInformation44/>
+													<AsgInformation41/>
+													<AsgInformation42/>
+													<TimeNormalFinish>
+														<oldValue>17:00</oldValue>
+														<newValue>17:00</newValue>
+													</TimeNormalFinish>
+													<LegalEntityId>
+														<oldValue>100000011593321</oldValue>
+														<newValue>100000011593321</newValue>
+													</LegalEntityId>
+													<PoHeaderId/>
+													<PositionOverrideFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</PositionOverrideFlag>
+													<ActionOccurrenceId>
+														<oldValue>300100124569007</oldValue>
+														<newValue>300100124569007</newValue>
+													</ActionOccurrenceId>
+													<JobLov/>
+													<AsgInformation38/>
+													<AsgInformation39/>
+													<ExpenseCheckSendToAddress/>
+													<AsgInformation34/>
+													<AsgInformation35/>
+													<AsgInformation36/>
+													<AsgInformation37/>
+													<RecordCreator>
+														<oldValue>Promotions</oldValue>
+														<newValue>Promotions</newValue>
+													</RecordCreator>
+													<AsgInformation30/>
+													<DfltCcidFlexNum/>
+													<AsgInformation31/>
+													<AsgInformation32/>
+													<AsgInformation33/>
+													<AssAttributeDate9/>
+													<InternalBuilding/>
+													<AsgInformationDate9/>
+													<AsgInformationDate7/>
+													<AsgInformationDate8/>
+													<AsgInformationDate5/>
+													<BusinessUnitId>
+														<oldValue>100010025072009</oldValue>
+														<newValue>100010025072009</newValue>
+													</BusinessUnitId>
+													<AsgInformationDate6/>
+													<AsgInformation29/>
+													<SkipDefaultingFlag/>
+													<AsgInformation27/>
+													<AsgInformation28/>
+													<AsgInformation25/>
+													<ProposedWorkerType/>
+													<AsgInformation26/>
+													<FreezeUntilDate>
+														<oldValue>0001-01-01</oldValue>
+														<newValue>0001-01-01</newValue>
+													</FreezeUntilDate>
+													<AsgInformation23/>
+													<AsgInformation24/>
+													<AsgInformationDate4/>
+													<AsgInformation21/>
+													<AssAttributeDate2/>
+													<AsgInformationDate3/>
+													<AsgInformation22/>
+													<AssAttributeDate1/>
+													<AssAttributeDate4/>
+													<AsgInformationDate2/>
+													<AssAttributeDate3/>
+													<AsgInformation20/>
+													<AsgInformationDate1/>
+													<AssAttributeDate6/>
+													<AssAttributeDate5/>
+													<AssAttributeDate8/>
+													<AssAttributeDate7/>
+													<JobPostSourceName/>
+													<ProjectedStartDate/>
+													<ActionCode>
+														<oldValue>PROMOTION</oldValue>
+														<newValue>PROMOTION</newValue>
+													</ActionCode>
+													<PrimaryFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</PrimaryFlag>
+													<EndEffectiveLatestChange>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</EndEffectiveLatestChange>
+													<ProbationPeriod>
+														<oldValue>1</oldValue>
+														<newValue>1</newValue>
+													</ProbationPeriod>
+													<GradeLov/>
+													<EmployeeCategory/>
+													<SeniorityBasis/>
+													<ProbationUnit>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</ProbationUnit>
+													<ProbationUnitChanged/>
+													<FullPartTime/>
+													<EndEffectiveSequence>
+														<oldValue>1</oldValue>
+														<newValue>1</newValue>
+													</EndEffectiveSequence>
+													<ContractId>
+														<oldValue>300100017774577</oldValue>
+														<newValue>300100017774577</newValue>
+													</ContractId>
+													<DefaultCodeCombId/>
+													<LocationId/>
+													<BargainingUnitCode/>
+													<VacancyId/>
+													<TimeNormalStart>
+														<oldValue>08:00</oldValue>
+														<newValue>08:00</newValue>
+													</TimeNormalStart>
+													<VendorSiteId/>
+													<GUID/>
+													<AsgInformationCategory>
+														<oldValue>US</oldValue>
+														<newValue>US</newValue>
+													</AsgInformationCategory>
+													<WorkAtHome/>
+													<AssAttributeNumber20/>
+													<BusinessGroupId>
+														<oldValue>100010025071996</oldValue>
+														<newValue>100010025071996</newValue>
+													</BusinessGroupId>
+													<AsgInformationNumber8/>
+													<AsgInformationNumber9/>
+													<AsgInformationNumber1/>
+													<AsgInformationNumber2/>
+													<AsgInformationNumber3/>
+													<AsgInformationNumber4/>
+													<AsgInformationNumber5/>
+													<AsgInformationNumber6/>
+													<GradeSetId/>
+													<NoticePeriod/>
+													<AsgInformationNumber7/>
+													<AssAttributeNumber19/>
+													<SalReviewPeriodFrequency/>
+													<RecruitmentActivityId/>
+													<AssAttributeNumber15/>
+													<AssAttributeNumber16/>
+													<AssAttributeNumber17/>
+													<AssAttributeNumber18/>
+													<InternalMailstop/>
+													<AssAttributeNumber11/>
+													<GradeStepId/>
+													<AssAttributeNumber12/>
+													<AssAttributeNumber13/>
+													<AssAttributeNumber14/>
+													<SourceOrganizationId/>
+													<AssAttributeNumber10/>
+													<EmploymentCategory/>
+													<PrimaryWorkTermsFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</PrimaryWorkTermsFlag>
+													<RetirementDate/>
+													<AssAttribute9/>
+													<LabourUnionMemberFlag>
+														<oldValue>N</oldValue>
+														<newValue>N</newValue>
+													</LabourUnionMemberFlag>
+													<AssAttribute7/>
+													<AssAttribute8/>
+													<AssAttribute5/>
+													<AssAttribute6/>
+													<AssAttribute3/>
+													<StepEntryDate/>
+													<AssAttribute4/>
+													<AssAttribute1/>
+													<AssAttribute2/>
+													<EstablishmentId/>
+													<ReasonCode>
+														<oldValue>GHR PROMOTE</oldValue>
+														<newValue>GHR PROMOTE</newValue>
+													</ReasonCode>
+													<InternalFloor/>
+													<LinkageType/>
+													<OldGradeId/>
+													<AssignmentType>
+														<oldValue>ET</oldValue>
+														<newValue>ET</newValue>
+													</AssignmentType>
+													<StartEffectiveSequence>
+														<oldValue>1</oldValue>
+														<newValue>1</newValue>
+													</StartEffectiveSequence>
+													<JobId>
+														<oldValue>100000012001529</oldValue>
+														<newValue>100000012001529</newValue>
+													</JobId>
+													<PrimaryWorkRelationFlag>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</PrimaryWorkRelationFlag>
+													<ProbationPeriodChanged/>
+													<PermanentTemporaryFlag/>
+													<SalReviewPeriod/>
+													<OvertimePeriod/>
+													<ProjectedEndDatePopulated/>
+													<HeadValue/>
+													<NoticePeriodUom/>
+													<AssignmentName>
+														<oldValue>HCM-ADM Job 410-Business Project Supervisor</oldValue>
+														<newValue>HCM-ADM Job 410-Business Project Supervisor</newValue>
+													</AssignmentName>
+													<InternalLocation/>
+													<SetOfBooksId/>
+													<JobSetId/>
+													<LocationSetId/>
+													<DutiesType/>
+													<AssignmentStatusTypeId>
+														<oldValue>100010026278977</oldValue>
+														<newValue>100010026278977</newValue>
+													</AssignmentStatusTypeId>
+													<VendorEmployeeNumber/>
+													<GradeLadderPgmId/>
+													<GspEligibilityFlag>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</GspEligibilityFlag>
+													<AssAttribute49/>
+													<LegislationCode>
+														<oldValue>US</oldValue>
+														<newValue>US</newValue>
+													</LegislationCode>
+													<AllowAsgOverrideFlag>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</AllowAsgOverrideFlag>
+													<TaxAddressId/>
+													<ManagerFlag/>
+													<AssAttribute50/>
+													<AssignmentSequence>
+														<oldValue>1</oldValue>
+														<newValue>1</newValue>
+													</AssignmentSequence>
+													<ProjectTitle/>
+													<LocationLov/>
+													<SourceType/>
+													<AssignmentNumber>
+														<oldValue>ET955169008166607</oldValue>
+														<newValue>ET955169008166607</newValue>
+													</AssignmentNumber>
+													<Location/>
+													<OrganizationId>
+														<oldValue>100000011850021</oldValue>
+														<newValue>100000011850021</newValue>
+													</OrganizationId>
+													<PostingContentId/>
+													<AssAttributeCategory/>
+													<CagrIdFlexNum/>
+													<FteValue/>
+													<IsGradeStepModified/>
+												</EventEOAttrData>
+											</LogicalChanges>
+										</EventDEOData>
+									</DEEventData>
+									<PER_EMCOR_TermsDEEOData>
+										<tierType>3</tierType>
+										<assignmentOverrideFlag>Y</assignmentOverrideFlag>
+										<deCopyrowIsHappening>false</deCopyrowIsHappening>
+										<setOnTermsFlag>false</setOnTermsFlag>
+									</PER_EMCOR_TermsDEEOData>
+								</EmployeeTermsDEORow>
+							</EO>
+							<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeTermsDEO">
+								<![CDATA[00050000000EACED00057708000110F07AF4DFE70000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000000DC6ACFAC00780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161D9B56800780000000AACED00057704000000010000000159]]>
+								<EmployeeTermsDEORow PS="1" Hdl="28" AV="">
+									<ObjectVersionNumber>
+										<DATA>4</DATA>
+									</ObjectVersionNumber>
+									<CEO>
+										<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.EmployeeAssignmentDEO">
+											<![CDATA[00050000000EACED00057708000110F07AF4DFEC0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000000DC6ACFAC00780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161D9B56800780000000AACED00057704000000010000000159]]>
+											<EmployeeAssignmentDEORow PS="1" Hdl="29" AV="">
+												<ObjectVersionNumber>
+													<DATA>4</DATA>
+												</ObjectVersionNumber>
+												<CEO>
+													<EO Name="oracle.apps.hcm.employment.core.publicModel.entity.AssignmentSupervisorDEO">
+														<![CDATA[00030000000EACED0005770800000000000188750000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000000DC6ACFAC00780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F6DD140078]]>
+														<AssignmentSupervisorDEORow PS="2" Hdl="30" Effm="1" EFFDT="2018-04-25" AV="">
+															<PrimaryFlag>
+																<DATA>Y</DATA>
+															</PrimaryFlag>
+															<ManagerType>
+																<DATA>LINE_MANAGER</DATA>
+															</ManagerType>
+															<ObjectVersionNumber>
+																<DATA>1</DATA>
+															</ObjectVersionNumber>
+															<ManagerName>
+																<DATA>Moss, Veda</DATA>
+															</ManagerName>
+															<NewManagerId>
+																<DATA null="true"/>
+															</NewManagerId>
+															<NewManagerAssignmentId>
+																<DATA null="true"/>
+															</NewManagerAssignmentId>
+															<ManagerNameLOV>
+																<DATA>LOV_ManagerName1</DATA>
+															</ManagerNameLOV>
+															<ManagerListName>
+																<DATA>Veda Moss</DATA>
+															</ManagerListName>
+															<AssignmentNumber>
+																<DATA>100010034148145</DATA>
+															</AssignmentNumber>
+															<AssignmentStatusType>
+																<DATA>ACTIVE</DATA>
+															</AssignmentStatusType>
+															<AssignmentName>
+																<DATA>HRW-Human Resources Specialist 2</DATA>
+															</AssignmentName>
+															<ManagerTypeText>
+																<DATA>Line manager</DATA>
+															</ManagerTypeText>
+															<DEEOData>
+																<EffCopiedRow>false</EffCopiedRow>
+																<RemoveCalledFlag>false</RemoveCalledFlag>
+																<SettersDirted>true</SettersDirted>
+																<InImmediateMode>false</InImmediateMode>
+																<LastAppliedDEMode>1</LastAppliedDEMode>
+																<DeLockMode>0</DeLockMode>
+																<NotifyToDeEvents>true</NotifyToDeEvents>
+																<VSD>2000-01-01</VSD>
+																<VED>4712-12-31</VED>
+																<VARefreshSet null="true"/>
+															</DEEOData>
+														</AssignmentSupervisorDEORow>
+													</EO>
+												</CEO>
+												<DEEOData>
+													<EffCopiedRow>false</EffCopiedRow>
+													<RemoveCalledFlag>false</RemoveCalledFlag>
+													<SettersDirted>false</SettersDirted>
+													<InImmediateMode>false</InImmediateMode>
+													<LastAppliedDEMode>-1</LastAppliedDEMode>
+													<DeLockMode>0</DeLockMode>
+													<NotifyToDeEvents>false</NotifyToDeEvents>
+													<VSD null="true"/>
+													<VED null="true"/>
+													<VARefreshSet null="true"/>
+												</DEEOData>
+												<PER_EMCOR_ASSIGNMENTDEOData>
+													<tierType/>
+												</PER_EMCOR_ASSIGNMENTDEOData>
+											</EmployeeAssignmentDEORow>
+										</EO>
+									</CEO>
+									<DEEOData>
+										<EffCopiedRow>false</EffCopiedRow>
+										<RemoveCalledFlag>false</RemoveCalledFlag>
+										<SettersDirted>false</SettersDirted>
+										<InImmediateMode>false</InImmediateMode>
+										<LastAppliedDEMode>-1</LastAppliedDEMode>
+										<DeLockMode>0</DeLockMode>
+										<NotifyToDeEvents>false</NotifyToDeEvents>
+										<VSD null="true"/>
+										<VED null="true"/>
+										<VARefreshSet null="true"/>
+									</DEEOData>
+									<PER_EMCOR_TermsDEEOData>
+										<tierType>3</tierType>
+										<assignmentOverrideFlag>Y</assignmentOverrideFlag>
+										<deCopyrowIsHappening>false</deCopyrowIsHappening>
+										<setOnTermsFlag>false</setOnTermsFlag>
+									</PER_EMCOR_TermsDEEOData>
+								</EmployeeTermsDEORow>
+							</EO>
+						</CEO>
+					</PeriodOfServiceEORow>
+				</EO>
+				<EO Name="oracle.apps.hcm.users.publicModel.entity.LdapRequestEO">
+					<![CDATA[00010000000EACED00057708000110F0815CF89B]]>
+					<LdapRequestEORow PS="0" Hdl="35" PK="Y" CI="Y" AV="">
+						<LdapRequestId>
+							<DATA>300100125259931</DATA>
+						</LdapRequestId>
+						<RequestingProduct>
+							<DATA>PER</DATA>
+						</RequestingProduct>
+						<RequestingReferenceId>
+							<DATA>100010034148145</DATA>
+						</RequestingReferenceId>
+						<RequestorUserGuid>
+							<DATA>BB39035ABA5E61F6D66E8CFE415B884C</DATA>
+						</RequestorUserGuid>
+						<ActiveFlag>
+							<DATA>Y</DATA>
+						</ActiveFlag>
+						<BusinessGroupId>
+							<DATA>100010025071996</DATA>
+						</BusinessGroupId>
+						<RequestStatus>
+							<DATA>REQUEST</DATA>
+						</RequestStatus>
+						<RequestDate>
+							<DATA>2018-04-25</DATA>
+						</RequestDate>
+						<ObjectVersionNumber>
+							<DATA>1</DATA>
+						</ObjectVersionNumber>
+						<CreatedBy>
+							<DATA>VMOSS</DATA>
+						</CreatedBy>
+						<CreationDate>
+							<DATA>2018-04-25 06:16:56.339</DATA>
+						</CreationDate>
+						<LastUpdatedBy>
+							<DATA>VMOSS</DATA>
+						</LastUpdatedBy>
+						<LastUpdateDate>
+							<DATA>2018-04-25 06:16:56.339</DATA>
+						</LastUpdateDate>
+						<LastUpdateLogin>
+							<DATA>6AA17B0729127DE7E0539D95F50AC70A</DATA>
+						</LastUpdateLogin>
+						<ActionOccurrenceId>
+							<DATA>300100125259930</DATA>
+						</ActionOccurrenceId>
+						<CEO>
+							<EO Name="oracle.apps.hcm.users.publicModel.entity.LdapUserEO">
+								<![CDATA[00010000000EACED00057708000110F0815CF89C]]>
+								<LdapUserEORow PS="0" Hdl="36" PK="Y" CI="Y" AV="">
+									<LdapUserId>
+										<DATA>300100125259932</DATA>
+									</LdapUserId>
+									<LdapRequestId>
+										<DATA>300100125259931</DATA>
+									</LdapRequestId>
+									<RequestType>
+										<DATA>USERROLES</DATA>
+									</RequestType>
+									<RequestStatus>
+										<DATA>REQUEST</DATA>
+									</RequestStatus>
+									<UserGuid>
+										<DATA>BB39035ABA5E61F6D66E8CFE415B884C</DATA>
+									</UserGuid>
+									<BusinessGroupId>
+										<DATA>100010025071996</DATA>
+									</BusinessGroupId>
+									<RequestorUserGuid>
+										<DATA>BB39035ABA5E61F6D66E8CFE415B884C</DATA>
+									</RequestorUserGuid>
+									<ObjectVersionNumber>
+										<DATA>1</DATA>
+									</ObjectVersionNumber>
+									<CreatedBy>
+										<DATA>VMOSS</DATA>
+									</CreatedBy>
+									<CreationDate>
+										<DATA>2018-04-25 06:16:56.42</DATA>
+									</CreationDate>
+									<LastUpdatedBy>
+										<DATA>VMOSS</DATA>
+									</LastUpdatedBy>
+									<LastUpdateDate>
+										<DATA>2018-04-25 06:16:56.42</DATA>
+									</LastUpdateDate>
+									<LastUpdateLogin>
+										<DATA>6AA17B0729127DE7E0539D95F50AC70A</DATA>
+									</LastUpdateLogin>
+								</LdapUserEORow>
+							</EO>
+						</CEO>
+					</LdapRequestEORow>
+				</EO>
+				<EO Name="oracle.apps.hcm.compensation.salary.core.protectedModel.entity.SalaryEO">
+					<![CDATA[00010000000EACED00057708000110F0815CF8A0]]>
+					<SalaryEORow PS="0" Hdl="68" PK="Y" CI="Y" AV="">
+						<BusinessGroupId>
+							<DATA>100010025071996</DATA>
+						</BusinessGroupId>
+						<AssignmentId>
+							<DATA>300100017774572</DATA>
+						</AssignmentId>
+						<SalaryId>
+							<DATA>300100125259936</DATA>
+						</SalaryId>
+						<SalaryBasisId>
+							<DATA>300100006114239</DATA>
+						</SalaryBasisId>
+						<DateFrom>
+							<DATA>2018-04-25</DATA>
+						</DateFrom>
+						<DateTo>
+							<DATA>4712-12-31</DATA>
+						</DateTo>
+						<SalaryAmount>
+							<DATA>1000.00</DATA>
+						</SalaryAmount>
+						<SalaryApproved>
+							<DATA>Y</DATA>
+						</SalaryApproved>
+						<MultipleComponents>
+							<DATA>N</DATA>
+						</MultipleComponents>
+						<ObjectVersionNumber>
+							<DATA>1</DATA>
+						</ObjectVersionNumber>
+						<LastUpdateDate>
+							<DATA>2018-04-25 06:19:36.712</DATA>
+						</LastUpdateDate>
+						<LastUpdatedBy>
+							<DATA>VMOSS</DATA>
+						</LastUpdatedBy>
+						<LastUpdateLogin>
+							<DATA>6AA17B0729127DE7E0539D95F50AC70A</DATA>
+						</LastUpdateLogin>
+						<CreatedBy>
+							<DATA>VMOSS</DATA>
+						</CreatedBy>
+						<CreationDate>
+							<DATA>2018-04-25 06:19:36.712</DATA>
+						</CreationDate>
+						<ActionId>
+							<DATA>100010026278813</DATA>
+						</ActionId>
+						<ActionOccurrenceId>
+							<DATA>300100125259930</DATA>
+						</ActionOccurrenceId>
+						<ActionReasonId>
+							<DATA null="true"/>
+						</ActionReasonId>
+						<AdjustmentAmount>
+							<DATA null="true"/>
+						</AdjustmentAmount>
+						<AdjustmentAmountScale>
+							<DATA>2</DATA>
+						</AdjustmentAmountScale>
+						<AdjustmentPercent>
+							<DATA null="true"/>
+						</AdjustmentPercent>
+						<AdjustmentPercentScale>
+							<DATA>2</DATA>
+						</AdjustmentPercentScale>
+						<AmountRoundingCode>
+							<DATA null="true"/>
+						</AmountRoundingCode>
+						<AnnualFtSalary>
+							<DATA null="true"/>
+						</AnnualFtSalary>
+						<AnnualSalary>
+							<DATA null="true"/>
+						</AnnualSalary>
+						<AssignmentType>
+							<DATA>E</DATA>
+						</AssignmentType>
+						<CompaRatio>
+							<DATA null="true"/>
+						</CompaRatio>
+						<ComponentUsage>
+							<DATA>NO_COMPONENT</DATA>
+						</ComponentUsage>
+						<CurrencyCode>
+							<DATA>USD</DATA>
+						</CurrencyCode>
+						<DisableCompaRatio>
+							<DATA null="true"/>
+						</DisableCompaRatio>
+						<DisableQuartile>
+							<DATA null="true"/>
+						</DisableQuartile>
+						<DisableQuintile>
+							<DATA null="true"/>
+						</DisableQuintile>
+						<DisableRangePosition>
+							<DATA null="true"/>
+						</DisableRangePosition>
+						<ElementTypeId>
+							<DATA>300100001886699</DATA>
+						</ElementTypeId>
+						<ElementUsageLevel>
+							<DATA>A</DATA>
+						</ElementUsageLevel>
+						<FteValue>
+							<DATA>1</DATA>
+						</FteValue>
+						<GradeId>
+							<DATA>100000011983046</DATA>
+						</GradeId>
+						<InputValueId>
+							<DATA>300100001886711</DATA>
+						</InputValueId>
+						<LegalEntityId>
+							<DATA>100000011593321</DATA>
+						</LegalEntityId>
+						<LegislativeDataGroupId>
+							<DATA>100010027007985</DATA>
+						</LegislativeDataGroupId>
+						<PayrollFactor>
+							<DATA>1</DATA>
+						</PayrollFactor>
+						<PersonId>
+							<DATA>300100017774467</DATA>
+						</PersonId>
+						<Quartile>
+							<DATA null="true"/>
+						</Quartile>
+						<Quintile>
+							<DATA null="true"/>
+						</Quintile>
+						<RangeAnalyticsForEmp>
+							<DATA null="true"/>
+						</RangeAnalyticsForEmp>
+						<RangeAnalyticsForMgr>
+							<DATA null="true"/>
+						</RangeAnalyticsForMgr>
+						<RangeErrorWarning>
+							<DATA>WARNING</DATA>
+						</RangeErrorWarning>
+						<RangePosition>
+							<DATA null="true"/>
+						</RangePosition>
+						<RangePositionScale>
+							<DATA>2</DATA>
+						</RangePositionScale>
+						<RateFactor>
+							<DATA null="true"/>
+						</RateFactor>
+						<RateId>
+							<DATA null="true"/>
+						</RateId>
+						<RateMaxAmount>
+							<DATA null="true"/>
+						</RateMaxAmount>
+						<RateMidAmount>
+							<DATA null="true"/>
+						</RateMidAmount>
+						<RateMinAmount>
+							<DATA null="true"/>
+						</RateMinAmount>
+						<SalaryAmountScale>
+							<DATA>2</DATA>
+						</SalaryAmountScale>
+						<SalaryBasisCode>
+							<DATA>PERIOD</DATA>
+						</SalaryBasisCode>
+						<SalaryBasisType>
+							<DATA>U</DATA>
+						</SalaryBasisType>
+						<SalaryFactor>
+							<DATA null="true"/>
+						</SalaryFactor>
+						<SalaryRangeScale>
+							<DATA>2</DATA>
+						</SalaryRangeScale>
+						<AssigGradeLadderId>
+							<DATA null="true"/>
+						</AssigGradeLadderId>
+						<AssigGradeStepId>
+							<DATA null="true"/>
+						</AssigGradeStepId>
+						<AssigLocationId>
+							<DATA null="true"/>
+						</AssigLocationId>
+					</SalaryEORow>
+				</EO>
+			</TXN>
+		</AM>
+	</BUSINESSDATA>
+	<COMPAREDATA>
+		<CompareVO>
+			<AssignmentMDVORow key="300100017774572" operationType="compare" voType="DE">
+				<DataSecurityObject>
+					<DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+					<ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+					<PK1>300100017774572</PK1>
+					<PK2>2018-04-25</PK2>
+					<PK3>4712-12-31</PK3>
+					<PK4>Y</PK4>
+					<PK5>1</PK5>
+				</DataSecurityObject>
+				<DataSecurityObject>
+					<DataPrivilege>PER_PROMOTE_WORKER_DATA</DataPrivilege>
+					<ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+					<PK1>300100017774572</PK1>
+					<PK2>2018-04-25</PK2>
+					<PK3>4712-12-31</PK3>
+					<PK4>Y</PK4>
+					<PK5>1</PK5>
+				</DataSecurityObject>
+				<Compare>
+					<AttributeName>ActionOccurrenceId</AttributeName>
+					<Label/>
+					<ResourceBundle/>
+					<ResourceKey/>
+					<OldId/>
+					<NewId/>
+					<OldValue>300100124569007</OldValue>
+					<NewValue>300100125259930</NewValue>
+				</Compare>
+				<Compare>
+					<AttributeName>AssignmentName</AttributeName>
+					<Label>Business Title</Label>
+					<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+					<ResourceKey>ColAttr.BusinessTitle.oracleappshcmemploymentbaseuiM.AssignmentName</ResourceKey>
+					<OldId/>
+					<NewId/>
+					<OldValue>HCM-ADM Job 410-Business Project Supervisor</OldValue>
+					<NewValue>HCM-ADM Job 410-Business Project Supervisor test</NewValue>
+				</Compare>
+				<Compare>
+					<AttributeName>GradeId</AttributeName>
+					<Label>Grade</Label>
+					<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+					<ResourceKey>ColAttr.Grade.oracleappshcmemploymentbaseuiM.GradeId</ResourceKey>
+					<OldId/>
+					<NewId>100000011983046</NewId>
+					<OldValue>null</OldValue>
+					<NewValue>IC4-Individual Contributor Pay Grade 04</NewValue>
+				</Compare>
+				<Compare>
+					<AttributeName>ReasonCode</AttributeName>
+					<Label>Reason Code</Label>
+					<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+					<ResourceKey>ColAttr.ReasonCode.PERALLASSIGNMENTSM.REASONCODE</ResourceKey>
+					<OldId/>
+					<NewId/>
+					<OldValue>GHR PROMOTE</OldValue>
+					<NewValue/>
+				</Compare>
+				<Compare>
+					<AttributeName>Grade</AttributeName>
+					<Label>Grade</Label>
+					<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+					<ResourceKey>ColAttr.Grade.oracleappshcmemploymentbaseuiM.GradeId</ResourceKey>
+					<OldId/>
+					<NewId>IC4-Individual Contributor Pay Grade 04</NewId>
+					<OldValue>null</OldValue>
+					<NewValue>IC4-Individual Contributor Pay Grade 04</NewValue>
+				</Compare>
+				<Compare>
+					<AttributeName>IsAssignmentModified</AttributeName>
+					<Label/>
+					<ResourceBundle/>
+					<ResourceKey/>
+					<OldId/>
+					<NewId/>
+					<OldValue/>
+					<NewValue>Y</NewValue>
+				</Compare>
+				<AssignmentSupervisorMDVORow key="100469" isMultiRowVo="true" operationType="compare" voType="DE">
+					<DataSecurityObject>
+						<DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+						<ObjectName>PER_ASSIGNMENT_SUPERVISORS_F</ObjectName>
+						<PK1>100469</PK1>
+						<PK2>2000-01-01</PK2>
+						<PK3>4712-12-31</PK3>
+						<PK4/>
+						<PK5/>
+					</DataSecurityObject>
+					<Compare>
+						<AttributeName>ActionOccurrenceId</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>300100017774565</OldValue>
+						<NewValue>300100017774565</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>AssignmentId</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>300100017774572</OldValue>
+						<NewValue>300100017774572</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>AssignmentSupervisorId</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>100469</OldValue>
+						<NewValue>100469</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>BusinessGroupId</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>100010025071996</OldValue>
+						<NewValue>100010025071996</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>CreatedBy</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>ZPER-ORG_HRS01</OldValue>
+						<NewValue>ZPER-ORG_HRS01</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>CreationDate</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>2013-01-04 02:38:57.995</OldValue>
+						<NewValue>2013-01-04 02:38:57.995</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>EffectiveEndDate</AttributeName>
+						<Label>Effective End Date</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.EffectiveEndDate.AssignmentSupervisorEffectiveE.PERASSIGNMENTSUPERVISORSF.EffectiveEndDate</ResourceKey>
+						<OldId/>
+						<NewId/>
+						<OldValue>4712-12-31</OldValue>
+						<NewValue>4712-12-31</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>EffectiveStartDate</AttributeName>
+						<Label>Effective Start Date</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.EffectiveStartDate.AssignmentSupervisorEffectiveS.PERASSIGNMENTSUPERVISORSF.EffectiveStartDate</ResourceKey>
+						<OldId/>
+						<NewId/>
+						<OldValue>2000-01-01</OldValue>
+						<NewValue>2000-01-01</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>FreezeStartDate</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>4712-12-31</OldValue>
+						<NewValue>4712-12-31</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>FreezeUntilDate</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>0001-01-01</OldValue>
+						<NewValue>0001-01-01</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>LastUpdateDate</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>2013-01-04 02:38:59.518</OldValue>
+						<NewValue>2013-01-04 02:38:59.518</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>LastUpdateLogin</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>D19CF7187AEF5F50E0432720F00A26EC</OldValue>
+						<NewValue>D19CF7187AEF5F50E0432720F00A26EC</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>LastUpdatedBy</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>ZPER-ORG_HRS01</OldValue>
+						<NewValue>ZPER-ORG_HRS01</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerAssignmentId</AttributeName>
+						<Label>Manager Assignment ID</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.ManagerAssignmentID.PERASSIGNMENTSUPERVISORSF.MANAGERASSIGNMENTID</ResourceKey>
+						<OldId>100010034159641</OldId>
+						<NewId>100010034159641</NewId>
+						<OldValue>Veda Moss</OldValue>
+						<NewValue>Veda Moss</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerId</AttributeName>
+						<Label>Manager ID</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.ManagerID.PERASSIGNMENTSUPERVISORSF.MANAGERID</ResourceKey>
+						<OldId/>
+						<NewId/>
+						<OldValue>100010034148145</OldValue>
+						<NewValue>100010034148145</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerName</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue/>
+						<NewValue>Moss, Veda</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerNameLOV</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>LOV_ManagerName1</OldValue>
+						<NewValue>LOV_ManagerName1</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerType</AttributeName>
+						<Label>Type</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.Type.AssignmentSupervisorMDVO.ManagerType</ResourceKey>
+						<OldId>LINE_MANAGER</OldId>
+						<NewId>LINE_MANAGER</NewId>
+						<OldValue>Line manager</OldValue>
+						<NewValue>Line manager</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ObjectVersionNumber</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>1</OldValue>
+						<NewValue>1</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>PersonId</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>300100017774467</OldValue>
+						<NewValue>300100017774467</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>PrimaryFlag</AttributeName>
+						<Label>Primary</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.Primary.Primarymanager.PERASSIGNMENTSUPERVISORSF.PRIMARYFLAG</ResourceKey>
+						<OldId/>
+						<NewId/>
+						<OldValue>Y</OldValue>
+						<NewValue>Y</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>SysEffectiveDate</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>2018-04-25</OldValue>
+						<NewValue>2018-04-25</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>AssignmentNumber</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>100010034148145</OldValue>
+						<NewValue>100010034148145</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>AssignmentStatusType</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>ACTIVE</OldValue>
+						<NewValue>ACTIVE</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerListName</AttributeName>
+						<Label>Name</Label>
+						<ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+						<ResourceKey>ColAttr.Name.AssignmentSupervisorMDVO.ManagerListName</ResourceKey>
+						<OldId>Veda Moss</OldId>
+						<NewId>Veda Moss</NewId>
+						<OldValue>Veda Moss</OldValue>
+						<NewValue>Veda Moss</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>IsAssignmentSuperVisorModified</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>true</OldValue>
+						<NewValue>true</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>AssignmentName</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>HRW-Human Resources Specialist 2</OldValue>
+						<NewValue>HRW-Human Resources Specialist 2</NewValue>
+					</Compare>
+					<Compare>
+						<AttributeName>ManagerTypeText</AttributeName>
+						<Label/>
+						<ResourceBundle/>
+						<ResourceKey/>
+						<OldId/>
+						<NewId/>
+						<OldValue>Line manager</OldValue>
+						<NewValue>Line manager</NewValue>
+					</Compare>
+				</AssignmentSupervisorMDVORow>
+				<AssignmentWorkMeasureMDVORow key="300100017774578" operationType="default" voType="DE"/>
+			</AssignmentMDVORow>
+			<BaseWorkerAsgDFFVORow key="300100017774572" operationType="default" voType="DFF"/>
+			<BaseWorkerAsgLegDDFUSVORow key="300100017774572" operationType="default" contextCode="US" voType="DFF"/>
+		</CompareVO>
+	</COMPAREDATA>
+</TRANSACTION>

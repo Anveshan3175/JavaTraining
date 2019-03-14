@@ -1,0 +1,97 @@
+<COMPAREDATA><CompareVO>
+	<AssignmentSupervisorMDVORow key="100010034245276" operationType="default" voType="DE">
+         <DataSecurityObject>
+            <DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+            <ObjectName>PER_ASSIGNMENT_SUPERVISORS_F</ObjectName>
+            <PK1>100010034245276</PK1>
+            <PK2>1995-11-19</PK2>
+            <PK3>4712-12-31</PK3>
+            <PK4/>
+            <PK5/>
+         </DataSecurityObject>
+      </AssignmentSupervisorMDVORow>
+      <WorkTermsMDVORow key="300100033210198" operationType="compare" voType="DE">
+         <DataSecurityObject>
+            <DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+            <ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+            <PK1>300100033210198</PK1>
+            <PK2>2010-01-01</PK2>
+            <PK3>4712-12-31</PK3>
+            <PK4>Y</PK4>
+            <PK5>1</PK5>
+         </DataSecurityObject>
+         <DataSecurityObject>
+            <DataPrivilege>PER_PROMOTE_WORKER_DATA</DataPrivilege>
+            <ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+            <PK1>300100033210198</PK1>
+            <PK2>2010-01-01</PK2>
+            <PK3>4712-12-31</PK3>
+            <PK4>Y</PK4>
+            <PK5>1</PK5>
+         </DataSecurityObject>
+         <Compare>
+            <AttributeName>EffectiveStartDate</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.EffectiveStartDate.AssignmentEffectiveStartDate.PERALLASSIGNMENTSM.EffectiveStartDate</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>2010-01-01</OldValue>
+            <NewValue>2018-01-08</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>ManagerFlag</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Manager.PERALLASSIGNMENTSM.MANAGERFLAG</ResourceKey>
+            <OldId>Y</OldId>
+            <NewId>N</NewId>
+            <OldValue>Yes</OldValue>
+            <NewValue>No</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>PositionId</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Position.BaseWorkerAssignmentVO.Position</ResourceKey>
+            <OldId>100000015867414</OldId>
+            <NewId>300100059819144</NewId>
+            <OldValue>ZCMP-HR Manager I</OldValue>
+            <NewValue>FUTGHR_ZPER_POS_02</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>JobId</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Job.BaseWorkerAssignmentVO.Job</ResourceKey>
+            <OldId>100000011915908</OldId>
+            <NewId>100000016288028</NewId>
+            <OldValue>HCM-ADM Job 205-HR Manager</OldValue>
+            <NewValue>ZPER_CH_JOB_3</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>Frequency</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Frequency.WorkingHoursFrequency.PERALLASSIGNMENTSM.FREQUENCY</ResourceKey>
+            <OldId>W</OldId>
+            <NewId>D</NewId>
+            <OldValue>Weekly</OldValue>
+            <NewValue>Daily</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>AssignmentName</AttributeName>
+            <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.EmploymentTermsName.BaseWorkerWorkTermsVO.AssignmentName</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>John Abhram</OldValue>
+            <NewValue>Tony Stark</NewValue>
+         </Compare>
+		 <Compare>
+			 <AttributeName>GradeId</AttributeName>
+			 <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+			 <ResourceKey>ColAttr.Grade.AssignmentGrade.BaseWorkerAssignmentVO.Grade</ResourceKey>
+			 <OldId>100000012474199</OldId>
+			 <NewId>100000012474170</NewId>
+			 <OldValue>ZCMP NYTR</OldValue>
+			 <NewValue>ZCMP M1</NewValue>
+    </Compare>
+	</WorkTermsMDVORow>
+</CompareVO>
+</COMPAREDATA>

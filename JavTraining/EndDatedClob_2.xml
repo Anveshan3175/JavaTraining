@@ -1,0 +1,1015 @@
+<TRANSACTION>
+	<TransCtx>
+		<personTransactionMap classType="Hm">
+			<isApprovalDisabled classType="b">false</isApprovalDisabled>
+		</personTransactionMap>
+		<shellType classType="s">simple</shellType>
+		<CommentId classType="l">300100090192736</CommentId>
+		<DocTypeUsage classType="s">internal</DocTypeUsage>
+		<haveManageDocRecordsPriv classType="b">true</haveManageDocRecordsPriv>
+		<NewHire_LegislationCode classType="s">US</NewHire_LegislationCode>
+		<FndGlobalItemNodeId classType="s">PER_HCMPEOPLETOP_FUSE_PER_INFO</FndGlobalItemNodeId>
+		<HrcTxnCallbacks classType="Hm">
+			<ReloadIndex classType="s">1</ReloadIndex>
+			<Reload1 classType="s">N_oracle.apps.hcm.people.selfService.uiModel.callback.CallbackForReload</Reload1>
+		</HrcTxnCallbacks>
+		<HcmPeople_LegislationCode classType="s">US</HcmPeople_LegislationCode>
+		<HrcTxnValues classType="Hm">
+			<Subject classType="s">PER_PERSONS</Subject>
+			<LoadUpTransaction classType="s">oracle.apps.hcm.common.transaction.model.util.instructions.LoadUpTransaction</LoadUpTransaction>
+			<SectionDisplayName classType="s">Change PersonalInformation</SectionDisplayName>
+			<ProcessOwner classType="s">Change PersonalInformation</ProcessOwner>
+			<ModuleIdentifier classType="s">PersonalInformation</ModuleIdentifier>
+			<ApplicationId classType="l">800</ApplicationId>
+			<TransactionId classType="l">300100090192734</TransactionId>
+			<SubjectId classType="l">100010034148145</SubjectId>
+			<ReentryFunction classType="s">a</ReentryFunction>
+			<ModuleGroup classType="s">PER</ModuleGroup>
+			<HrcTxnDataCallBackClassName classType="s">oracle.apps.hcm.people.selfService.uiModel.callback.CallBackForTxnFlexFields</HrcTxnDataCallBackClassName>
+			<EONAMESMAP classType="Hm">
+				<oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO classType="s">300100089842741</oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO>
+			</EONAMESMAP>
+			<InitiatorUserId classType="l">100010034148145</InitiatorUserId>
+			<Object classType="s">PER_VISAS_PERMITS_F</Object>
+			<ObjectId classType="l">300100089842741</ObjectId>
+		</HrcTxnValues>
+		<PersonIdSecImpl classType="l">100010034148145</PersonIdSecImpl>
+		<hcmEffectiveDate classType="sd">2018-01-24</hcmEffectiveDate>
+		<DataTypeSystemNotation classType="s">java.lang.Long:12|java.sql.Date:192|java.util.Date:136|java.lang.Integer:12|java.lang.String:0</DataTypeSystemNotation>
+		<AttachmentId classType="l">300100090192733</AttachmentId>
+		<MobileMode classType="s">True</MobileMode>
+		<hcmBusinessGroupId classType="l">100010025071996</hcmBusinessGroupId>
+		<personId classType="l">100010034148145</personId>
+		<isNonAtomicPendingTxnExists classType="b">false</isNonAtomicPendingTxnExists>
+		<selectedPerson classType="l">100010034148145</selectedPerson>
+		<FND_ENTERPRISE_ID classType="s">100010025071996</FND_ENTERPRISE_ID>
+	</TransCtx>
+	<BUSINESSDATA>
+		<AM MomVer="0" ver="10">
+			<cd/>
+			<TXN Def="1" New="0" Lok="2" tsi="4" pcid="1805">
+				<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonEO">
+					<![CDATA[00010000000EACED0005770800005AF5668F3331]]>
+					<PersonEORow PS="1" Hdl="12" AV="">
+						<ObjectVersionNumber>
+							<DATA>1</DATA>
+						</ObjectVersionNumber>
+						<CEO>
+							<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO">
+								<![CDATA[00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000016133BBC8407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A65637400000000000000000000007870770800004EB9F5AEF44078]]>
+								<VisaPermitDEORow PS="0" Hdl="13" PK="Y" CI="Y" EFFDT="2018-01-27" AV="">
+									<VisaPermitId>
+										<DATA>300100089842741</DATA>
+									</VisaPermitId>
+									<EffectiveStartDate>
+										<DATA>2018-01-27</DATA>
+									</EffectiveStartDate>
+									<EffectiveEndDate>
+										<DATA>4712-12-31</DATA>
+									</EffectiveEndDate>
+									<PersonId>
+										<DATA>100010034148145</DATA>
+									</PersonId>
+									<BusinessGroupId>
+										<DATA>100010025071996</DATA>
+									</BusinessGroupId>
+									<LegislationCode>
+										<DATA>US</DATA>
+									</LegislationCode>
+									<VisaPermitNumber>
+										<DATA>NUM321</DATA>
+									</VisaPermitNumber>
+									<VisaPermitType>
+										<DATA>A</DATA>
+									</VisaPermitType>
+									<VisaPermitStatus>
+										<DATA>A</DATA>
+									</VisaPermitStatus>
+									<VisaPermitStatusDate>
+										<DATA null="true"/>
+									</VisaPermitStatusDate>
+									<VisaPermitCategory>
+										<DATA null="true"/>
+									</VisaPermitCategory>
+									<IssueDate>
+										<DATA null="true"/>
+									</IssueDate>
+									<ExpirationDate>
+										<DATA null="true"/>
+									</ExpirationDate>
+									<EntryDate>
+										<DATA null="true"/>
+									</EntryDate>
+									<CurrentVisaPermit>
+										<DATA>Y</DATA>
+									</CurrentVisaPermit>
+									<IssuingAuthority>
+										<DATA>Test Atomic</DATA>
+									</IssuingAuthority>
+									<IssuingCountry>
+										<DATA>US</DATA>
+									</IssuingCountry>
+									<IssuingLocation>
+										<DATA>Future</DATA>
+									</IssuingLocation>
+									<Profession>
+										<DATA null="true"/>
+									</Profession>
+									<AttributeCategory>
+										<DATA null="true"/>
+									</AttributeCategory>
+									<Attribute1>
+										<DATA null="true"/>
+									</Attribute1>
+									<Attribute2>
+										<DATA null="true"/>
+									</Attribute2>
+									<Attribute3>
+										<DATA null="true"/>
+									</Attribute3>
+									<Attribute4>
+										<DATA null="true"/>
+									</Attribute4>
+									<Attribute5>
+										<DATA null="true"/>
+									</Attribute5>
+									<Attribute6>
+										<DATA null="true"/>
+									</Attribute6>
+									<Attribute7>
+										<DATA null="true"/>
+									</Attribute7>
+									<Attribute8>
+										<DATA null="true"/>
+									</Attribute8>
+									<Attribute9>
+										<DATA null="true"/>
+									</Attribute9>
+									<Attribute10>
+										<DATA null="true"/>
+									</Attribute10>
+									<Attribute11>
+										<DATA null="true"/>
+									</Attribute11>
+									<Attribute12>
+										<DATA null="true"/>
+									</Attribute12>
+									<Attribute13>
+										<DATA null="true"/>
+									</Attribute13>
+									<Attribute14>
+										<DATA null="true"/>
+									</Attribute14>
+									<Attribute15>
+										<DATA null="true"/>
+									</Attribute15>
+									<Attribute16>
+										<DATA null="true"/>
+									</Attribute16>
+									<Attribute17>
+										<DATA null="true"/>
+									</Attribute17>
+									<Attribute18>
+										<DATA null="true"/>
+									</Attribute18>
+									<Attribute19>
+										<DATA null="true"/>
+									</Attribute19>
+									<Attribute20>
+										<DATA null="true"/>
+									</Attribute20>
+									<Attribute21>
+										<DATA null="true"/>
+									</Attribute21>
+									<Attribute22>
+										<DATA null="true"/>
+									</Attribute22>
+									<Attribute23>
+										<DATA null="true"/>
+									</Attribute23>
+									<Attribute24>
+										<DATA null="true"/>
+									</Attribute24>
+									<Attribute25>
+										<DATA null="true"/>
+									</Attribute25>
+									<Attribute26>
+										<DATA null="true"/>
+									</Attribute26>
+									<Attribute27>
+										<DATA null="true"/>
+									</Attribute27>
+									<Attribute28>
+										<DATA null="true"/>
+									</Attribute28>
+									<Attribute29>
+										<DATA null="true"/>
+									</Attribute29>
+									<Attribute30>
+										<DATA null="true"/>
+									</Attribute30>
+									<AttributeNumber1>
+										<DATA null="true"/>
+									</AttributeNumber1>
+									<AttributeNumber2>
+										<DATA null="true"/>
+									</AttributeNumber2>
+									<AttributeNumber3>
+										<DATA null="true"/>
+									</AttributeNumber3>
+									<AttributeNumber4>
+										<DATA null="true"/>
+									</AttributeNumber4>
+									<AttributeNumber5>
+										<DATA null="true"/>
+									</AttributeNumber5>
+									<AttributeNumber6>
+										<DATA null="true"/>
+									</AttributeNumber6>
+									<AttributeNumber7>
+										<DATA null="true"/>
+									</AttributeNumber7>
+									<AttributeNumber8>
+										<DATA null="true"/>
+									</AttributeNumber8>
+									<AttributeNumber9>
+										<DATA null="true"/>
+									</AttributeNumber9>
+									<AttributeNumber10>
+										<DATA null="true"/>
+									</AttributeNumber10>
+									<AttributeNumber11>
+										<DATA null="true"/>
+									</AttributeNumber11>
+									<AttributeNumber12>
+										<DATA null="true"/>
+									</AttributeNumber12>
+									<AttributeNumber13>
+										<DATA null="true"/>
+									</AttributeNumber13>
+									<AttributeNumber14>
+										<DATA null="true"/>
+									</AttributeNumber14>
+									<AttributeNumber15>
+										<DATA null="true"/>
+									</AttributeNumber15>
+									<AttributeNumber16>
+										<DATA null="true"/>
+									</AttributeNumber16>
+									<AttributeNumber17>
+										<DATA null="true"/>
+									</AttributeNumber17>
+									<AttributeNumber18>
+										<DATA null="true"/>
+									</AttributeNumber18>
+									<AttributeNumber19>
+										<DATA null="true"/>
+									</AttributeNumber19>
+									<AttributeNumber20>
+										<DATA null="true"/>
+									</AttributeNumber20>
+									<AttributeDate1>
+										<DATA null="true"/>
+									</AttributeDate1>
+									<AttributeDate2>
+										<DATA null="true"/>
+									</AttributeDate2>
+									<AttributeDate3>
+										<DATA null="true"/>
+									</AttributeDate3>
+									<AttributeDate4>
+										<DATA null="true"/>
+									</AttributeDate4>
+									<AttributeDate5>
+										<DATA null="true"/>
+									</AttributeDate5>
+									<AttributeDate6>
+										<DATA null="true"/>
+									</AttributeDate6>
+									<AttributeDate7>
+										<DATA null="true"/>
+									</AttributeDate7>
+									<AttributeDate8>
+										<DATA null="true"/>
+									</AttributeDate8>
+									<AttributeDate9>
+										<DATA null="true"/>
+									</AttributeDate9>
+									<AttributeDate10>
+										<DATA null="true"/>
+									</AttributeDate10>
+									<AttributeDate11>
+										<DATA null="true"/>
+									</AttributeDate11>
+									<AttributeDate12>
+										<DATA null="true"/>
+									</AttributeDate12>
+									<AttributeDate13>
+										<DATA null="true"/>
+									</AttributeDate13>
+									<AttributeDate14>
+										<DATA null="true"/>
+									</AttributeDate14>
+									<AttributeDate15>
+										<DATA null="true"/>
+									</AttributeDate15>
+									<VisInformationCategory>
+										<DATA null="true"/>
+									</VisInformationCategory>
+									<VisInformation1>
+										<DATA null="true"/>
+									</VisInformation1>
+									<VisInformation2>
+										<DATA null="true"/>
+									</VisInformation2>
+									<VisInformation3>
+										<DATA null="true"/>
+									</VisInformation3>
+									<VisInformation4>
+										<DATA null="true"/>
+									</VisInformation4>
+									<VisInformation5>
+										<DATA null="true"/>
+									</VisInformation5>
+									<VisInformation6>
+										<DATA null="true"/>
+									</VisInformation6>
+									<VisInformation7>
+										<DATA null="true"/>
+									</VisInformation7>
+									<VisInformation8>
+										<DATA null="true"/>
+									</VisInformation8>
+									<VisInformation9>
+										<DATA null="true"/>
+									</VisInformation9>
+									<VisInformation10>
+										<DATA null="true"/>
+									</VisInformation10>
+									<VisInformation11>
+										<DATA null="true"/>
+									</VisInformation11>
+									<VisInformation12>
+										<DATA null="true"/>
+									</VisInformation12>
+									<VisInformation13>
+										<DATA null="true"/>
+									</VisInformation13>
+									<VisInformation14>
+										<DATA null="true"/>
+									</VisInformation14>
+									<VisInformation15>
+										<DATA null="true"/>
+									</VisInformation15>
+									<VisInformation16>
+										<DATA null="true"/>
+									</VisInformation16>
+									<VisInformation17>
+										<DATA null="true"/>
+									</VisInformation17>
+									<VisInformation18>
+										<DATA null="true"/>
+									</VisInformation18>
+									<VisInformation19>
+										<DATA null="true"/>
+									</VisInformation19>
+									<VisInformation20>
+										<DATA null="true"/>
+									</VisInformation20>
+									<VisInformation21>
+										<DATA null="true"/>
+									</VisInformation21>
+									<VisInformation22>
+										<DATA null="true"/>
+									</VisInformation22>
+									<VisInformation23>
+										<DATA null="true"/>
+									</VisInformation23>
+									<VisInformation24>
+										<DATA null="true"/>
+									</VisInformation24>
+									<VisInformation25>
+										<DATA null="true"/>
+									</VisInformation25>
+									<VisInformation26>
+										<DATA null="true"/>
+									</VisInformation26>
+									<VisInformation27>
+										<DATA null="true"/>
+									</VisInformation27>
+									<VisInformation28>
+										<DATA null="true"/>
+									</VisInformation28>
+									<VisInformation29>
+										<DATA null="true"/>
+									</VisInformation29>
+									<VisInformation30>
+										<DATA null="true"/>
+									</VisInformation30>
+									<ObjectVersionNumber>
+										<DATA>5</DATA>
+									</ObjectVersionNumber>
+									<CreatedBy>
+										<DATA>VMOSS</DATA>
+									</CreatedBy>
+									<CreationDate>
+										<DATA>2017-07-21 18:59:33.0</DATA>
+									</CreationDate>
+									<LastUpdateDate>
+										<DATA>2017-12-19 22:24:56.498</DATA>
+									</LastUpdateDate>
+									<LastUpdateLogin>
+										<DATA>60B2B3B04F840DB2E0539388B10AA13B</DATA>
+									</LastUpdateLogin>
+									<LastUpdatedBy>
+										<DATA>VMOSS</DATA>
+									</LastUpdatedBy>
+									<VisInformationDate1>
+										<DATA null="true"/>
+									</VisInformationDate1>
+									<VisInformationDate10>
+										<DATA null="true"/>
+									</VisInformationDate10>
+									<VisInformationDate11>
+										<DATA null="true"/>
+									</VisInformationDate11>
+									<VisInformationDate12>
+										<DATA null="true"/>
+									</VisInformationDate12>
+									<VisInformationDate13>
+										<DATA null="true"/>
+									</VisInformationDate13>
+									<VisInformationDate14>
+										<DATA null="true"/>
+									</VisInformationDate14>
+									<VisInformationDate15>
+										<DATA null="true"/>
+									</VisInformationDate15>
+									<VisInformationDate2>
+										<DATA null="true"/>
+									</VisInformationDate2>
+									<VisInformationDate3>
+										<DATA null="true"/>
+									</VisInformationDate3>
+									<VisInformationDate4>
+										<DATA null="true"/>
+									</VisInformationDate4>
+									<VisInformationDate5>
+										<DATA null="true"/>
+									</VisInformationDate5>
+									<VisInformationDate6>
+										<DATA null="true"/>
+									</VisInformationDate6>
+									<VisInformationDate7>
+										<DATA null="true"/>
+									</VisInformationDate7>
+									<VisInformationDate8>
+										<DATA null="true"/>
+									</VisInformationDate8>
+									<VisInformationDate9>
+										<DATA null="true"/>
+									</VisInformationDate9>
+									<VisInformationNumber1>
+										<DATA null="true"/>
+									</VisInformationNumber1>
+									<VisInformationNumber10>
+										<DATA null="true"/>
+									</VisInformationNumber10>
+									<VisInformationNumber11>
+										<DATA null="true"/>
+									</VisInformationNumber11>
+									<VisInformationNumber12>
+										<DATA null="true"/>
+									</VisInformationNumber12>
+									<VisInformationNumber13>
+										<DATA null="true"/>
+									</VisInformationNumber13>
+									<VisInformationNumber14>
+										<DATA null="true"/>
+									</VisInformationNumber14>
+									<VisInformationNumber15>
+										<DATA null="true"/>
+									</VisInformationNumber15>
+									<VisInformationNumber16>
+										<DATA null="true"/>
+									</VisInformationNumber16>
+									<VisInformationNumber17>
+										<DATA null="true"/>
+									</VisInformationNumber17>
+									<VisInformationNumber18>
+										<DATA null="true"/>
+									</VisInformationNumber18>
+									<VisInformationNumber19>
+										<DATA null="true"/>
+									</VisInformationNumber19>
+									<VisInformationNumber2>
+										<DATA null="true"/>
+									</VisInformationNumber2>
+									<VisInformationNumber20>
+										<DATA null="true"/>
+									</VisInformationNumber20>
+									<VisInformationNumber3>
+										<DATA null="true"/>
+									</VisInformationNumber3>
+									<VisInformationNumber4>
+										<DATA null="true"/>
+									</VisInformationNumber4>
+									<VisInformationNumber5>
+										<DATA null="true"/>
+									</VisInformationNumber5>
+									<VisInformationNumber6>
+										<DATA null="true"/>
+									</VisInformationNumber6>
+									<VisInformationNumber7>
+										<DATA null="true"/>
+									</VisInformationNumber7>
+									<VisInformationNumber8>
+										<DATA null="true"/>
+									</VisInformationNumber8>
+									<VisInformationNumber9>
+										<DATA null="true"/>
+									</VisInformationNumber9>
+									<ContextIssuingCountry>
+										<DATA null="true"/>
+									</ContextIssuingCountry>
+									<DEEOData>
+										<EffCopiedRow>true</EffCopiedRow>
+										<RemoveCalledFlag>false</RemoveCalledFlag>
+										<SettersDirted>false</SettersDirted>
+										<InImmediateMode>true</InImmediateMode>
+										<LastAppliedDEMode>-1</LastAppliedDEMode>
+										<DeLockMode>0</DeLockMode>
+										<NotifyToDeEvents>true</NotifyToDeEvents>
+										<VSD>2018-01-27</VSD>
+										<VED>4712-12-31</VED>
+										<VARefreshSet null="true"/>
+									</DEEOData>
+								</VisaPermitDEORow>
+							</EO>
+							<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO">
+								<![CDATA[00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000014EACBACC407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A65637400000000000000000000007870770800004EB9F5AEF44078]]>
+								<VisaPermitDEORow PS="2" Hdl="14" PK="Y" EFFDT="2018-01-26" AV="">
+									<EffectiveEndDate>
+										<DATA>2018-01-26</DATA>
+									</EffectiveEndDate>
+									<ObjectVersionNumber>
+										<DATA>3</DATA>
+									</ObjectVersionNumber>
+									<LastUpdateDate>
+										<DATA>2017-12-19 22:24:56.498</DATA>
+									</LastUpdateDate>
+									<LastUpdateLogin>
+										<DATA>60B2B3B04F840DB2E0539388B10AA13B</DATA>
+									</LastUpdateLogin>
+									<LastUpdatedBy>
+										<DATA>VMOSS</DATA>
+									</LastUpdatedBy>
+									<DEEOData>
+										<EffCopiedRow>false</EffCopiedRow>
+										<RemoveCalledFlag>false</RemoveCalledFlag>
+										<SettersDirted>false</SettersDirted>
+										<InImmediateMode>true</InImmediateMode>
+										<LastAppliedDEMode>2</LastAppliedDEMode>
+										<DeLockMode>0</DeLockMode>
+										<NotifyToDeEvents>true</NotifyToDeEvents>
+										<VSD>2015-07-21</VSD>
+										<VED>2018-01-26</VED>
+										<VARefreshSet null="true"/>
+									</DEEOData>
+									<DEEventData>
+										<EventDEOData RowKey="00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000014EACBACC407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A656374000000000000000000000078707708000001612E956C4078" DMLType="UPDATE">
+											<EODefName>oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO</EODefName>
+											<LogicalChange>false</LogicalChange>
+											<PhysicalChange>true</PhysicalChange>
+											<Sealed>true</Sealed>
+											<EventEOAttrData>
+												<VisInformation30/>
+												<VisInformationNumber20/>
+												<AttributeDate10/>
+												<AttributeDate12/>
+												<AttributeDate11/>
+												<AttributeDate14/>
+												<AttributeDate13/>
+												<AttributeDate15/>
+												<AttributeDate6/>
+												<AttributeDate7/>
+												<VisInformationNumber19/>
+												<VisInformation21/>
+												<AttributeDate8/>
+												<VisInformationNumber18/>
+												<VisInformation20/>
+												<AttributeDate9/>
+												<VisInformationNumber17/>
+												<VisInformation23/>
+												<IssuingCountryName/>
+												<AttributeDate2/>
+												<VisInformationNumber16/>
+												<VisInformation22/>
+												<AttributeDate3/>
+												<VisInformationNumber15/>
+												<VisInformation25/>
+												<AttributeDate4/>
+												<VisInformationNumber14/>
+												<VisInformation24/>
+												<AttributeDate5/>
+												<VisInformationNumber13/>
+												<VisInformationNumber12/>
+												<VisInformationNumber11/>
+												<VisInformationNumber10/>
+												<AttributeDate1/>
+												<Attribute30/>
+												<PersonId>
+													<oldValue>100010034148145</oldValue>
+													<newValue>100010034148145</newValue>
+												</PersonId>
+												<Attribute29/>
+												<Attribute28/>
+												<Attribute27/>
+												<Attribute26/>
+												<VisInformation26/>
+												<VisInformation27/>
+												<VisInformation28/>
+												<VisInformation29/>
+												<SourceSystemOwner/>
+												<VisInformation14/>
+												<VisInformation13/>
+												<VisInformation12/>
+												<GUID/>
+												<VisInformation11/>
+												<VisInformation10/>
+												<EffectiveStartDate>
+													<oldValue>2015-07-21</oldValue>
+													<newValue>2015-07-21</newValue>
+												</EffectiveStartDate>
+												<Attribute20/>
+												<Attribute21/>
+												<Attribute22/>
+												<Attribute23/>
+												<Attribute24/>
+												<Attribute25/>
+												<BusinessGroupId>
+													<oldValue>100010025071996</oldValue>
+													<newValue>100010025071996</newValue>
+												</BusinessGroupId>
+												<Attribute16/>
+												<SourceSystemId/>
+												<Attribute15/>
+												<CurrentVisaPermit>
+													<oldValue>Y</oldValue>
+													<newValue>Y</newValue>
+												</CurrentVisaPermit>
+												<Attribute18/>
+												<Attribute17/>
+												<VisaPermitCategory/>
+												<Attribute19/>
+												<VisInformation19/>
+												<VisInformation17/>
+												<VisInformation18/>
+												<VisInformation15/>
+												<VisInformation16/>
+												<VisaPermitType>
+													<oldValue>A</oldValue>
+													<newValue>A</newValue>
+												</VisaPermitType>
+												<Attribute10/>
+												<Attribute13/>
+												<Attribute14/>
+												<Attribute11/>
+												<Attribute12/>
+												<VisaPermitStatus>
+													<oldValue>A</oldValue>
+													<newValue>A</newValue>
+												</VisaPermitStatus>
+												<IssuingAuthority>
+													<oldValue>Test Atomic</oldValue>
+													<newValue>Test Atomic</newValue>
+												</IssuingAuthority>
+												<EffectiveEndDate>
+													<oldValue>4712-12-31</oldValue>
+													<newValue>2018-01-26</newValue>
+												</EffectiveEndDate>
+												<AttributeCategory/>
+												<AttributeNumber20/>
+												<VisInformationNumber7/>
+												<VisInformationNumber8/>
+												<VisInformationNumber5/>
+												<VisInformationNumber6/>
+												<VisaPermitStatusDate/>
+												<VisInformationNumber9/>
+												<ExpirationDate/>
+												<VisInformationDate2/>
+												<VisInformationDate3/>
+												<VisInformationDate4/>
+												<VisInformationDate5/>
+												<VisInformationDate6/>
+												<VisInformationDate7/>
+												<VisInformationDate8/>
+												<VisInformationDate9/>
+												<VisInformationDate1/>
+												<AttributeNumber11/>
+												<AttributeNumber10/>
+												<AttributeNumber13/>
+												<AttributeNumber12/>
+												<AttributeNumber19/>
+												<AttributeNumber18/>
+												<AttributeNumber15/>
+												<AttributeNumber14/>
+												<AttributeNumber17/>
+												<AttributeNumber16/>
+												<VisInformationNumber2/>
+												<VisInformationNumber1/>
+												<VisInformationNumber4/>
+												<VisInformationNumber3/>
+												<IssueDate/>
+												<VisInformationCategory/>
+												<ContextIssuingCountry/>
+												<Attribute1/>
+												<Attribute3/>
+												<Attribute2/>
+												<Attribute5/>
+												<LegislationCode>
+													<oldValue>US</oldValue>
+													<newValue>US</newValue>
+												</LegislationCode>
+												<Attribute4/>
+												<Attribute7/>
+												<Attribute6/>
+												<VisaPermitNumber>
+													<oldValue>NUM321</oldValue>
+													<newValue>NUM321</newValue>
+												</VisaPermitNumber>
+												<Attribute9/>
+												<Attribute8/>
+												<VisInformationDate15/>
+												<VisInformationDate13/>
+												<VisInformationDate14/>
+												<VisInformationDate11/>
+												<VisInformationDate12/>
+												<VisInformationDate10/>
+												<AttributeNumber4/>
+												<AttributeNumber3/>
+												<VisaPermitId>
+													<oldValue>300100089842741</oldValue>
+													<newValue>300100089842741</newValue>
+												</VisaPermitId>
+												<Profession/>
+												<AttributeNumber2/>
+												<AttributeNumber1/>
+												<EntryDate/>
+												<VisInformation2/>
+												<VisInformation3/>
+												<VisInformation1/>
+												<IssuingCountry>
+													<oldValue>US</oldValue>
+													<newValue>US</newValue>
+												</IssuingCountry>
+												<AttributeNumber7/>
+												<AttributeNumber8/>
+												<AttributeNumber5/>
+												<VisInformation8/>
+												<AttributeNumber6/>
+												<VisInformation9/>
+												<VisInformation6/>
+												<VisInformation7/>
+												<AttributeNumber9/>
+												<VisInformation4/>
+												<IssuingLocation>
+													<newValue>Future</newValue>
+												</IssuingLocation>
+												<VisInformation5/>
+											</EventEOAttrData>
+											<LogicalChanges LogicalRowKey="00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000014EACBACC407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A656374000000000000000000000078707708000001612E956C4078" CopiedRowKey="00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000016133BBC8407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A65637400000000000000000000007870770800004EB9F5AEF44078" DMLType="UPDATE">
+												<LogicalChange>true</LogicalChange>
+												<PhysicalChange>false</PhysicalChange>
+												<EffectiveMode>2</EffectiveMode>
+												<EffectiveDate>2018-01-27</EffectiveDate>
+												<EventDEType>UPDATE</EventDEType>
+												<EventDEModeName>UPDATE</EventDEModeName>
+												<VSD>2018-01-27</VSD>
+												<VED>4712-12-31</VED>
+												<ExpertLChange>false</ExpertLChange>
+												<ESDChange>false</ESDChange>
+												<EEDChange>false</EEDChange>
+												<ImmediateMode>true</ImmediateMode>
+												<RChange>false</RChange>
+												<RDirection>-1</RDirection>
+												<HasFutureRows>false</HasFutureRows>
+												<IsFirstRow>true</IsFirstRow>
+												<IsLastRow>true</IsLastRow>
+												<EventEOAttrData>
+													<VisInformation30/>
+													<VisInformationNumber20/>
+													<AttributeDate10/>
+													<AttributeDate12/>
+													<AttributeDate11/>
+													<AttributeDate14/>
+													<AttributeDate13/>
+													<AttributeDate15/>
+													<AttributeDate6/>
+													<AttributeDate7/>
+													<VisInformationNumber19/>
+													<VisInformation21/>
+													<AttributeDate8/>
+													<VisInformationNumber18/>
+													<VisInformation20/>
+													<AttributeDate9/>
+													<VisInformationNumber17/>
+													<VisInformation23/>
+													<IssuingCountryName/>
+													<AttributeDate2/>
+													<VisInformationNumber16/>
+													<VisInformation22/>
+													<AttributeDate3/>
+													<VisInformationNumber15/>
+													<VisInformation25/>
+													<AttributeDate4/>
+													<VisInformationNumber14/>
+													<VisInformation24/>
+													<AttributeDate5/>
+													<VisInformationNumber13/>
+													<VisInformationNumber12/>
+													<VisInformationNumber11/>
+													<VisInformationNumber10/>
+													<AttributeDate1/>
+													<Attribute30/>
+													<PersonId>
+														<oldValue>100010034148145</oldValue>
+														<newValue>100010034148145</newValue>
+													</PersonId>
+													<Attribute29/>
+													<Attribute28/>
+													<Attribute27/>
+													<Attribute26/>
+													<VisInformation26/>
+													<VisInformation27/>
+													<VisInformation28/>
+													<VisInformation29/>
+													<SourceSystemOwner/>
+													<VisInformation14/>
+													<VisInformation13/>
+													<VisInformation12/>
+													<GUID/>
+													<VisInformation11/>
+													<VisInformation10/>
+													<EffectiveStartDate>
+														<oldValue>2015-07-21</oldValue>
+														<newValue>2015-07-21</newValue>
+													</EffectiveStartDate>
+													<Attribute20/>
+													<Attribute21/>
+													<Attribute22/>
+													<Attribute23/>
+													<Attribute24/>
+													<Attribute25/>
+													<BusinessGroupId>
+														<oldValue>100010025071996</oldValue>
+														<newValue>100010025071996</newValue>
+													</BusinessGroupId>
+													<Attribute16/>
+													<SourceSystemId/>
+													<Attribute15/>
+													<CurrentVisaPermit>
+														<oldValue>Y</oldValue>
+														<newValue>Y</newValue>
+													</CurrentVisaPermit>
+													<Attribute18/>
+													<Attribute17/>
+													<VisaPermitCategory/>
+													<Attribute19/>
+													<VisInformation19/>
+													<VisInformation17/>
+													<VisInformation18/>
+													<VisInformation15/>
+													<VisInformation16/>
+													<VisaPermitType>
+														<oldValue>A</oldValue>
+														<newValue>A</newValue>
+													</VisaPermitType>
+													<Attribute10/>
+													<Attribute13/>
+													<Attribute14/>
+													<Attribute11/>
+													<Attribute12/>
+													<VisaPermitStatus>
+														<oldValue>A</oldValue>
+														<newValue>A</newValue>
+													</VisaPermitStatus>
+													<IssuingAuthority>
+														<oldValue>Test Atomic</oldValue>
+														<newValue>Test Atomic</newValue>
+													</IssuingAuthority>
+													<EffectiveEndDate>
+														<oldValue>4712-12-31</oldValue>
+														<newValue>4712-12-31</newValue>
+													</EffectiveEndDate>
+													<AttributeCategory/>
+													<AttributeNumber20/>
+													<VisInformationNumber7/>
+													<VisInformationNumber8/>
+													<VisInformationNumber5/>
+													<VisInformationNumber6/>
+													<VisaPermitStatusDate/>
+													<VisInformationNumber9/>
+													<ExpirationDate/>
+													<VisInformationDate2/>
+													<VisInformationDate3/>
+													<VisInformationDate4/>
+													<VisInformationDate5/>
+													<VisInformationDate6/>
+													<VisInformationDate7/>
+													<VisInformationDate8/>
+													<VisInformationDate9/>
+													<VisInformationDate1/>
+													<AttributeNumber11/>
+													<AttributeNumber10/>
+													<AttributeNumber13/>
+													<AttributeNumber12/>
+													<AttributeNumber19/>
+													<AttributeNumber18/>
+													<AttributeNumber15/>
+													<AttributeNumber14/>
+													<AttributeNumber17/>
+													<AttributeNumber16/>
+													<VisInformationNumber2/>
+													<VisInformationNumber1/>
+													<VisInformationNumber4/>
+													<VisInformationNumber3/>
+													<IssueDate/>
+													<VisInformationCategory/>
+													<ContextIssuingCountry/>
+													<Attribute1/>
+													<Attribute3/>
+													<Attribute2/>
+													<Attribute5/>
+													<LegislationCode>
+														<oldValue>US</oldValue>
+														<newValue>US</newValue>
+													</LegislationCode>
+													<Attribute4/>
+													<Attribute7/>
+													<Attribute6/>
+													<VisaPermitNumber>
+														<oldValue>NUM321</oldValue>
+														<newValue>NUM321</newValue>
+													</VisaPermitNumber>
+													<Attribute9/>
+													<Attribute8/>
+													<VisInformationDate15/>
+													<VisInformationDate13/>
+													<VisInformationDate14/>
+													<VisInformationDate11/>
+													<VisInformationDate12/>
+													<VisInformationDate10/>
+													<AttributeNumber4/>
+													<AttributeNumber3/>
+													<VisaPermitId>
+														<oldValue>300100089842741</oldValue>
+														<newValue>300100089842741</newValue>
+													</VisaPermitId>
+													<Profession/>
+													<AttributeNumber2/>
+													<AttributeNumber1/>
+													<EntryDate/>
+													<VisInformation2/>
+													<VisInformation3/>
+													<VisInformation1/>
+													<IssuingCountry>
+														<oldValue>US</oldValue>
+														<newValue>US</newValue>
+													</IssuingCountry>
+													<AttributeNumber7/>
+													<AttributeNumber8/>
+													<AttributeNumber5/>
+													<VisInformation8/>
+													<AttributeNumber6/>
+													<VisInformation9/>
+													<VisInformation6/>
+													<VisInformation7/>
+													<AttributeNumber9/>
+													<VisInformation4/>
+													<IssuingLocation>
+														<newValue>Future</newValue>
+													</IssuingLocation>
+													<VisInformation5/>
+												</EventEOAttrData>
+											</LogicalChanges>
+											<PhysicalChanges>
+												<EventDEOData RowKey="00030000000EACED00057708000110F07F408C3500000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A6563740000000000000000000000787077080000016133BBC8407800000069ACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787200106A6176612E6C616E672E4F626A65637400000000000000000000007870770800004EB9F5AEF44078" DMLType="INSERT">
+													<EODefName>oracle.apps.hcm.people.core.protectedModel.entity.VisaPermitDEO</EODefName>
+													<LogicalChange>false</LogicalChange>
+													<PhysicalChange>true</PhysicalChange>
+													<Sealed>false</Sealed>
+													<EventEOAttrData/>
+												</EventDEOData>
+											</PhysicalChanges>
+										</EventDEOData>
+									</DEEventData>
+								</VisaPermitDEORow>
+							</EO>
+						</CEO>
+					</PersonEORow>
+				</EO>
+			</TXN>
+		</AM>
+	</BUSINESSDATA>
+</TRANSACTION>

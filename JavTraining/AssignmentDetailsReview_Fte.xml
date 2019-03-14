@@ -1,0 +1,107 @@
+<COMPAREDATA><CompareVO>
+   <AssignmentMDVORow key="300100114548612" operationType="compare" voType="DE">
+      <DataSecurityObject>
+         <DataPrivilege>PER_SEARCH_WORKER_DATA</DataPrivilege>
+         <ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+         <PK1>300100114548612</PK1>
+         <PK2>2018-02-22</PK2>
+         <PK3>4712-12-31</PK3>
+         <PK4>Y</PK4>
+         <PK5>1</PK5>
+      </DataSecurityObject>
+      <DataSecurityObject>
+         <DataPrivilege>PER_CHANGE_WORKER_WORKING_HOUR_DATA</DataPrivilege>
+         <ObjectName>PER_ALL_ASSIGNMENTS_M</ObjectName>
+         <PK1>300100114548612</PK1>
+         <PK2>2018-02-22</PK2>
+         <PK3>4712-12-31</PK3>
+         <PK4>Y</PK4>
+         <PK5>1</PK5>
+      </DataSecurityObject>
+      <Compare>
+         <AttributeName>ActionCode</AttributeName>
+         <Label>Action Code</Label>
+         <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+         <ResourceKey>ColAttr.ActionCode.PERALLASSIGNMENTSM.ACTIONCODE</ResourceKey>
+         <OldId/>
+         <NewId/>
+         <OldValue>MANAGER_CHANGE</OldValue>
+         <NewValue>WORK_HOURS_CHANGE</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>ActionOccurrenceId</AttributeName>
+         <Label/>
+         <ResourceBundle/>
+         <ResourceKey/>
+         <OldId/>
+         <NewId/>
+         <OldValue>300100114548771</OldValue>
+         <NewValue>300100115103812</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>NormalHours</AttributeName>
+         <Label>Working Hours</Label>
+         <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+         <ResourceKey>ColAttr.WorkingHours.oracleappshcmemploymentbaseuiM.NormalHours</ResourceKey>
+         <OldId/>
+         <NewId/>
+         <OldValue>6</OldValue>
+         <NewValue>8</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>TimeNormalFinish</AttributeName>
+         <Label>End Time</Label>
+         <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+         <ResourceKey>ColAttr.NormalEndTime.PERALLASSIGNMENTSM.TIMENORMALFINISH</ResourceKey>
+         <OldId/>
+         <NewId/>
+         <OldValue>17:00</OldValue>
+         <NewValue>17:05</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>TimeNormalFinish12HR</AttributeName>
+         <Label>End Time</Label>
+         <ResourceBundle>oracle.apps.hcm.employment.resource.HcmEmploymentTopAttrBundle</ResourceBundle>
+         <ResourceKey>ColAttr.EndTime.AssignmentWorkingHoursEndTime1.BaseWorkerAssignmentVO.TimeNormalFinish12HR</ResourceKey>
+         <OldId/>
+         <NewId/>
+         <OldValue>05:00</OldValue>
+         <NewValue>05:05</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>FteValue</AttributeName>
+         <Label/>
+         <ResourceBundle/>
+         <ResourceKey/>
+         <OldId/>
+         <NewId/>
+         <OldValue>0.75</OldValue>
+         <NewValue>1.0000000000</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>IsFteModified</AttributeName>
+         <Label/>
+         <ResourceBundle/>
+         <ResourceKey/>
+         <OldId/>
+         <NewId/>
+         <OldValue/>
+         <NewValue>Y</NewValue>
+      </Compare>
+      <Compare>
+         <AttributeName>IsAssignmentModified</AttributeName>
+         <Label/>
+         <ResourceBundle/>
+         <ResourceKey/>
+         <OldId/>
+         <NewId/>
+         <OldValue/>
+         <NewValue>Y</NewValue>
+      </Compare>
+      <AssignmentWorkMeasureMDVORow key="300100114548616" operationType="default" voType="DE"/>
+      <AssignmentWorkMeasureMDVORow key="300100114548615" operationType="default" voType="DE"/>
+   </AssignmentMDVORow>
+   <BaseWorkerAsgDFFVORow key="300100114548612" operationType="default" voType="DFF"/>
+   <BaseWorkerAsgLegDDFUSVORow key="300100114548612" operationType="default" contextCode="US" voType="DFF"/>
+</CompareVO>
+</COMPAREDATA>

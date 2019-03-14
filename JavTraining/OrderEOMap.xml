@@ -1,0 +1,287 @@
+<TRANSACTION><TransCtx>
+   <DFF_ProductAMs classType="s">oracle_apps_hcm_people_selfService_uiModel_applicationModule_PersonSelfServiceUIAM;</DFF_ProductAMs>
+   <NewTransactionDetailsMap classType="Hm">
+      <SubjectId classType="l">100010034148145</SubjectId>
+      <TransactionId classType="l">300100111298918</TransactionId>
+      <PersonContextId classType="l">100010034148145</PersonContextId>
+      <InitiatorId classType="l">100010034148145</InitiatorId>
+      <IsPrimaryChange classType="b">false</IsPrimaryChange>
+      <ObjectId classType="l">100010034148152</ObjectId>
+      <DmlOperName classType="s">Update</DmlOperName>
+      <Object classType="s">PER_PHONES</Object>
+   </NewTransactionDetailsMap>
+   <hcmBusinessGroupId classType="l">100010025071996</hcmBusinessGroupId>
+   <HrcTxnValues classType="Hm">
+      <PersonName classType="s">Veda Moss</PersonName>
+      <Subject classType="s">PER_PERSONS</Subject>
+      <LoadUpTransaction classType="s">oracle.apps.hcm.common.transaction.model.util.instructions.LoadUpTransaction</LoadUpTransaction>
+      <SectionDisplayName classType="s">Change PersonalInformation needs approval</SectionDisplayName>
+      <ProcessOwner classType="s">Change PersonalInformation</ProcessOwner>
+      <ModuleIdentifier classType="s">PersonalInformation</ModuleIdentifier>
+      <ApplicationId classType="l">800</ApplicationId>
+      <TransactionId classType="l">300100111298918</TransactionId>
+      <SubjectId classType="l">100010034148145</SubjectId>
+      <ProcessCategory classType="s">Change Personal Information</ProcessCategory>
+      <ReentryFunction classType="s">a</ReentryFunction>
+      <ModuleGroup classType="s">PER</ModuleGroup>
+      <HrcTxnDataCallBackClassName classType="s">oracle.apps.hcm.people.selfService.uiModel.transaction.callback.CallBackForTxnFlexFields</HrcTxnDataCallBackClassName>
+      <EONAMESMAP classType="Hm">
+         <oracle.apps.hcm.people.core.protectedModel.entity.PhoneEO classType="s">100010034148152</oracle.apps.hcm.people.core.protectedModel.entity.PhoneEO>
+      </EONAMESMAP>
+      <InitiatorUserId classType="l">100010034148145</InitiatorUserId>
+      <Object classType="s">PER_PHONES</Object>
+      <ObjectId classType="l">100010034148152</ObjectId>
+   </HrcTxnValues>
+   <isAttachmentServiceAvailable classType="s">true</isAttachmentServiceAvailable>
+   <NDE_ParentType classType="s">NDE;</NDE_ParentType>
+   <personTransactionMap classType="Hm">
+      <isApprovalDisabled classType="b">false</isApprovalDisabled>
+   </personTransactionMap>
+   <DFF_ParentVOs classType="s">Person,Phone;</DFF_ParentVOs>
+   <personId classType="l">100010034148145</personId>
+   <MobileMode classType="s">True</MobileMode>
+   <NDE_ProductAMs classType="s">oracle_apps_hcm_people_selfService_uiModel_applicationModule_PersonSelfServiceUIAM;</NDE_ProductAMs>
+   <shellType classType="s">simple</shellType>
+   <USER_SESSION_LANG classType="s">en</USER_SESSION_LANG>
+   <NewHire_LegislationCode classType="s">US</NewHire_LegislationCode>
+   <GENERATECOMPAREDATAWHILETXNSUBMIT classType="s">true</GENERATECOMPAREDATAWHILETXNSUBMIT>
+   <personId100010034148145 classType="Hm"/>
+   <HcmPeople_LegislationCode classType="s">US</HcmPeople_LegislationCode>
+   <AttachmentId classType="l">300100111298917</AttachmentId>
+   <CompareInitialVoRowSecs classType="Hm"/>
+   <DFF_VOInstancesLists classType="s">phonesDFF;</DFF_VOInstancesLists>
+   <DataTypeSystemNotation classType="s">java.lang.Long:12|java.sql.Date:130|java.util.Date:74|java.lang.Integer:12|java.lang.String:0</DataTypeSystemNotation>
+   <DFF_ParentAM classType="s"> ;</DFF_ParentAM>
+   <HrcTxnCallbacks classType="Hm">
+      <CallBackOnApprovedPreCommitIndex classType="s">1</CallBackOnApprovedPreCommitIndex>
+      <ReloadIndex classType="s">1</ReloadIndex>
+      <Reload1 classType="s">N_oracle.apps.hcm.people.selfService.uiModel.transaction.callback.CallBackForPhoneReload</Reload1>
+      <CallBackOnApprovedPreCommit1 classType="s">N_oracle.apps.hcm.people.selfService.uiModel.transaction.callback.CallBackForPhoneReload</CallBackOnApprovedPreCommit1>
+   </HrcTxnCallbacks>
+   <POSTCOMMITAPPROVALENABLED classType="s">true</POSTCOMMITAPPROVALENABLED>
+   <NDE_ParentVOs classType="s">Person,Phone;</NDE_ParentVOs>
+   <PeopleViewPrivilegeContext classType="Ct" className="oracle.apps.hcm.people.selfService.uiModel.security.PersonSecurityPrivilege">
+      <oracle.apps.hcm.people.selfService.uiModel.security.PersonSecurityPrivilege/>
+   </PeopleViewPrivilegeContext>
+   <DFF_ParentType classType="s">NDE;</DFF_ParentType>
+   <NDE_VOInstancesLists classType="s">Phone;</NDE_VOInstancesLists>
+   <isAtomicTxn classType="s">true</isAtomicTxn>
+   <NDE_ParentAM classType="s"> ;</NDE_ParentAM>
+   <isNonAtomicPendingTxnExists classType="b">false</isNonAtomicPendingTxnExists>
+   <FND_ENTERPRISE_ID classType="s">100010025071996</FND_ENTERPRISE_ID>
+</TransCtx>
+
+<BUSINESSDATA><AM MomVer="0" ver="10">
+   <cd/>
+   <TXN Def="1" New="0" Lok="2" tsi="9" pcid="174">
+      <EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonEO">
+         <![CDATA[00010000000EACED0005770800005AF5668F3331]]>
+         <PersonEORow PS="1" Hdl="10" AV="">
+            <ObjectVersionNumber>
+               <DATA>1</DATA>
+            </ObjectVersionNumber>
+            <CEO>
+               <EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PhoneEO">
+                  <![CDATA[00010000000EACED0005770800005AF5668F3338]]>
+                  <PhoneEORow PS="2" Hdl="11" AV="">
+                     <PhoneNumber>
+                        <DATA>323-2277</DATA>
+                     </PhoneNumber>
+                     <AreaCode>
+                        <DATA>444</DATA>
+                     </AreaCode>
+                     <SearchPhoneNumber>
+                        <DATA>14443232277</DATA>
+                     </SearchPhoneNumber>
+                     <ObjectVersionNumber>
+                        <DATA>1</DATA>
+                     </ObjectVersionNumber>
+                     <DisplayPhoneNumber>
+                        <DATA null="true"/>
+                     </DisplayPhoneNumber>
+                  </PhoneEORow>
+               </EO>
+            </CEO>
+         </PersonEORow>
+      </EO>
+   </TXN>
+</AM>
+</BUSINESSDATA><ATTACHMENTDATA><AM MomVer="0" ver="10">
+   <cd/>
+   <TXN Def="1" New="0" Lok="2" tsi="9" pcid="172">
+      <EO Name="oracle.apps.hcm.common.transaction.model.entity.HrcTxnAttachmentEO">
+         <![CDATA[00010000000EACED00057708000110F08087F165]]>
+         <HrcTxnAttachmentEORow PS="0" Hdl="7" PK="Y" CI="Y" AV="1">
+            <TransactionId>
+               <DATA>300100111298918</DATA>
+            </TransactionId>
+            <AttachmentId>
+               <DATA>300100111298917</DATA>
+            </AttachmentId>
+            <ObjectVersionNumber>
+               <DATA>1</DATA>
+            </ObjectVersionNumber>
+            <CreatedBy>
+               <DATA>VMOSS</DATA>
+            </CreatedBy>
+            <CreationDate>
+               <DATA>2018-10-01 18:56:22.0</DATA>
+            </CreationDate>
+            <LastUpdatedBy>
+               <DATA>VMOSS</DATA>
+            </LastUpdatedBy>
+            <LastUpdateDate>
+               <DATA>2018-10-01 18:56:22.002</DATA>
+            </LastUpdateDate>
+            <LastUpdateLogin>
+               <DATA>772BB53820C33D1BE0539758B00AF677</DATA>
+            </LastUpdateLogin>
+            <AttachmentStatus>
+               <DATA>PENDING</DATA>
+            </AttachmentStatus>
+         </HrcTxnAttachmentEORow>
+      </EO>
+   </TXN>
+</AM>
+</ATTACHMENTDATA><COMPAREDATA><CompareVO>
+   <PersonVORow key="100010034148145" operationType="default">
+      <PhoneVORow key="100010034148151" isMultiRowVo="true" operationType="default" voType="NDE"/>
+      <PhoneVORow key="100010034148152" isMultiRowVo="true" operationType="compare" voType="NDE">
+         <Compare>
+            <AttributeName>PhoneId</AttributeName>
+            <Label/>
+            <ResourceBundle/>
+            <ResourceKey/>
+            <OldId/>
+            <NewId/>
+            <OldValue>100010034148152</OldValue>
+            <NewValue>100010034148152</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>IsPrimary</AttributeName>
+            <Label>Primary</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Primary.Primarypersonphone.ManagePersonPhoneVO.PrimaryFlag</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>false</OldValue>
+            <NewValue>false</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>PhoneType</AttributeName>
+            <Label>Type</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Type.PhoneType.PERPHONES.PHONETYPE</ResourceKey>
+            <OldId>W1</OldId>
+            <NewId>W1</NewId>
+            <OldValue>Work Phone</OldValue>
+            <NewValue>Work Phone</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>CountryCodeNumber</AttributeName>
+            <Label>Country Code</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.CountryCode.PhoneCountryCodeNumber.PERPHONES.COUNTRYCODENUMBER</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>1</OldValue>
+            <NewValue>1</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>AreaCode</AttributeName>
+            <Label>Area Code</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.AreaCode.PhoneAreaCode.PERPHONES.AREACODE</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>312</OldValue>
+            <NewValue>444</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>PhoneNumber</AttributeName>
+            <Label>Number</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.PhoneNumber.PERPHONES.PHONENUMBER</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>323-2277</OldValue>
+            <NewValue>323-2277</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName type="java.sql.Date">FromDate</AttributeName>
+            <Label>From Date</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.FromDate.PersonPhoneDateFrom.PERPHONES.DATEFROM</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>1991-03-12</OldValue>
+            <NewValue>1991-03-12</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>LegislationCode</AttributeName>
+            <Label>Country</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.Country.EmployeeBaseVO.TerritoryShortName</ResourceKey>
+            <OldId>US</OldId>
+            <NewId>US</NewId>
+            <OldValue>US</OldValue>
+            <NewValue>US</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>SearchPhoneNumber</AttributeName>
+            <Label>Phone</Label>
+            <ResourceBundle>oracle.apps.hcm.people.resource.HcmPeopleTopAttrBundle</ResourceBundle>
+            <ResourceKey>ColAttr.PhoneNumber.PERPHONES.SEARCHPHONENUMBER</ResourceKey>
+            <OldId/>
+            <NewId/>
+            <OldValue>1-312-323-2277</OldValue>
+            <NewValue>14443232277</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>PersonId</AttributeName>
+            <Label/>
+            <ResourceBundle/>
+            <ResourceKey/>
+            <OldId/>
+            <NewId/>
+            <OldValue>100010034148145</OldValue>
+            <NewValue>100010034148145</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>BusinessGroupId</AttributeName>
+            <Label/>
+            <ResourceBundle/>
+            <ResourceKey/>
+            <OldId/>
+            <NewId/>
+            <OldValue>100010025071996</OldValue>
+            <NewValue>100010025071996</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>DisplayPhoneNumber</AttributeName>
+            <Label/>
+            <ResourceBundle/>
+            <ResourceKey/>
+            <OldId/>
+            <NewId/>
+            <OldValue>1-312-323-2277</OldValue>
+            <NewValue>1-444-323-2277</NewValue>
+         </Compare>
+         <Compare>
+            <AttributeName>CountryName</AttributeName>
+            <Label/>
+            <ResourceBundle/>
+            <ResourceKey/>
+            <OldId/>
+            <NewId/>
+            <OldValue>United States</OldValue>
+            <NewValue>United States</NewValue>
+         </Compare>
+      </PhoneVORow>
+      <PhoneVORow key="100010034148153" isMultiRowVo="true" operationType="default" voType="NDE"/>
+   </PersonVORow>
+   <PhoneDFFVORow key="100010034148151" isMultiRowVo="true" operationType="default" voType="DFF"/>
+   <PhoneDFFVORow key="100010034148152" isMultiRowVo="true" operationType="default" voType="DFF"/>
+   <PhoneDFFVORow key="100010034148153" isMultiRowVo="true" operationType="default" voType="DFF"/>
+</CompareVO>
+</COMPAREDATA></TRANSACTION>

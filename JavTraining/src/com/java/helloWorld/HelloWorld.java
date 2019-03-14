@@ -6,6 +6,9 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 
 		System.out.println("Hello World");
+		
+		System.out.println("BaseWorkerAsgDFFPER_5FASG_5FDFVORow".contains("BaseWorkerAsgDFF"));
+		System.out.println("BaseWorkerAsgDFFPER_5FASG_5FDFVORow".contains("BaseWorkerAsgLegDDFUS"));
 	}
 
 }

@@ -1,0 +1,14 @@
+<BUSINESSDATA><AM MomVer="0" ver="10">
+   <cd/>
+   <TXN Def="1" New="0" Lok="2" tsi="1" pcid="1003">
+      <EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonEO">
+         <![CDATA[00010000000EACED0005770800005AF565F769C2]]>
+         <PersonEORow PS="1" Hdl="2" AV="">
+            <ObjectVersionNumber>
+               <DATA>1</DATA>
+            </ObjectVersionNumber>
+         </PersonEORow>
+      </EO>
+   </TXN>
+</AM>
+</BUSINESSDATA>

@@ -63,10 +63,64 @@ public class XPathParserDemo {
 
 	public static void main(String[] args) {
 		//System.out.println(getValue("100010034148152", "PhoneNumber"));
-		System.out.println(fetchFromCompare( "PhoneNumber"));
+		//System.out.println(fetchFromCompare( "PhoneNumber"));
+		System.out.println(getCompareDataSets( ));
 	}
 	
 	
+	
+	 static String  getCompareDataSets() {
+	        Long objectId = new Long("100010034148152");
+	        File inputFile = new File("clob.xml");
+	        try {
+
+	            DocumentBuilderFactory dbFactory =
+	            DocumentBuilderFactory.newInstance();
+	            DocumentBuilder dBuilder;
+
+	            dBuilder = dbFactory.newDocumentBuilder();
+
+	            Document doc = dBuilder.parse(inputFile);
+	            doc.getDocumentElement().normalize();
+
+	            XPath xPath = XPathFactory.newInstance().newXPath();
+
+	            String expression = "/COMPAREDATA/CompareVO/*";
+	            // This gives required phone as per objectId
+	            NodeList phoneRowList =
+	                (NodeList)xPath.compile(expression).evaluate(doc,
+	                                                             XPathConstants.NODESET);
+
+	            
+	            for(int i =  0; i < phoneRowList.getLength();i++){
+	            	Element eElement = (Element) phoneRowList.item(i);
+	            	System.out.println();
+	            	System.out.println();
+	            	System.out.print("VO Name is   :  "+eElement.getNodeName());
+	            	System.out.println();
+	            	NodeList compareList = eElement.getElementsByTagName("Compare");
+	                for (int j = 0; j < compareList.getLength(); j++) {
+	                    Node cNode = compareList.item(j);      
+	                    if (cNode.getNodeType() == Node.ELEMENT_NODE) {
+	                        Element cElement = (Element)cNode; 
+	                        
+	                        System.out.print("AttributeName  :  "+cElement.getElementsByTagName("AttributeName").item(0).getTextContent());
+	                        System.out.print(" New Value : "+cElement.getElementsByTagName("NewValue").item(0).getTextContent());
+	                        System.out.print(" Old Value : "+cElement.getElementsByTagName("OldValue").item(0).getTextContent());      
+	                        System.out.println();
+	                    }
+	                }
+	            }
+ 
+	            
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+	        return null;
+	    }
+	 
+	 
+	 
     static String  fetchFromCompare(String attribute) {
         System.out.println("---------fetchFromCompare------");
         Long objectId = new Long("100010034148152");

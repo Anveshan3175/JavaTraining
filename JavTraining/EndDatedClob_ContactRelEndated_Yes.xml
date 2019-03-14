@@ -1,0 +1,442 @@
+<BUSINESSDATA>
+	<AM MomVer="0" ver="10">
+		<cd />
+		<TXN Def="1" New="0" Lok="2" tsi="5" pcid="112">
+			<EO
+				Name="oracle.apps.hcm.people.core.protectedModel.entity.ContactRelationshipDEO">
+					<![CDATA[00030000000EACED00057708000110F07F46CDE20000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000001614D7B9440780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F5AEF44078]]>
+				<ContactRelationshipDEORow PS="2" Hdl="5"
+					PK="Y" EFFDT="2018-02-22" AV="">
+					<EffectiveEndDate>
+						<DATA>2018-02-22</DATA>
+					</EffectiveEndDate>
+					<ObjectVersionNumber>
+						<DATA>1</DATA>
+					</ObjectVersionNumber>
+					<DEEOData>
+						<EffCopiedRow>false</EffCopiedRow>
+						<RemoveCalledFlag>true</RemoveCalledFlag>
+						<SettersDirted>true</SettersDirted>
+						<InImmediateMode>true</InImmediateMode>
+						<LastAppliedDEMode>6</LastAppliedDEMode>
+						<DeLockMode>26</DeLockMode>
+						<NotifyToDeEvents>true</NotifyToDeEvents>
+						<VSD>2018-02-23</VSD>
+						<VED>4712-12-31</VED>
+						<VARefreshSet null="true" />
+					</DEEOData>
+					<DEEventData>
+						<EventDEOData
+							RowKey="00030000000EACED00057708000110F07F46CDE20000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000001614D7B9440780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161B9A1204078"
+							DMLType="UPDATE">
+							<EODefName>oracle.apps.hcm.people.core.protectedModel.entity.ContactRelationshipDEO
+							</EODefName>
+							<LogicalChange>false</LogicalChange>
+							<PhysicalChange>true</PhysicalChange>
+							<Sealed>true</Sealed>
+							<EventEOAttrData>
+								<ContAttributeDate3 />
+								<ContAttributeDate13 />
+								<ContAttributeDate2 />
+								<ContAttributeDate14 />
+								<ContAttributeDate1 />
+								<ContAttributeDate11 />
+								<ContAttributeDate12 />
+								<ContAttributeDate7 />
+								<ContAttributeDate6 />
+								<ContAttributeDate5 />
+								<ContAttributeDate15 />
+								<ContAttributeDate4 />
+								<ContInformationDate2 />
+								<ContInformationDate3 />
+								<ContAttributeNumber20 />
+								<ContInformationDate1 />
+								<ContInformationDate6 />
+								<ContInformationDate7 />
+								<ContAttributeDate10 />
+								<ContInformationDate4 />
+								<ContInformationDate5 />
+								<DependentFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</DependentFlag>
+								<ContInformationDate9 />
+								<ContInformationDate8 />
+								<ContactType>
+									<oldValue>C</oldValue>
+									<newValue>C</newValue>
+								</ContactType>
+								<PrimaryContactFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</PrimaryContactFlag>
+								<ContAttributeNumber7 />
+								<ContAttributeNumber8 />
+								<ContAttributeNumber9 />
+								<ContAttributeNumber3 />
+								<ContAttributeNumber4 />
+								<ContactPersonId>
+									<oldValue>300100090252766</oldValue>
+									<newValue>300100090252766</newValue>
+								</ContactPersonId>
+								<ContAttributeNumber5 />
+								<ContAttributeNumber6 />
+								<StatutoryDependent />
+								<PersonId>
+									<oldValue>100010034144991</oldValue>
+									<newValue>100010034144991</newValue>
+								</PersonId>
+								<PersonTypeId>
+									<oldValue>100010026283138</oldValue>
+									<newValue>100010026283138</newValue>
+								</PersonTypeId>
+								<ContInformationCategory>
+									<oldValue>US</oldValue>
+									<newValue>US</newValue>
+								</ContInformationCategory>
+								<SourceSystemOwner />
+								<GUID />
+								<StartLifeReasonId />
+								<EffectiveStartDate>
+									<oldValue>2018-02-01</oldValue>
+									<newValue>2018-02-01</newValue>
+								</EffectiveStartDate>
+								<BusinessGroupId>
+									<oldValue>100010025071996</oldValue>
+									<newValue>100010025071996</newValue>
+								</BusinessGroupId>
+								<SourceSystemId />
+								<ContAttributeNumber2 />
+								<ContAttributeNumber1 />
+								<ContAttributeNumber18 />
+								<ContAttributeNumber19 />
+								<ContAttributeNumber16 />
+								<PersonalFlag>
+									<oldValue>Y</oldValue>
+									<newValue>Y</newValue>
+								</PersonalFlag>
+								<ContAttributeNumber17 />
+								<ContAttributeNumber14 />
+								<ContAttributeNumber15 />
+								<ContAttributeNumber12 />
+								<ContAttributeNumber13 />
+								<ContAttributeNumber10 />
+								<ContAttributeNumber11 />
+								<EffectiveEndDate>
+									<oldValue>2018-02-22</oldValue>
+									<newValue>4712-12-31</newValue>
+								</EffectiveEndDate>
+								<ContInformationDate11 />
+								<ContInformationDate12 />
+								<ContInformationDate13 />
+								<ContInformationDate14 />
+								<ContInformationDate15 />
+								<EndLifeReasonId />
+								<SequenceNumber>
+									<oldValue>1</oldValue>
+									<newValue>1</newValue>
+								</SequenceNumber>
+								<ContAttribute19 />
+								<ContAttribute18 />
+								<ContInformationDate10 />
+								<ContAttribute17 />
+								<ContAttribute15 />
+								<ContAttribute16 />
+								<ContAttribute13 />
+								<ContAttribute14 />
+								<ContAttribute11 />
+								<ContAttribute12 />
+								<ExistingPerson>
+									<oldValue>NEW</oldValue>
+									<newValue>NEW</newValue>
+								</ExistingPerson>
+								<ContAttribute10 />
+								<ThirdPartyPayFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</ThirdPartyPayFlag>
+								<ContAttribute1 />
+								<ContAttribute9 />
+								<ContAttribute8 />
+								<ContAttribute7 />
+								<ContAttribute6 />
+								<ContAttribute29 />
+								<ContAttribute5 />
+								<ContAttribute28 />
+								<ContAttribute4 />
+								<ContAttribute3 />
+								<ContAttribute2 />
+								<ContAttribute24 />
+								<ContAttribute25 />
+								<ContAttribute26 />
+								<ContAttribute27 />
+								<ContAttribute20 />
+								<ContAttribute21 />
+								<ContAttribute22 />
+								<ContAttribute23 />
+								<BeneficiaryFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</BeneficiaryFlag>
+								<ContInformation4 />
+								<ContInformation5 />
+								<ContInformation2 />
+								<ContInformation3 />
+								<ContInformation8 />
+								<ContactRelationshipId>
+									<oldValue>300100090252770</oldValue>
+									<newValue>300100090252770</newValue>
+								</ContactRelationshipId>
+								<ContInformation9 />
+								<ContInformation6 />
+								<ContInformation7 />
+								<LegislationCode>
+									<oldValue>US</oldValue>
+									<newValue>US</newValue>
+								</LegislationCode>
+								<ContInformation1 />
+								<ContInformation14 />
+								<ContInformation13 />
+								<ContInformation16 />
+								<ContInformation15 />
+								<ContInformation10 />
+								<ContInformation12 />
+								<ContInformation11 />
+								<ContAttributeCategory />
+								<ContAttribute30 />
+								<RltdPerRsdsWDsgntrFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</RltdPerRsdsWDsgntrFlag>
+								<ContAttributeDate9 />
+								<ContAttributeDate8 />
+								<BondholderFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</BondholderFlag>
+								<ContInformation19 />
+								<ContInformation17 />
+								<ContInformation18 />
+								<EmergencyContactFlag>
+									<oldValue>N</oldValue>
+									<newValue>N</newValue>
+								</EmergencyContactFlag>
+								<ContInformation20 />
+							</EventEOAttrData>
+							<LogicalChanges
+								LogicalRowKey="00030000000EACED00057708000110F07F46CDE20000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B59741903000078707708000001614D7B9440780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800000161B9A1204078"
+								DMLType="UPDATE">
+								<LogicalChange>true</LogicalChange>
+								<PhysicalChange>false</PhysicalChange>
+								<EffectiveMode>6</EffectiveMode>
+								<EffectiveDate>2018-02-22</EffectiveDate>
+								<EventDEType>DELETE AND LOGICAL DATE CHANGE</EventDEType>
+								<EventDEModeName>END DATE</EventDEModeName>
+								<VSD>2018-02-23</VSD>
+								<VED>4712-12-31</VED>
+								<ExpertLChange>false</ExpertLChange>
+								<ESDChange>false</ESDChange>
+								<EEDChange>false</EEDChange>
+								<ImmediateMode>true</ImmediateMode>
+								<RChange>false</RChange>
+								<RDirection>-1</RDirection>
+								<HasFutureRows>false</HasFutureRows>
+								<IsFirstRow>true</IsFirstRow>
+								<IsLastRow>true</IsLastRow>
+								<EventEOAttrData>
+									<ContAttributeDate3 />
+									<ContAttributeDate13 />
+									<ContAttributeDate2 />
+									<ContAttributeDate14 />
+									<ContAttributeDate1 />
+									<ContAttributeDate11 />
+									<ContAttributeDate12 />
+									<ContAttributeDate7 />
+									<ContAttributeDate6 />
+									<ContAttributeDate5 />
+									<ContAttributeDate15 />
+									<ContAttributeDate4 />
+									<ContInformationDate2 />
+									<ContInformationDate3 />
+									<ContAttributeNumber20 />
+									<ContInformationDate1 />
+									<ContInformationDate6 />
+									<ContInformationDate7 />
+									<ContAttributeDate10 />
+									<ContInformationDate4 />
+									<ContInformationDate5 />
+									<DependentFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</DependentFlag>
+									<ContInformationDate9 />
+									<ContInformationDate8 />
+									<ContactType>
+										<oldValue>C</oldValue>
+										<newValue>C</newValue>
+									</ContactType>
+									<PrimaryContactFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</PrimaryContactFlag>
+									<ContAttributeNumber7 />
+									<ContAttributeNumber8 />
+									<ContAttributeNumber9 />
+									<ContAttributeNumber3 />
+									<ContAttributeNumber4 />
+									<ContactPersonId>
+										<oldValue>300100090252766</oldValue>
+										<newValue>300100090252766</newValue>
+									</ContactPersonId>
+									<ContAttributeNumber5 />
+									<ContAttributeNumber6 />
+									<StatutoryDependent />
+									<PersonId>
+										<oldValue>100010034144991</oldValue>
+										<newValue>100010034144991</newValue>
+									</PersonId>
+									<PersonTypeId>
+										<oldValue>100010026283138</oldValue>
+										<newValue>100010026283138</newValue>
+									</PersonTypeId>
+									<ContInformationCategory>
+										<oldValue>US</oldValue>
+										<newValue>US</newValue>
+									</ContInformationCategory>
+									<SourceSystemOwner />
+									<GUID />
+									<StartLifeReasonId />
+									<EffectiveStartDate>
+										<oldValue>2018-02-01</oldValue>
+										<newValue>2018-02-01</newValue>
+									</EffectiveStartDate>
+									<BusinessGroupId>
+										<oldValue>100010025071996</oldValue>
+										<newValue>100010025071996</newValue>
+									</BusinessGroupId>
+									<SourceSystemId />
+									<ContAttributeNumber2 />
+									<ContAttributeNumber1 />
+									<ContAttributeNumber18 />
+									<ContAttributeNumber19 />
+									<ContAttributeNumber16 />
+									<PersonalFlag>
+										<oldValue>Y</oldValue>
+										<newValue>Y</newValue>
+									</PersonalFlag>
+									<ContAttributeNumber17 />
+									<ContAttributeNumber14 />
+									<ContAttributeNumber15 />
+									<ContAttributeNumber12 />
+									<ContAttributeNumber13 />
+									<ContAttributeNumber10 />
+									<ContAttributeNumber11 />
+									<EffectiveEndDate>
+										<oldValue>4712-12-31</oldValue>
+										<newValue>2018-02-22</newValue>
+									</EffectiveEndDate>
+									<ContInformationDate11 />
+									<ContInformationDate12 />
+									<ContInformationDate13 />
+									<ContInformationDate14 />
+									<ContInformationDate15 />
+									<EndLifeReasonId />
+									<SequenceNumber>
+										<oldValue>1</oldValue>
+										<newValue>1</newValue>
+									</SequenceNumber>
+									<ContAttribute19 />
+									<ContAttribute18 />
+									<ContInformationDate10 />
+									<ContAttribute17 />
+									<ContAttribute15 />
+									<ContAttribute16 />
+									<ContAttribute13 />
+									<ContAttribute14 />
+									<ContAttribute11 />
+									<ContAttribute12 />
+									<ExistingPerson>
+										<oldValue>NEW</oldValue>
+										<newValue>NEW</newValue>
+									</ExistingPerson>
+									<ContAttribute10 />
+									<ThirdPartyPayFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</ThirdPartyPayFlag>
+									<ContAttribute1 />
+									<ContAttribute9 />
+									<ContAttribute8 />
+									<ContAttribute7 />
+									<ContAttribute6 />
+									<ContAttribute29 />
+									<ContAttribute5 />
+									<ContAttribute28 />
+									<ContAttribute4 />
+									<ContAttribute3 />
+									<ContAttribute2 />
+									<ContAttribute24 />
+									<ContAttribute25 />
+									<ContAttribute26 />
+									<ContAttribute27 />
+									<ContAttribute20 />
+									<ContAttribute21 />
+									<ContAttribute22 />
+									<ContAttribute23 />
+									<BeneficiaryFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</BeneficiaryFlag>
+									<ContInformation4 />
+									<ContInformation5 />
+									<ContInformation2 />
+									<ContInformation3 />
+									<ContInformation8 />
+									<ContactRelationshipId>
+										<oldValue>300100090252770</oldValue>
+										<newValue>300100090252770</newValue>
+									</ContactRelationshipId>
+									<ContInformation9 />
+									<ContInformation6 />
+									<ContInformation7 />
+									<LegislationCode>
+										<oldValue>US</oldValue>
+										<newValue>US</newValue>
+									</LegislationCode>
+									<ContInformation1 />
+									<ContInformation14 />
+									<ContInformation13 />
+									<ContInformation16 />
+									<ContInformation15 />
+									<ContInformation10 />
+									<ContInformation12 />
+									<ContInformation11 />
+									<ContAttributeCategory />
+									<ContAttribute30 />
+									<RltdPerRsdsWDsgntrFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</RltdPerRsdsWDsgntrFlag>
+									<ContAttributeDate9 />
+									<ContAttributeDate8 />
+									<BondholderFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</BondholderFlag>
+									<ContInformation19 />
+									<ContInformation17 />
+									<ContInformation18 />
+									<EmergencyContactFlag>
+										<oldValue>N</oldValue>
+										<newValue>N</newValue>
+									</EmergencyContactFlag>
+									<ContInformation20 />
+								</EventEOAttrData>
+							</LogicalChanges>
+						</EventDEOData>
+					</DEEventData>
+				</ContactRelationshipDEORow>
+			</EO>
+		</TXN>
+	</AM>
+</BUSINESSDATA>

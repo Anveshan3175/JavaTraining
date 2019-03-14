@@ -1,0 +1,36 @@
+<BUSINESSDATA><AM MomVer="0" ver="10">
+   <cd/>
+   <TXN Def="1" New="0" Lok="2" tsi="2" pcid="613">
+      <EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonEO">
+         <![CDATA[00010000000EACED00057708000110D9348277CE]]>
+         <PersonEORow PS="1" Hdl="4" AV="">
+            <ObjectVersionNumber>
+               <DATA>2</DATA>
+            </ObjectVersionNumber>
+            <CEO>
+               <EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PhoneEO">
+                  <![CDATA[00010000000EACED00057708000110D934AE205B]]>
+                  <PhoneEORow PS="2" Hdl="5" AV="">
+                     <PhoneNumber>
+                        <DATA>123-4568</DATA>
+                     </PhoneNumber>
+                     <AreaCode>
+                        <DATA>650</DATA>
+                     </AreaCode>
+                     <SearchPhoneNumber>
+                        <DATA>6501234568</DATA>
+                     </SearchPhoneNumber>
+                     <ObjectVersionNumber>
+                        <DATA>5</DATA>
+                     </ObjectVersionNumber>
+                     <DisplayPhoneNumber>
+                        <DATA null="true"/>
+                     </DisplayPhoneNumber>
+                  </PhoneEORow>
+               </EO>
+            </CEO>
+         </PersonEORow>
+      </EO>
+   </TXN>
+</AM>
+</BUSINESSDATA>

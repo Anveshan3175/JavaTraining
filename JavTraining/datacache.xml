@@ -1,0 +1,60 @@
+<BUSINESSDATA>
+	<AM MomVer="0" ver="10">
+		<cd/>
+		<TXN Def="1" New="0" Lok="2" tsi="1" pcid="561">
+			<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonEO">00010000000EACED0005770800005AF5668F32BE<PersonEORow PS="1" Hdl="3" AV="">
+					<ObjectVersionNumber>
+						<DATA>1</DATA>
+					</ObjectVersionNumber>
+					<CEO>
+						<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PhoneEO">00010000000EACED0005770800005AF5668F32C5<PhoneEORow PS="2" Hdl="4" AV="">
+								<PhoneNumber>
+									<DATA>555-7500</DATA>
+								</PhoneNumber>
+								<AreaCode>
+									<DATA>404</DATA>
+								</AreaCode>
+								<SearchPhoneNumber>
+									<DATA>14045557500</DATA>
+								</SearchPhoneNumber>
+								<ObjectVersionNumber>
+									<DATA>1</DATA>
+								</ObjectVersionNumber>
+								<PrimaryFlag>
+									<DATA>Y</DATA>
+								</PrimaryFlag>
+								<IsPrimary>
+									<DATA>true</DATA>
+								</IsPrimary>
+							</PhoneEORow>
+						</EO>
+						<EO Name="oracle.apps.hcm.people.core.protectedModel.entity.PersonDEO">00030000000EACED0005770800005AF5668F32BE0000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B597419030000787077080000007B2625F840780000004AACED00057372000D6A6176612E73716C2E4461746514FA46683F3566970200007872000E6A6176612E7574696C2E44617465686A81014B5974190300007870770800004EB9F5AEF44078<PersonDEORow PS="2" Hdl="5" Effm="1" AV="">
+								<PrimaryPhoneId>
+									<DATA>100010034148037</DATA>
+								</PrimaryPhoneId>
+								<ObjectVersionNumber>
+									<DATA>1</DATA>
+								</ObjectVersionNumber>
+								<PrimaryPhoneIdDummy>
+									<DATA>100010034148037</DATA>
+								</PrimaryPhoneIdDummy>
+								<DEEOData>
+									<EffCopiedRow>false</EffCopiedRow>
+									<RemoveCalledFlag>false</RemoveCalledFlag>
+									<SettersDirted>true</SettersDirted>
+									<InImmediateMode>false</InImmediateMode>
+									<LastAppliedDEMode>1</LastAppliedDEMode>
+									<DeLockMode>0</DeLockMode>
+									<NotifyToDeEvents>true</NotifyToDeEvents>
+									<VSD>1986-10-06</VSD>
+									<VED>4712-12-31</VED>
+									<VARefreshSet null="true"/>
+								</DEEOData>
+							</PersonDEORow>
+						</EO>
+					</CEO>
+				</PersonEORow>
+			</EO>
+		</TXN>
+	</AM>
+</BUSINESSDATA>
