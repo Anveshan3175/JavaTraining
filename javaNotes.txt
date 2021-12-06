@@ -3,3 +3,7 @@
     platform
 
 > Just like class stores its state in fields, a method stores its state in local variables. Prameters are not fields
+
+> Java classes in general are not applications. They don't have main methods. Java classes are meant to be instantiated in other classes.
+
+> 
