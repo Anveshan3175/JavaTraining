@@ -1,3 +1,5 @@
-Java is
-  programming language
-  platform
+> Java is
+    programming language
+    platform
+
+> Just like class stores its state in fields, a method stores its state in local variables. Prameters are not fields
