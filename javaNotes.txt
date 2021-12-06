@@ -6,4 +6,8 @@
 
 > Java classes in general are not applications. They don't have main methods. Java classes are meant to be instantiated in other classes.
 
-> 
+> Java is statically-typed , means all variables must be declared before they can be used.
+
+> Interface is means for class to interact with outside world. They constitute methods.
+
+
