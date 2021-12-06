@@ -15,3 +15,12 @@
     values range from -128 to 127 
     Saves memory in large arrays
     serves as documentation
+> 2's complement representation
+    to get 2’s complement of binary number calculate  1’s complement of given number plus 1
+    To get 2's complement of 10010 - 01101(1's complement or invert each integer) + 1
+    
+    > 2’s Complementation in Signed Binary number Representation
+      Positive numbers - keep binary representation as it is  [[ +5 = 0101]]
+      Negative numbers - get 2's complement of binary  [[ -5 = 1011]]
+      As you can see , MSB is always 1 in case of negative numbers.
+      
