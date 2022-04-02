@@ -48,5 +48,25 @@ Questions
 	-> What is size of byte ? (8 bit signed 2's complement, -128 to 127 , save memory)
 		-> unsigned holds only positive values and Signed variable holds both positive and negative values => byte holds both positive and negative values
 		-> 2's complement is most common binary representation of signed numbers => 1's complement + 1(to LSB)
+		
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+Byte stores numbers in 2's complement. 
+-> Positive decimal to 2's complement 
+   -> Get binary of positive number
+   -> Take 1's complement of binary (invert the numbers)
+   -> Add one to the result
+   8 -> 1000 -> 0111 -> (0111 + 1) -> 1000
+Q) Interpret 11011011 as a two's complement binary number, and give its decimal equivalent.
+	-> First, note that the number is negative, since it starts with a 1.
+	-> Change the sign to get the magnitude of the number.
+		1	1	0	1	1	0	1	1
+	-	0	0	1	0	0	1	0	0
+	+								1
+	-----------------------------------------------------------------
+	0	0	1	0	0	1	0	1
+	-> Convert the magnitude to decimal: 001001012 = 2516 = 2×16 + 5 = 3710.
+	-> Since the original number was negative, the final result is -37.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	
 
