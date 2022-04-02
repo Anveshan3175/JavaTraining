@@ -27,8 +27,8 @@ Questions
 	  - static methods and variables are against the OOP principles
 
 2. What are static variables ? (2 - 4)
-	In Java, a Static variable or a Class variable is a variable where all the instances of the class share the same value. It's value does not change for each instance of the class. 
-	Hence, it is called Static variable. 
+	In Java, a Static variable or a Class variable is a variable where all the instances of the class share the same value. It's value does not change for 
+	each instance of the class. Hence, it is called Static variable. 
 	
 	-> Lifetime of static variable 	(4 - 6 - 8 - 10)
 	The static variable is initialized when the class is loaded in memory and the variable can be accessed until the class is unloaded from 
@@ -37,3 +37,5 @@ Questions
 	-> What is the difference between normal variable and static variable? (2 - 4)
 	The main difference is,  static variable is initiatlized only once  in a program and retains its value whereas normal value
 	initialized everytime object is created 
+	
+3. What are instance variables, class variables, Local variables and parameters in java ?
