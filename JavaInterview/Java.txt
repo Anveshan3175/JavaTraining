@@ -46,5 +46,7 @@ Questions
 
 4. What are primitive data types in java ?
 	-> What is size of byte ? (8 bit signed 2's complement, -128 to 127 , save memory)
+		-> unsigned holds only positive values and Signed variable holds both positive and negative values => byte holds both positive and negative values
+		-> 2's complement is most common binary representation of signed numbers => 1's complement + 1(to LSB)
 	
 
