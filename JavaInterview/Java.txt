@@ -1,0 +1,39 @@
+-> Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler. 
+  If your class claims to implement an interface, all methods . Implementing an interface allows a class to become more formal about the behavior it promises to provide.
+  
+-> objects define their interaction with the outside world through the methods that they expose. Methods form the object's 
+	interface with the outside world
+	
+-> An object has data. It is the one that constitues state.Hiding internal data from the outside world, and accessing it only through publicly 
+	exposed methods is known as data encapsulation. objects store their state in fields =>  individual states in "non-static fields"
+	
+-> A blueprint for a software object is called a class.
+
+-> A collection of methods with no implementation is called an interface.
+
+-> A namespace that organizes classes and interfaces by functionality is called a package.
+
+-> expressions =>  compute values 
+
+
+---------------------------------------------------------------------------------------
+Questions
+1. What do you understand by Encapsulation ?
+	An object has data. It is the one that constitues state.Hiding internal data from the outside world, and accessing it only through publicly 
+	exposed methods is known as data encapsulation. objects store their state in fields =>  individual states in "non-static fields"
+	
+	- Exp candidate : Does static variable in class violate the Encapsulation ?
+	  - Existence of static varibale  itself is a non-OOps concept. So there is no violation of Encapsulation - but a complete lack of object orientation.
+	  - static methods and variables are against the OOP principles
+
+2. What are static variables ? (2 - 4)
+	In Java, a Static variable or a Class variable is a variable where all the instances of the class share the same value. It's value does not change for each instance of the class. 
+	Hence, it is called Static variable. 
+	
+	-> Lifetime of static variable 	(4 - 6 - 8 - 10)
+	The static variable is initialized when the class is loaded in memory and the variable can be accessed until the class is unloaded from 
+	the memory or if the program execution completes. This is the lifetime of the static variable.
+	
+	-> What is the difference between normal variable and static variable? (2 - 4)
+	The main difference is,  static variable is initiatlized only once  in a program and retains its value whereas normal value
+	initialized everytime object is created 
