@@ -45,8 +45,10 @@ Questions
 	-> variables in method definition - parameters - They are not fields but only variables
 
 4. What are primitive data types in java ?
-	-> What is size of byte ? (8 bit signed 2's complement, -128 to 127 , save memory)
+	-> What is size of byte ? (8 bit signed 2's complement, -128 to 127 , save memory). What is largest value stored in byte and why ? (2) - not 255 but 127 ?
 		-> unsigned holds only positive values and Signed variable holds both positive and negative values => byte holds both positive and negative values
+		-> Though Byte is 8-bit storage, it uses only 7 -bit for storing values. The MSB (left most bit) is used for storing sign of number.
+		
 		
 		
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
