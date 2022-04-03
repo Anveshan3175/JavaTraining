@@ -75,6 +75,12 @@ Since Byte stores numbers in 2's complement, below section detals the 2'compleme
 	So, -72 is 10111000 as an eight-bit, two's complement number.
 
 
+    Convert 47 to an 8-bit, twos complement binary number.
+    - This is positive, so all that is needed is to convert to binary . 47÷16 = 2 remainder 15, so 4710 = 2f16 = 101111.
+    - Pad to eight bits  (101111 padded to 00101111)
+    - Since given number is +Ve,  47 as an 8-bit two's complement number is just 00101111.
+
+
 
 
 -> Positive decimal to 2's complement 
